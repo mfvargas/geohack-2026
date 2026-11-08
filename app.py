@@ -64,7 +64,7 @@ tab_mapa, tab_inst, tab_sica, tab_datos = st.tabs(
 # ---------------------------------------------------------------- Mapa por cantón
 with tab_mapa:
     c1, c2, c3, c4 = st.columns([3, 1, 1, 2])
-    necesidad = c1.selectbox('Necesidad', [TODAS] + NECESIDADES, index=1,
+    necesidad = c1.selectbox('Necesidad', [TODAS] + NECESIDADES, index=0,
                              help='"Todas" suma las menciones de las 15 necesidades; no incluye "Ninguna necesidad" ni "Prefiere no responder".')
     anio = c2.selectbox('Año', ['Todos', 2025, 2026])
     meses_disp = sorted(nic.loc[nic['anio'] == anio, 'mes'].unique()) if anio != 'Todos' else list(range(1, 13))
