@@ -17,7 +17,7 @@ DATOS = pathlib.Path(__file__).parent / 'datos'
 # orden categórico fijo por país para las series SICA.
 SEQ = ['#cde2fb', '#b7d3f6', '#9ec5f4', '#86b6ef', '#6da7ec', '#5598e7', '#3987e5',
        '#2a78d6', '#256abf', '#1c5cab', '#184f95', '#104281', '#0d366b']
-AZUL, NARANJA, SIN_DATOS, GRID, INK2, MUTED = '#2a78d6', '#eb6834', '#e1e0d9', '#e1e0d9', '#52514e', '#898781'
+AZUL, NARANJA, AQUA, SIN_DATOS, GRID, INK2, MUTED = '#2a78d6', '#eb6834', '#1baf7a', '#e1e0d9', '#e1e0d9', '#52514e', '#898781'
 PAISES = {'Costa Rica': '#2a78d6', 'Panamá': '#eb6834', 'Guatemala': '#1baf7a', 'Honduras': '#eda100',
           'El Salvador': '#e87ba4', 'Rep. Dominicana': '#008300', 'Belize': '#6250d6', 'Nicaragua': '#e34948'}
 MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
@@ -42,11 +42,12 @@ def cargar():
     sica = pd.read_csv(DATOS / 'sica.csv')
     inst = pd.read_csv(DATOS / 'instituciones.csv')
     puntos = pd.read_csv(DATOS / 'instituciones_puntos.csv')
+    salud = pd.read_csv(DATOS / 'ccss_healthsites.csv')
     notas = (DATOS / 'registro_preparacion.md').read_text(encoding='utf-8')
-    return nic, gj, cantones, sica, inst, puntos, notas
+    return nic, gj, cantones, sica, inst, puntos, salud, notas
 
 
-nic, gj, cantones, sica, inst, puntos, notas = cargar()
+nic, gj, cantones, sica, inst, puntos, salud, notas = cargar()
 NECESIDADES = [c for c in nic.columns if c not in
                ('anio', 'mes', 'canton_original', 'clave', 'nota', 'promedio_grupo_sin_encuestado')]
 nic['total'] = nic[NECESIDADES].sum(axis=1)
@@ -88,6 +89,10 @@ with tab_mapa:
     oferta = pts.groupby('clave_canton').size().rename('puntos')
     df = df.merge(oferta, left_on='clave', right_index=True, how='left')
     df['puntos'] = df['puntos'].fillna(0).astype(int)
+    aplica_salud = necesidad in (TODAS, 'Asistencia médica')
+    df = df.merge(salud.groupby('clave_canton').size().rename('salud'), left_on='clave', right_index=True, how='left')
+    df['salud'] = df['salud'].fillna(0).astype(int) if aplica_salud else 0
+    df['oferta'] = df['puntos'] + df['salud']
 
     periodo_txt = ('enero 2025 a marzo 2026' if anio == 'Todos' else
                    f'{anio}' if mes == 'Todos' else f'{mes} {anio}')
@@ -119,13 +124,22 @@ with tab_mapa:
         geojson=gj, featureidkey='properties.clave', locations=con['clave'], z=con['valor'],
         colorscale=SEQ, zmin=0, marker_line_color='#ffffff', marker_line_width=0.8,
         colorbar=dict(title=etiqueta, thickness=12, len=0.6, outlinewidth=0),
-        customdata=con[['canton', 'provincia', 'menciones', 'total', 'poblacion_2022', 'tasa', 'pct', 'puntos']].fillna(-1).values,
+        customdata=con[['canton', 'provincia', 'menciones', 'total', 'poblacion_2022', 'tasa', 'pct', 'puntos', 'salud']].fillna(-1).values,
         hovertemplate=('<b>%{customdata[0]}</b> (%{customdata[1]})<br>'
                        'Menciones: %{customdata[2]:,.0f} de %{customdata[3]:,.0f} en total<br>'
                        'Por 10 mil hab.: %{customdata[5]:.1f}<br>% de menciones: %{customdata[6]:.1f}<br>'
-                       'Puntos de atención (base del grupo): %{customdata[7]:.0f}<extra></extra>'),
+                       'Sedes de la base del grupo: %{customdata[7]:.0f}<br>Establecimientos públicos de salud (OSM): %{customdata[8]:.0f}<extra></extra>'),
         name=etiqueta))
-    mostrar_puntos = st.toggle('Mostrar puntos de atención (base de instituciones del grupo, 22 sedes)', value=True)
+    t1, t2 = st.columns(2)
+    mostrar_puntos = t1.toggle('Sedes de la base de instituciones del grupo (22)', value=True)
+    mostrar_salud = t2.toggle(f'Establecimientos públicos de salud según OpenStreetMap ({len(salud)})', value=aplica_salud,
+                              disabled=not aplica_salud, help='Se activa con "Asistencia médica" o "Todas".')
+    if mostrar_salud and aplica_salud:
+        fig.add_trace(go.Scattermap(
+            lat=salud['lat'], lon=salud['lon'], mode='markers', name='Salud pública (OSM)',
+            marker=dict(size=6, color=AQUA, opacity=0.75),
+            customdata=salud[['nombre', 'tipo', 'operador', 'canton']].fillna('').values,
+            hovertemplate='<b>%{customdata[0]}</b><br>%{customdata[1]} · %{customdata[2]}<br>Cantón: %{customdata[3]}<extra></extra>'))
     if mostrar_puntos and len(pts):
         fig.add_trace(go.Scattermap(
             lat=pts['lat'], lon=pts['lon'], mode='markers', name='Puntos de atención',
@@ -138,20 +152,30 @@ with tab_mapa:
                       **LAYOUT)
     st.plotly_chart(fig, width='stretch')
     st.caption('Gris: cantones donde OIM no registró encuestas en el periodo (no es un cero). Naranja: sedes de la base de '
-               'instituciones del grupo que atienden la necesidad seleccionada; falta la red de la CCSS. '
+               'instituciones del grupo que atienden la necesidad seleccionada. Verde: EBAIS, clínicas y hospitales públicos '
+               'según OpenStreetMap (Healthsites, septiembre 2026), respaldo de la capa oficial de la CCSS. '
                'Monteverde y Puerto Jiménez no tienen población en la tabla de OIM, por lo que no tienen tasa.')
 
     st.markdown('**Necesidad alta sin puntos de atención en el cantón**')
     brecha = con.dropna(subset=['valor']).sort_values('valor', ascending=False)
     brecha = brecha[brecha['valor'] > 0].head(15)
-    sin_oferta = brecha[brecha['puntos'] == 0]
-    st.caption(f'De los 15 cantones con mayor valor de la medida elegida, {len(sin_oferta)} no tienen ninguna sede de la base del grupo '
-               f'que atienda esta necesidad. La oferta solo incluye las 22 sedes de la base; cuando se agregue la red de la CCSS cambiará.')
-    st.dataframe(brecha[['canton', 'provincia', 'menciones', 'tasa', 'pct', 'puntos']].rename(columns={
+    sin_oferta = brecha[brecha['oferta'] == 0]
+    if aplica_salud:
+        st.caption(f'De los 15 cantones con mayor valor de la medida elegida, {len(sin_oferta)} no tienen sedes de la base del grupo ni '
+                   f'establecimientos públicos de salud mapeados en OpenStreetMap. Casi todo cantón tiene al menos un EBAIS, así que para '
+                   f'salud la pregunta útil es cuántos hay por cada 10 mil habitantes, no si hay o no.')
+    else:
+        st.caption(f'De los 15 cantones con mayor valor de la medida elegida, {len(sin_oferta)} no tienen ninguna sede de la base del grupo '
+                   f'que atienda esta necesidad. Para necesidades distintas de salud la oferta solo incluye las 22 sedes de la base.')
+    brecha = brecha.assign(salud_10mil=brecha['salud'] / brecha['poblacion_2022'] * 10_000)
+    cols_b = ['canton', 'provincia', 'menciones', 'tasa', 'pct', 'puntos'] + (['salud', 'salud_10mil'] if aplica_salud else [])
+    st.dataframe(brecha[cols_b].rename(columns={
         'canton': 'Cantón', 'provincia': 'Provincia', 'menciones': 'Menciones', 'tasa': 'Por 10 mil hab.',
-        'pct': '% de menciones', 'puntos': 'Puntos de atención'}), hide_index=True, width='stretch',
+        'pct': '% de menciones', 'puntos': 'Sedes (base del grupo)', 'salud': 'Establec. salud pública (OSM)',
+        'salud_10mil': 'Establec. salud por 10 mil hab.'}), hide_index=True, width='stretch',
         column_config={'Por 10 mil hab.': st.column_config.NumberColumn(format='%.1f'),
-                       '% de menciones': st.column_config.NumberColumn(format='%.1f')})
+                       '% de menciones': st.column_config.NumberColumn(format='%.1f'),
+                       'Establec. salud por 10 mil hab.': st.column_config.NumberColumn(format='%.2f')})
 
     g1, g2 = st.columns(2)
     top = con.dropna(subset=['valor']).nlargest(15, 'valor').sort_values('valor')
@@ -172,9 +196,9 @@ with tab_mapa:
     g2.plotly_chart(fl, width='stretch')
 
     with st.expander('Ver la tabla del mapa'):
-        tabla = df[['provincia', 'canton', 'poblacion_2022', 'menciones', 'total', 'tasa', 'pct', 'puntos', 'con_datos']].rename(columns={
+        tabla = df[['provincia', 'canton', 'poblacion_2022', 'menciones', 'total', 'tasa', 'pct', 'puntos', 'salud', 'con_datos']].rename(columns={
             'provincia': 'Provincia', 'canton': 'Cantón', 'poblacion_2022': 'Población 2022', 'menciones': 'Menciones',
-            'total': 'Menciones totales', 'tasa': 'Por 10 mil hab.', 'pct': '% de menciones', 'puntos': 'Puntos de atención', 'con_datos': 'Con encuestas'})
+            'total': 'Menciones totales', 'tasa': 'Por 10 mil hab.', 'pct': '% de menciones', 'puntos': 'Sedes (base del grupo)', 'salud': 'Establec. salud pública (OSM)', 'con_datos': 'Con encuestas'})
         st.dataframe(tabla.sort_values('Menciones', ascending=False), hide_index=True, width='stretch',
                      column_config={'Por 10 mil hab.': st.column_config.NumberColumn(format='%.1f'),
                                     '% de menciones': st.column_config.NumberColumn(format='%.1f')})
@@ -204,6 +228,17 @@ with tab_inst:
                                                           'Longitud': st.column_config.NumberColumn(format='%.5f')})
     st.download_button('Descargar instituciones_puntos.csv', puntos.to_csv(index=False).encode('utf-8'),
                        'instituciones_puntos.csv', 'text/csv')
+    st.markdown(f'**Red pública de salud según OpenStreetMap ({len(salud)} establecimientos)**')
+    st.caption('Respaldo de la capa oficial de la CCSS (fuera de servicio al 8 de noviembre de 2026). Fuente: Healthsites.io vía HDX, '
+               'derivado de OpenStreetMap, con ediciones hasta septiembre de 2026. Se incluyen establecimientos con operador CCSS, '
+               'Ministerio de Salud o cooperativas contratadas por la CCSS, o con "EBAIS" en el nombre; se excluyen farmacias, '
+               'dentistas y laboratorios. La cobertura depende de lo que la comunidad ha mapeado.')
+    resumen_salud = salud.pivot_table(index='canton', columns='tipo', values='osm_id', aggfunc='count', fill_value=0)
+    resumen_salud['Total'] = resumen_salud.sum(axis=1)
+    resumen_salud = resumen_salud.merge(cantones.set_index('canton')['poblacion_2022'], left_index=True, right_index=True, how='left')
+    resumen_salud['Por 10 mil hab.'] = (resumen_salud['Total'] / resumen_salud['poblacion_2022'] * 10_000).round(2)
+    st.dataframe(resumen_salud.drop(columns='poblacion_2022').sort_values('Total', ascending=False), width='stretch', height=320)
+    st.download_button('Descargar ccss_healthsites.csv', salud.to_csv(index=False).encode('utf-8'), 'ccss_healthsites.csv', 'text/csv')
     st.markdown('**Instituciones por necesidad (tabla de la propuesta)**')
     conteo = inst['necesidades'].str.split(';').explode().value_counts().reindex([n for n in NECESIDADES if n not in NO_NECESIDAD]).fillna(0)
     sin_inst = [n for n, v in conteo.items() if v == 0]
@@ -272,10 +307,10 @@ with tab_datos:
   no la población migrante ni la encuestada: sirven para quitar el efecto del tamaño del cantón, no para medir
   prevalencia. Monteverde y Puerto Jiménez no tienen población en la tabla de OIM.
 - **Oferta de servicios incompleta.** Los puntos de atención provienen de la base de 22 sedes que elaboró el grupo
-  (ONG, organismos internacionales y centros municipales para migrantes). Falta la red de la CCSS: su capa oficial
-  de establecimientos existe en el servidor ArcGIS de la institución, pero el 7 y 8 de noviembre el servicio
-  respondía con error y su certificado TLS estaba vencido. Mientras tanto, "sin puntos de atención" significa sin sedes
-  de esa base, no sin servicios públicos.
+  (ONG, organismos internacionales y centros municipales para migrantes), más la red pública de salud según
+  OpenStreetMap (Healthsites, septiembre 2026) como respaldo de la capa oficial de la CCSS, cuyo servidor ArcGIS
+  respondía con error y tenía el certificado TLS vencido el 7 y 8 de noviembre. Para necesidades distintas de salud,
+  "sin puntos de atención" significa sin sedes de la base del grupo, no sin servicios públicos.
 - **Columna sin explicar.** `Promedio_grupo_sin_encuestado` viene en el original sin diccionario; se conserva
   y no se usa. Preguntar a OIM si es un factor de ponderación.
 ''')

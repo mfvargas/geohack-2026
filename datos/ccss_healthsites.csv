@@ -1,0 +1,1138 @@
+osm_id,nombre,tipo,operador,operator_type,amenity,lat,lon,clave_canton,canton,editado_osm
+8818883760,Ebais El Valle,EBAIS,CCSS,,doctors,10.774457,-84.908051,guatuso,Guatuso,2021-06-09
+685554421,EBAIS Salitral,EBAIS,Coopesana,cooperative,clinic,9.911573,-84.179046,santa ana,Santa Ana,2024-12-21
+402219590,Ebais San Julián,EBAIS,CCSS,,doctors,10.518579,-83.874967,sarapiqui,Sarapiquí,2019-04-26
+911868972,Hospital Manuel Mora Valverde,Hospital,CCSS,public,hospital,8.643354,-83.170224,golfito,Golfito,2025-03-13
+83715136,Hospital Dr. Enrique Baltodano Briceño,Hospital,CCSS,public,hospital,10.638395,-85.431427,liberia,Liberia,2026-08-20
+6122194269,EBAIS Piedades - Brasil,EBAIS,Coopesana,cooperative,clinic,9.933027,-84.218886,santa ana,Santa Ana,2024-12-21
+8645334749,Ebais Tambor,EBAIS,CCSS,public,clinic,9.721727,-85.023995,puntarenas,Puntarenas,2025-12-18
+8632809974,Ebais Quebrada Grande,EBAIS,CCSS,public,clinic,9.882323,-85.27329,nandayure,Nandayure,2025-10-14
+865003135,Ebais San Andrés - Alamedas,EBAIS,CCSS,public,clinic,8.645137,-83.171235,golfito,Golfito,2024-06-13
+4888014374,Ebais Lepanto,EBAIS,CCSS,public,clinic,9.948328,-85.033172,puntarenas,Puntarenas,2022-12-15
+6229975143,Ebais El Concho,EBAIS,CCSS,public,clinic,10.826236,-84.442866,san carlos,San Carlos,2022-07-06
+10688779271,Ebais Caimital,EBAIS,CCSS,public,clinic,10.067645,-85.474945,nicoya,Nicoya,2023-02-23
+8702778419,Ebais San Miguel,EBAIS,CCSS,,doctors,10.027863,-83.344309,matina,Matina,2021-05-05
+85416553,Centro de Atención Integral en Salud,Hospital,CCSS,public,hospital,10.442293,-85.085504,canas,Cañas,2021-09-16
+7243322664,Ebias Unión,Clínica o área de salud,CCSS,,doctors,8.723646,-83.111433,golfito,Golfito,2020-02-25
+172560828,Clínica CCSS Paraíso,Clínica o área de salud,CCSS,public,clinic,9.838062,-83.866263,paraiso,Paraíso,2022-12-29
+8699346402,Ebais Espavel Arriba,EBAIS,CCSS,,doctors,10.038699,-83.411271,matina,Matina,2021-05-04
+351023350,Clínica CCSS Dota,Hospital,CCSS,public,hospital,9.654185,-83.971235,dota,Dota,2023-05-27
+788311070,Hospital Mons. Víctor Manuel Sanabria Martínez,Hospital,CCSS,public,hospital,9.988534,-84.719061,puntarenas,Puntarenas,2025-02-06
+5151030441,Ebais Orochico,EBAIS,CCSS,,doctors,9.583208,-83.06422,talamanca,Talamanca,2021-02-15
+8681254409,Ebais Vesta,EBAIS,CCSS,,doctors,9.725183,-83.05336,limon,Limón,2021-04-29
+3892595051,Ebais,EBAIS,,,clinic,10.403821,-84.384993,san carlos,San Carlos,2019-01-18
+1046960289,Ebais Palmitos,EBAIS,CCSS,public,clinic,10.09692,-84.426454,naranjo,Naranjo,2025-02-12
+6417239467,Ebais Rodeito,EBAIS,CCSS,,doctors,10.638274,-85.492006,liberia,Liberia,2019-04-20
+9107890051,Ebais Nueva Guatemala,EBAIS,CCSS,,doctors,10.638799,-85.05772,canas,Cañas,2021-09-20
+1449484038,Ebais Limón,EBAIS,CCSS,public,clinic,9.992064,-83.026496,limon,Limón,2025-11-10
+6898760015,Ebais México,EBAIS,CCSS,,doctors,10.996809,-85.064366,upala,Upala,2023-06-11
+6714893213,EBAIS Pozos,EBAIS,Coopesalud,cooperative,clinic,9.950016,-84.190843,santa ana,Santa Ana,2024-12-21
+4018227626,Ebais Zapotal,EBAIS,CCSS,,doctors,10.137342,-84.615196,san ramon,San Ramón,2019-06-25
+9130656639,Ebais La Lilliana - Imas - UNA,EBAIS,CCSS,,clinic,10.001022,-84.120616,heredia,Heredia,2021-09-28
+1257778189,Clínica CCSS Guayabo,Clínica o área de salud,CCSS,public,clinic,10.705575,-85.224732,bagaces,Bagaces,2019-09-21
+5173827420,Ebais Cerere,EBAIS,CCSS,,doctors,9.702789,-83.040228,limon,Limón,2021-04-29
+877740812,Ebais Río Claro de Pavón,EBAIS,CCSS,public,clinic,8.395447,-83.132615,golfito,Golfito,2023-01-04
+733112326,Ebais Los Ángeles,EBAIS,CCSS,public,clinic,10.133481,-84.474232,san ramon,San Ramón,2025-07-21
+5096415584,Ebais Guardia,EBAIS,CCSS,public,clinic,10.563569,-85.585199,liberia,Liberia,2022-07-15
+1298851815,EBAIS San Rafael San Ramón,EBAIS,Caja Costarricense de Seguro Social,,,9.940886,-84.002593,montes de oca,Montes de Oca,2026-08-01
+4496042589,Ebais El Recreo,EBAIS,CCSS,public,clinic,10.839889,-84.977761,upala,Upala,2021-11-09
+9091665366,Ebais Montano,EBAIS,CCSS,,doctors,10.526088,-85.189535,bagaces,Bagaces,2021-09-14
+8780136718,Ebais Santa Cecilia,EBAIS,CCSS,public,clinic,9.251198,-83.525994,perez zeledon,Pérez Zeledón,2022-08-25
+1178708154,Ebais Escobal,EBAIS,CCSS,,clinic,9.973366,-84.195418,belen,Belén,2023-06-04
+1312643527,Ebais La Cima,EBAIS,,,doctors,9.671142,-83.905263,dota,Dota,2024-09-01
+717660866,Ebais Valle Vasconia,EBAIS,CCSS,public,clinic,9.625512,-84.309805,parrita,Parrita,2025-03-26
+9871000249,Ebais San Cristóbal,EBAIS,CCSS,public,clinic,10.819883,-84.523504,san carlos,San Carlos,2022-07-06
+423517337,Clínica CCSS Turrubares,Clínica o área de salud,CCSS,public,clinic,9.90687,-84.440536,turrubares,Turrubares,2023-09-10
+655752387,Ebais Cervantes,EBAIS,CCSS,,doctors,9.887513,-83.809544,alvarado,Alvarado,2023-07-05
+9149596494,Ebais San Rafael Arriba,EBAIS,CCSS,public,clinic,9.873456,-84.077096,desamparados,Desamparados,2021-10-05
+24857117,Hospital San Juan de Dios,Hospital,CCSS,public,hospital,9.933634,-84.086079,san jose,San José,2026-09-12
+327493674,CAIS Siquirres,Hospital,CCSS,public,hospital,10.103787,-83.522681,siquirres,Siquirres,2025-10-23
+5605629267,Ebais Jomusa,EBAIS,CCSS,,clinic,11.008957,-85.148291,upala,Upala,2023-06-21
+1054540730,Ebais Villa Bonita - Montserrat - Lotes Murillo,EBAIS,CCSS,public,clinic,10.002279,-84.213348,alajuela,Alajuela,2023-06-20
+8674358192,Ebais Pilas,EBAIS,CCSS,public,clinic,9.082383,-83.432823,buenos aires,Buenos Aires,2022-05-30
+8702356968,Ebais Palmera,EBAIS,CCSS,,doctors,9.963977,-83.294143,matina,Matina,2021-05-05
+9858515454,Ebais Piedra Alegre,EBAIS,CCSS,public,clinic,10.562892,-84.307684,san carlos,San Carlos,2022-06-30
+8430314813,Ebais Térraba,EBAIS,CCSS,public,clinic,9.069828,-83.289526,buenos aires,Buenos Aires,2022-06-07
+8740456325,Ebais Puerto Lindo,EBAIS,CCSS,,clinic,10.68157,-83.666993,pococi,Pococí,2024-09-23
+8385640216,Ebais Progreso,EBAIS,CCSS,public,clinic,8.402671,-83.061502,golfito,Golfito,2025-03-13
+8729178035,Ebais Portón de Iberia,EBAIS,,,doctors,10.116669,-83.601088,siquirres,Siquirres,2021-05-13
+3297936053,Ebais San Miguel,EBAIS,CCSS,public,clinic,10.014504,-84.696976,puntarenas,Puntarenas,2021-11-22
+9823209778,Ebais San Vicente,EBAIS,CCSS,public,clinic,10.279799,-84.395011,san carlos,San Carlos,2024-02-12
+270509366,Ebais León Cortés,EBAIS,CCSS,public,clinic,9.683603,-84.039878,leon cortes castro,León Cortés Castro,2026-02-11
+509472630,Clínica CCSS Río Frío,Hospital,CCSS,public,hospital,10.319816,-83.892952,sarapiqui,Sarapiquí,2022-04-21
+107520057,Clínica Dr. Clorito Picado,Clínica o área de salud,CCSS,public,clinic,9.946473,-84.081643,tibas,Tibás,2023-07-10
+8648862218,Ebais de Concepción,EBAIS,CCSS,,doctors,9.776379,-85.017491,puntarenas,Puntarenas,2021-04-20
+8640461912,Ebais Malpaís,EBAIS,CCSS,public,clinic,9.599495,-85.141511,puntarenas,Puntarenas,2025-03-01
+6616467141,Ebais Concepción Oeste,EBAIS,CCSS,,doctors,9.928108,-83.996645,la union,La Unión,2019-07-15
+1621196951,Ebais Llano Bonito,EBAIS,CCSS,public,clinic,10.168994,-84.373628,naranjo,Naranjo,2025-02-11
+5201537216,Ebais Nueva Esperanza,EBAIS,CCSS,public,clinic,10.894205,-84.820471,los chiles,Los Chiles,2024-12-06
+5266203150,Ebais Campo Cinco,EBAIS,CCSS,public,clinic,10.383763,-83.716889,pococi,Pococí,2026-01-15
+3948278441,Ebais La Palma,EBAIS,,,doctors,10.253648,-85.055722,abangares,Abangares,2021-07-17
+9823236492,Ebais Sucre,EBAIS,CCSS,public,clinic,10.280142,-84.428364,san carlos,San Carlos,2022-06-16
+502500703,Ebais La Aurora,EBAIS,CCSS,public,clinic,9.991159,-84.149748,heredia,Heredia,2022-12-14
+5156289675,Ebais Carbón,EBAIS,CCSS,public,clinic,9.700916,-82.842005,talamanca,Talamanca,2022-11-11
+8680035215,Ebais Sámara,EBAIS,CCSS,public,clinic,9.877079,-85.533964,nicoya,Nicoya,2023-02-17
+9181026501,Ebais Los Ángeles,EBAIS,CCSS,public,clinic,10.094748,-84.31591,grecia,Grecia,2025-12-30
+9208172525,Ebais Vista de Mar,EBAIS,CCSS,public,clinic,9.967607,-83.989687,vazquez de coronado,Vázquez de Coronado,2022-03-16
+1113510386,EBAIS San Rafael,EBAIS,Coopesana,cooperative,clinic,9.930201,-84.173362,santa ana,Santa Ana,2022-11-16
+6591972540,Ebais Vista del Mar,EBAIS,CCSS,public,clinic,9.994932,-83.073171,limon,Limón,2025-11-17
+1331949334,Ebais Tres Rosales,EBAIS,CCSS,,doctors,10.506411,-84.029688,sarapiqui,Sarapiquí,2019-04-26
+660941991,Ebais San Juan - Montufar,EBAIS,,,doctors,9.901344,-84.003852,la union,La Unión,2023-09-07
+106624478,,Hospital,CCSS,public,hospital,10.371644,-85.671241,santa cruz,Santa Cruz,2023-02-24
+9978144432,Ebais Oratorio,EBAIS,CCSS,public,clinic,9.219234,-83.673628,perez zeledon,Pérez Zeledón,2022-08-25
+6714895604,Ebais Anonos - Bello Horizonte,EBAIS,Coopesana,cooperative,clinic,9.93193,-84.125809,escazu,Escazú,2023-03-20
+5247843531,Ebais Palestina,EBAIS,CCSS,,doctors,9.970766,-83.260156,matina,Matina,2021-05-06
+1214849193,Ebais Santa Lucía,EBAIS,CCSS,public,clinic,10.014872,-84.11764,barva,Barva,2023-10-11
+943684355,Ebais Bahía Ballena,EBAIS,CCSS,public,clinic,9.173371,-83.738352,osa,Osa,2023-06-27
+3892246041,Ebais Finca 5,EBAIS,CCSS,public,clinic,10.335509,-83.858249,sarapiqui,Sarapiquí,2021-10-25
+9990665381,Ebais Las Mesas,EBAIS,CCSS,public,clinic,9.196705,-83.594828,perez zeledon,Pérez Zeledón,2022-08-31
+5153972170,Ebais Sibujú,EBAIS,CCSS,,clinic,9.604512,-82.982376,talamanca,Talamanca,2022-08-05
+983445786,Ebais Cariblanco,EBAIS,CCSS,public,clinic,10.275802,-84.183238,alajuela,Alajuela,2022-09-08
+9099142132,Ebais San Juan,EBAIS,CCSS,,doctors,10.381144,-85.0393,canas,Cañas,2021-09-16
+1148935175,Ebais Quebrada Honda,EBAIS,CCSS,public,clinic,10.185742,-85.296946,nicoya,Nicoya,2023-02-23
+8694556535,Ebais Santa María,EBAIS,CCSS,public,clinic,10.267892,-83.592881,guacimo,Guácimo,2025-06-26
+5605163570,Ebais Katira 2,EBAIS,CCSS,public,clinic,10.750797,-84.863162,guatuso,Guatuso,2021-11-13
+6417260994,Ebais Armenia,EBAIS,CCSS,,doctors,11.094726,-85.329826,la cruz,La Cruz,2019-04-20
+9201099487,Ebais Huetares,EBAIS,CCSS,public,clinic,10.270298,-83.917378,sarapiqui,Sarapiquí,2021-10-25
+421557877,Clínica CCSS Río Claro,Hospital,CCSS,public,hospital,8.673802,-83.060393,golfito,Golfito,2024-06-13
+9424279309,Ebais San Juanillo,EBAIS,CCSS,public,clinic,10.141806,-84.39265,naranjo,Naranjo,2025-02-11
+9978190428,Ebais San Pablo,EBAIS,CCSS,public,clinic,9.218028,-83.61589,perez zeledon,Pérez Zeledón,2022-08-25
+5155913672,Ebais Gandoca,EBAIS,CCSS,,doctors,9.589704,-82.607093,talamanca,Talamanca,2020-12-22
+288244579,Clínica CCSS Palmar Sur,Hospital,CCSS,public,hospital,8.955305,-83.464104,osa,Osa,2024-06-14
+8632607536,Ebais Bellavista,EBAIS,CCSS,public,clinic,9.953444,-85.282164,nandayure,Nandayure,2025-10-14
+5201534093,Ebais Caño Negro,EBAIS,CCSS,,clinic,10.89183,-84.785857,los chiles,Los Chiles,2023-07-12
+1221616312,Clínica CCSS Pital,Hospital,CCSS,public,hospital,10.446093,-84.282823,san carlos,San Carlos,2024-06-13
+1148935913,Ebais Copal,EBAIS,CCSS,public,clinic,10.169901,-85.264409,nicoya,Nicoya,2023-02-23
+6292099137,Ebais,EBAIS,CCSS,,doctors,10.164573,-84.418693,naranjo,Naranjo,2019-02-20
+4758183647,Ebais Caoba,EBAIS,CCSS,,doctors,11.076612,-85.315791,la cruz,La Cruz,2019-04-20
+5785284758,Ebais,EBAIS,CCSS,,doctors,8.931367,-82.941409,coto brus,Coto Brus,2018-07-25
+960893641,EBAIS Loyola,EBAIS,CCSS,government,clinic,9.878338,-83.927082,cartago,Cartago,2022-04-04
+714495815,Ebais Cocal Amarillo,EBAIS,CCSS,public,clinic,8.426092,-83.104192,golfito,Golfito,2023-01-04
+1273432719,Clínica CCSS La Suiza,Hospital,CCSS,public,hospital,9.852031,-83.609842,turrialba,Turrialba,2024-04-17
+8881094287,Ebais Santa Rosa,EBAIS,CCSS,,clinic,9.918873,-83.841166,oreamuno,Oreamuno,2024-04-19
+8740445870,Ebais Linda Vista,EBAIS,CCSS,,doctors,10.596558,-83.700182,pococi,Pococí,2021-05-23
+1251325679,Ebais San Isidro,EBAIS,CCSS,public,clinic,10.923132,-84.96575,upala,Upala,2024-02-16
+939538206,Ebais Alfaro,EBAIS,CCSS,public,clinic,10.088386,-84.486281,san ramon,San Ramón,2025-07-15
+5225561590,Ebais Playa Torre,EBAIS,CCSS,,doctors,9.984533,-84.967371,puntarenas,Puntarenas,2021-05-02
+1055524062,Ebais Llano Brenes,EBAIS,CCSS,,clinic,9.994231,-84.472578,san ramon,San Ramón,2022-04-27
+5945442586,Ebais Corazón de Jesús,EBAIS,CCSS,public,clinic,10.240129,-84.687447,puntarenas,Puntarenas,2021-11-30
+963840798,Ebais Quircot,EBAIS,CCSS,public,clinic,9.887225,-83.931954,cartago,Cartago,2023-11-09
+8858637451,Ebais Mollejones,EBAIS,CCSS,,doctors,9.899845,-83.564313,turrialba,Turrialba,2021-06-22
+619835906,Ebais Parismina,EBAIS,CCSS,public,clinic,10.307781,-83.35253,siquirres,Siquirres,2024-04-04
+907804689,Ebais Cabagra,EBAIS,CCSS,public,clinic,9.135373,-83.194393,buenos aires,Buenos Aires,2022-06-07
+302489004,Ebais,EBAIS,CCSS,,doctors,10.769739,-83.586255,pococi,Pococí,2023-07-11
+130819604,Ebais Tibás,EBAIS,CCSS,,clinic,9.960201,-84.076433,tibas,Tibás,2023-06-06
+1202378710,Ebais Criques,EBAIS,CCSS,public,clinic,10.324653,-84.575654,san ramon,San Ramón,2023-08-26
+2431392791,Ebais San Martín,EBAIS,CCSS,public,clinic,10.152045,-85.459251,nicoya,Nicoya,2023-07-07
+6558538123,Ebais Río Negro,EBAIS,CCSS,,doctors,10.814982,-85.203086,upala,Upala,2021-11-12
+1148943522,Ebais San Lázaro,EBAIS,CCSS,public,clinic,10.272802,-85.461547,nicoya,Nicoya,2023-02-23
+5249121934,Ebais 28 Millas,EBAIS,CCSS,,doctors,10.09093,-83.37556,matina,Matina,2021-05-04
+678739821,Ebais Santo Tomás,EBAIS,CCSS,,clinic,9.977867,-84.083417,santo domingo,Santo Domingo,2021-12-02
+5184627388,Ebais El Mortero,EBAIS,CCSS,public,clinic,10.391887,-83.979779,sarapiqui,Sarapiquí,2021-10-22
+332486022,Clínica CCSS La Cruz,Hospital,CCSS,public,hospital,11.070788,-85.628657,la cruz,La Cruz,2025-07-05
+496534117,Centro Nacional de Control del Dolor y Cuidado Paliativo,Clínica o área de salud,CCSS,public,clinic,9.938842,-84.069168,san jose,San José,2023-05-03
+8855373237,Ebais Central B,EBAIS,CCSS,,doctors,9.905172,-83.687701,turrialba,Turrialba,2021-06-21
+4193092392,Ebais Vargas Araya - Lourdes,EBAIS,UNIBE,association,clinic,9.933822,-84.043001,montes de oca,Montes de Oca,2024-06-11
+8725465546,Ebais La Herediana,EBAIS,CCSS,,doctors,10.133414,-83.556075,siquirres,Siquirres,2021-05-12
+512400698,Ebais Tayutic,EBAIS,CCSS,public,clinic,9.822665,-83.556611,turrialba,Turrialba,2023-07-04
+2539343551,Ebais Bijagua,EBAIS,CCSS,public,clinic,10.729844,-85.058978,upala,Upala,2021-11-11
+198196943,Ebais La Asunción,EBAIS,CCSS,,doctors,9.979534,-84.171515,belen,Belén,2019-04-23
+8635785139,Ebais San Francisco de Coyote,EBAIS,CCSS,public,clinic,9.802716,-85.244641,nandayure,Nandayure,2023-07-07
+8750992734,Ebais Astúa Pirie,EBAIS,,,doctors,10.335212,-83.737839,pococi,Pococí,2021-05-20
+3888249756,Ebais El Millón,EBAIS,CCSS,,clinic,10.444829,-83.621569,pococi,Pococí,2024-09-21
+5941553312,Ebais Guacimal,EBAIS,CCSS,public,clinic,10.204945,-84.846602,puntarenas,Puntarenas,2025-12-16
+8702772600,Ebais Pozo Azul,EBAIS,CCSS,,doctors,9.93888,-83.271109,matina,Matina,2021-05-05
+148723663,Hospital Nacional de Salud Mental Pbro. Manuel Antonio Chapuí y Torres,Hospital,CCSS,public,hospital,9.954452,-84.138284,san jose,San José,2025-05-09
+990642092,Ebais Piedras Negras,EBAIS,CCSS,public,clinic,9.909112,-84.321035,mora,Mora,2026-09-03
+8695263838,Ebais El Hogar,EBAIS,CCSS,public,clinic,10.227669,-83.706922,guacimo,Guácimo,2024-04-04
+1049208660,Ebais de Vara Blanca,EBAIS,CCSS,,clinic,10.172665,-84.158288,heredia,Heredia,2022-04-05
+5225421672,Ebais Florida,EBAIS,CCSS,,doctors,9.981112,-85.056249,puntarenas,Puntarenas,2021-05-02
+937915206,Clínica CCSS Alajuela Sur,Clínica o área de salud,CCSS,public,clinic,9.974092,-84.212483,alajuela,Alajuela,2024-06-14
+666841368,Ebais Costero,EBAIS,CCSS,public,clinic,9.929604,-84.692475,esparza,Esparza,2023-11-07
+9792830424,Ebais Paraíso,EBAIS,CCSS,public,clinic,8.852297,-83.123563,buenos aires,Buenos Aires,2022-06-03
+384245171,Ebais Noreste - Sureste,EBAIS,CCSS,public,clinic,10.145193,-85.454897,nicoya,Nicoya,2022-07-25
+9243946871,Ebais Higuerón,EBAIS,CCSS,public,clinic,10.805117,-85.045549,upala,Upala,2021-11-11
+9790957350,Ebais Guagaral,EBAIS,CCSS,public,clinic,9.074055,-83.509779,buenos aires,Buenos Aires,2022-06-02
+115446927,Clínica CCSS Abangares,Clínica o área de salud,CCSS,public,clinic,10.279168,-84.959484,abangares,Abangares,2024-06-13
+8880723529,Ebais San Juan de Chicuá,EBAIS,CCSS,public,clinic,9.94718,-83.865091,oreamuno,Oreamuno,2024-09-24
+1187502889,Ebais Capellades,EBAIS,CCSS,public,clinic,9.922185,-83.786145,alvarado,Alvarado,2023-07-05
+527906787,Ebias Palo Seco,Clínica o área de salud,CCSS,,doctors,8.602852,-83.453143,puerto jimenez,Puerto Jiménez,2025-03-14
+5324893941,Ebais San Antonio,EBAIS,CCSS,,doctors,10.283972,-83.720926,pococi,Pococí,2021-05-21
+513751310,Ebais Copey,EBAIS,CCSS,public,clinic,9.645017,-83.919231,dota,Dota,2026-04-05
+918069546,Ebais Belén,EBAIS,CCSS,public,clinic,10.029035,-85.502785,nicoya,Nicoya,2023-02-23
+340812504,Ebais Los Sauces,EBAIS,Coopesana,cooperative,clinic,9.906694,-84.064427,san jose,San José,2019-08-16
+258411833,Hospital Buenos Aires,Hospital,CCSS,public,hospital,9.169883,-83.330948,buenos aires,Buenos Aires,2025-07-07
+1219907806,Ebais San Antonio,EBAIS,CCSS,public,clinic,9.996119,-84.224667,alajuela,Alajuela,2023-11-01
+1264228398,Clínica Dr. Hugo Fonseca Arce,Hospital,CCSS,public,hospital,9.988693,-84.088569,santo domingo,Santo Domingo,2024-03-19
+8694825211,Ebaias Ojo de Agua,Clínica o área de salud,CCSS,,doctors,10.055988,-83.661854,guacimo,Guácimo,2021-05-03
+189149483,Clínica CCSS Alajuelita,Hospital,CCSS,public,hospital,9.901225,-84.103195,alajuelita,Alajuelita,2023-05-26
+1043598289,Ebais Turrúcares,EBAIS,CCSS,public,clinic,9.955773,-84.326361,alajuela,Alajuela,2023-03-07
+8857853300,Ebais San Juan Sur,EBAIS,CCSS,,doctors,9.879723,-83.695728,turrialba,Turrialba,2021-06-22
+558886311,Ebais Níspero,EBAIS,CCSS,,doctors,10.211898,-85.230206,canas,Cañas,2021-09-16
+5384640995,Ebais Bernardo Benavides - La Esperanza,EBAIS,CCSS,public,clinic,9.990439,-84.119796,heredia,Heredia,2021-09-28
+6430867268,Ebais Jerusalén,EBAIS,CCSS,,doctors,10.633717,-83.923853,sarapiqui,Sarapiquí,2019-04-26
+5266219357,Ebais La Esperanza,EBAIS,CCSS,,doctors,10.435172,-83.6788,pococi,Pococí,2021-05-19
+622919550,Ebais San Francisco - Calle Blancos,EBAIS,CCSS,public,clinic,9.94216,-84.071163,goicoechea,Goicoechea,2021-10-28
+7247803569,Ebais San Antonio,EBAIS,CCSS,public,clinic,8.604762,-82.853949,corredores,Corredores,2025-10-01
+1026239771,Ebais San Juan,EBAIS,CCSS,public,clinic,10.019489,-84.163151,santa barbara,Santa Bárbara,2022-04-20
+1056268730,Ebais San Gerardo,EBAIS,CCSS,public,clinic,9.465515,-83.597182,perez zeledon,Pérez Zeledón,2022-08-25
+9238907472,Ebais San Luis,EBAIS,CCSS,public,clinic,10.784413,-84.938849,upala,Upala,2021-11-09
+1761891266,Ebais,EBAIS,CCSS,,hospital,9.463036,-84.062479,quepos,Quepos,2020-08-05
+389974956,Ebais Escazú,EBAIS,,,clinic,9.918427,-84.139323,escazu,Escazú,2016-11-26
+407476307,Ebais Drake,EBAIS,CCSS,public,clinic,8.707875,-83.639947,osa,Osa,2025-11-30
+130820813,Hospital San Carlos,Hospital,CCSS,public,hospital,10.343735,-84.432091,san carlos,San Carlos,2023-12-11
+1074534031,Ebais Los Ángeles,EBAIS,CCSS,public,clinic,10.456174,-84.546282,san carlos,San Carlos,2022-06-29
+6424350092,Ebais Pangola,EBAIS,CCSS,public,clinic,10.5688,-84.142459,sarapiqui,Sarapiquí,2021-10-20
+915228955,Clínica CCSS Poasito,Clínica o área de salud,CCSS,,clinic,10.158093,-84.196179,alajuela,Alajuela,2022-01-10
+8759012857,Ebais La Teresa,EBAIS,CCSS,,doctors,10.308663,-83.808545,pococi,Pococí,2021-05-23
+423990168,Clínica CCSS Acosta,Clínica o área de salud,CCSS,public,clinic,9.797618,-84.161787,acosta,Acosta,2024-06-14
+1201551827,Ebais Golfito,EBAIS,CCSS,public,clinic,10.593378,-84.090508,sarapiqui,Sarapiquí,2023-08-23
+531105313,Clínica CCSS Sixaola,Hospital,CCSS,,hospital,9.532449,-82.670017,talamanca,Talamanca,2018-10-21
+9297684066,Ebais Río de Oro,EBAIS,CCSS,public,clinic,9.999118,-85.354684,nandayure,Nandayure,2021-11-30
+629135263,Clínica CCSS Chomes,Hospital,CCSS,public,hospital,10.110536,-84.890557,puntarenas,Puntarenas,2025-06-11
+9869038470,Ebais Moravia,EBAIS,CCSS,public,clinic,10.777291,-84.380367,san carlos,San Carlos,2022-07-05
+8569973707,Ebais Cangrejal,EBAIS,,,doctors,9.7646,-84.218505,acosta,Acosta,2021-03-28
+6342460734,Ebias San Rafael,Clínica o área de salud,CCSS,public,clinic,9.97411,-84.618431,esparza,Esparza,2023-11-07
+6430762042,Ebais Boca Cureña,EBAIS,CCSS,,doctors,10.770676,-84.0976,sarapiqui,Sarapiquí,2019-04-26
+8570192162,Ebais Ceiba Este,EBAIS,CCSS,,doctors,9.758538,-84.170167,acosta,Acosta,2021-03-28
+8435609278,Ebais Namaldi,EBAIS,CCSS,,doctors,9.980179,-83.324723,matina,Matina,2021-02-18
+1122090082,Ebais Merced 1,EBAIS,CCSS,public,clinic,9.942975,-84.089757,san jose,San José,2023-04-19
+6423262115,Ebais Tures,EBAIS,CCSS,public,clinic,9.989363,-84.05956,santo domingo,Santo Domingo,2023-12-11
+8866783424,Ebais Noribata - Jalariñak,EBAIS,CCSS,,doctors,9.745624,-83.517841,turrialba,Turrialba,2021-06-25
+1279518071,Ebais Peñas Blancas,EBAIS,CCSS,public,clinic,10.374413,-84.579508,san ramon,San Ramón,2024-05-03
+13386493411,Ebais Santa Teresa,EBAIS,CCSS,public,clinic,9.63878,-85.162185,puntarenas,Puntarenas,2025-12-18
+504330416,Ebais Toro Amarillo,EBAIS,CCSS,public,clinic,10.215344,-84.298418,sarchi,Sarchí,2021-10-19
+9241928203,Ebais Canalete,EBAIS,CCSS,public,clinic,10.838259,-85.041546,upala,Upala,2021-11-11
+6616424973,Ebais Linda Vista,EBAIS,CCSS,,clinic,9.885071,-84.027402,la union,La Unión,2023-11-01
+327510617,Clínica CCSS Parrita,Hospital,CCSS,public,hospital,9.527221,-84.365203,parrita,Parrita,2023-11-21
+12648822942,Ebais San Isidro,EBAIS,CCSS,public,clinic,9.830159,-83.952144,el guarco,El Guarco,2025-03-10
+717725840,Ebais Palo Seco,EBAIS,CCSS,public,clinic,9.536909,-84.298434,parrita,Parrita,2025-03-26
+1064443417,Ebais Villa Ligia,EBAIS,CCSS,public,clinic,9.354625,-83.690214,perez zeledon,Pérez Zeledón,2022-07-25
+8866730118,Ebais Paso San Marcos,EBAIS,CCSS,,doctors,9.791381,-83.481334,turrialba,Turrialba,2021-06-25
+360654064,Ebais Hatillo 2,EBAIS,CCSS,public,clinic,9.91903,-84.103977,san jose,San José,2025-03-23
+790855261,Ebais Volcán,EBAIS,CCSS,,doctors,9.207516,-83.448916,buenos aires,Buenos Aires,2020-04-11
+714336496,Ebais Colonia Kennedy,EBAIS,CCSS,,doctors,9.912245,-84.089805,san jose,San José,2019-08-16
+5538902181,Ebais Matambú,EBAIS,CCSS,public,clinic,10.088494,-85.419951,hojancha,Hojancha,2021-11-30
+5191729084,Ebais Las Delicias,EBAIS,CCSS,,doctors,10.96673,-84.498363,los chiles,Los Chiles,2021-03-17
+10021520244,Ebais Santa Lucía,EBAIS,CCSS,public,clinic,9.221748,-83.570539,perez zeledon,Pérez Zeledón,2023-03-15
+1065222319,Ebais San Antonio,EBAIS,CCSS,public,clinic,9.19485,-83.548182,perez zeledon,Pérez Zeledón,2022-05-30
+7245898712,Ebais Pueblo Nuevo,EBAIS,CCSS,,doctors,8.538864,-83.037104,corredores,Corredores,2020-02-26
+865555354,Ebais Mata de Plátano,EBAIS,CCSS,public,clinic,9.95432,-84.016255,goicoechea,Goicoechea,2023-09-20
+8729503506,Ebais El Cocal,EBAIS,CCSS,,doctors,10.121102,-83.513446,siquirres,Siquirres,2021-05-13
+6417246599,Ebais Santa Ana,EBAIS,CCSS,,doctors,10.39566,-85.612371,carrillo,Carrillo,2019-04-20
+6292114398,Ebais,EBAIS,MEP,,doctors,10.164467,-84.403934,naranjo,Naranjo,2019-02-20
+8681234079,Ebais Bocuare,EBAIS,CCSS,,doctors,9.699144,-82.938073,limon,Limón,2021-04-29
+776809083,Clínica CCSS La Cuesta,Clínica o área de salud,CCSS,public,clinic,8.490688,-82.84913,corredores,Corredores,2024-06-14
+8861586382,Ebais Chitaría,EBAIS,CCSS,,doctors,9.935077,-83.593409,turrialba,Turrialba,2021-06-24
+497013650,Ebais Santa Cruz,EBAIS,CCSS,,doctors,9.733601,-84.024527,leon cortes castro,León Cortés Castro,2021-03-22
+9782248475,Ebais Barú,EBAIS,CCSS,public,clinic,9.28829,-83.803088,perez zeledon,Pérez Zeledón,2023-05-14
+597128923,HCG - Área de Administración y Aseguramiento de Bienes,Clínica o área de salud,CCSS,public,clinic,9.939114,-84.06816,san jose,San José,2023-05-03
+6557965487,Ebais Cuatro Bocas,EBAIS,CCSS,public,clinic,10.910505,-85.192074,upala,Upala,2021-11-12
+572220164,Ebais Guadalupe,EBAIS,CCSS,public,clinic,9.945637,-84.053996,goicoechea,Goicoechea,2023-05-29
+427796396,Ebias Los Reyes,Clínica o área de salud,CCSS,public,clinic,9.250592,-83.644541,perez zeledon,Pérez Zeledón,2022-09-13
+8572727619,Ebais Legua,EBAIS,CCSS,,clinic,9.736099,-84.110612,aserri,Aserrí,2024-10-02
+8702288842,Ebais Punta de Lanza,EBAIS,CCSS,,doctors,9.985318,-83.363845,matina,Matina,2021-05-05
+6201552008,Ebais Altamirita,EBAIS,CCSS,public,clinic,10.461309,-84.345434,san carlos,San Carlos,2022-06-28
+1017696607,Ebais Las Vueltas,EBAIS,CCSS,public,clinic,9.948371,-84.289584,alajuela,Alajuela,2025-07-16
+9790992457,Ebais Maíz,EBAIS,CCSS,public,clinic,9.021701,-83.409885,buenos aires,Buenos Aires,2022-06-02
+1359710524,Ebaisd San Jerónimo,EBAIS,CCSS,public,clinic,10.107139,-84.363756,naranjo,Naranjo,2025-02-13
+10019223060,Ebais Valencia,EBAIS,CCSS,public,clinic,9.451296,-83.728574,perez zeledon,Pérez Zeledón,2022-09-12
+5209487744,Ebais Llorona,EBAIS,CCSS,public,clinic,9.404274,-84.078655,quepos,Quepos,2025-12-08
+5357527867,Ebias Buena Vista,Clínica o área de salud,CCSS,public,clinic,10.044768,-84.110178,barva,Barva,2024-12-27
+670070954,Ebais Quizarrá,EBAIS,CCSS,public,clinic,9.336809,-83.62156,perez zeledon,Pérez Zeledón,2022-08-31
+5844557896,Ebais Rincón de Zaragoza,EBAIS,,,clinic,10.037926,-84.44149,palmares,Palmares,2018-08-20
+5248103215,Ebais B-Line,EBAIS,CCSS,,doctors,10.044016,-83.311567,matina,Matina,2022-02-12
+63529874,Clínica Dr. Ricardo Moreno Cañas,Hospital,CCSS,public,hospital,9.926844,-84.089496,san jose,San José,2026-04-29
+11339079203,Ebais Alumbre,EBAIS,CCSS,public,clinic,9.806143,-84.051211,cartago,Cartago,2023-11-10
+435031881,Clínica Dr. Roberto Sotomayor,Clínica o área de salud,CCSS,public,clinic,9.979628,-84.722333,puntarenas,Puntarenas,2021-11-20
+5123528422,Ebais San Miguel,EBAIS,CCSS,,doctors,10.353794,-85.076929,canas,Cañas,2021-09-16
+533103926,Ebais Limón 2000,EBAIS,CCSS,public,clinic,9.989265,-83.141137,limon,Limón,2023-07-04
+1302566638,Clínica CCSS Naranjo,Hospital,CCSS,public,hospital,10.102023,-84.375558,naranjo,Naranjo,2026-03-06
+1267405191,Ebais Los Ángeles,EBAIS,CCSS,,doctors,9.901858,-85.281824,nandayure,Nandayure,2024-03-29
+9991515890,Ebais El Llano,EBAIS,CCSS,public,clinic,9.429767,-83.887786,perez zeledon,Pérez Zeledón,2022-08-31
+1458787749,Ebais Manzanillo,EBAIS,CCSS,public,clinic,10.132091,-85.018759,puntarenas,Puntarenas,2025-12-15
+217901912,Clínica CCSS Limón,Hospital,CCSS,public,hospital,9.985648,-83.037064,limon,Limón,2024-06-13
+6638637553,Ebais Higuito,EBAIS,CCSS,,doctors,9.858884,-84.053179,desamparados,Desamparados,2019-07-22
+515393796,Clínica CCSS Valle La Estrella - La Fortuna,Hospital,CCSS,public,hospital,9.735881,-82.97064,limon,Limón,2024-06-14
+101548440,Clínica CCSS Puriscal,Clínica o área de salud,CCSS,public,clinic,9.847435,-84.310205,puriscal,Puriscal,2023-07-10
+327351470,Clínica CCSS Dra. Rosa León Chang,Hospital,CCSS,public,hospital,9.65317,-82.798258,talamanca,Talamanca,2022-08-09
+993696519,Ebais San Isidro,EBAIS,CCSS,public,clinic,10.114464,-84.27298,grecia,Grecia,2021-10-18
+1292430401,Clínica Dr. Fernando Marín R.,Clínica o área de salud,Coopesalud R.L.,public,clinic,9.893963,-84.085255,desamparados,Desamparados,2024-06-14
+775122622,Clínica CCSS Veintisiete de Abril,Clínica o área de salud,CCSS,public,clinic,10.244219,-85.709502,santa cruz,Santa Cruz,2021-04-26
+9977224629,Ebais La Piedra,EBAIS,CCSS,public,clinic,9.509777,-83.66632,perez zeledon,Pérez Zeledón,2022-08-25
+318617497,Clínica CCSS Paquera,Clínica o área de salud,CCSS,public,clinic,9.820626,-84.93653,puntarenas,Puntarenas,2026-04-25
+8743126928,Ebais Línea Vieja,EBAIS,CCSS,,doctors,10.307332,-83.559209,pococi,Pococí,2021-05-18
+657456047,Clínica CCSS Poás,Clínica o área de salud,CCSS,public,clinic,10.076585,-84.243424,poas,Poás,2026-05-30
+9181026502,Ebais San Juan,EBAIS,CCSS,public,clinic,10.10165,-84.317189,grecia,Grecia,2021-10-18
+1015351846,Ebais Damas,EBAIS,CCSS,public,clinic,9.49085,-84.208955,quepos,Quepos,2023-11-21
+1448073451,Clínica CCSS Matina,Hospital,CCSS,public,hospital,10.079866,-83.292664,matina,Matina,2025-11-06
+617628583,EBAIS Invu 3,EBAIS,CCSS,public,clinic,10.00785,-84.206813,alajuela,Alajuela,2026-09-24
+9244000053,Ebais El Salto,EBAIS,CCSS,public,clinic,10.78131,-85.014573,upala,Upala,2021-11-11
+1087517028,Ebais Pavones,EBAIS,CCSS,public,clinic,9.34663,-83.69668,perez zeledon,Pérez Zeledón,2022-08-19
+531997900,Ebais Tejarcillos 1 y 2,EBAIS,CCSS,,clinic,9.902699,-84.110305,alajuelita,Alajuelita,2024-09-01
+6558587121,Ebais Colonia La Libertad,EBAIS,CCSS,,clinic,10.863152,-85.243479,upala,Upala,2021-11-12
+3291846477,Ebais Pozo de Agua,EBAIS,CCSS,public,clinic,10.283582,-85.340595,nicoya,Nicoya,2023-02-23
+1087532270,Ebais La Suiza,EBAIS,CCSS,public,clinic,9.239392,-83.686185,perez zeledon,Pérez Zeledón,2022-08-19
+13356085565,HSRA - Centro Cardiovascular Servio Flores Arroyo,Clínica o área de salud,CCSS,public,clinic,10.008145,-84.209873,alajuela,Alajuela,2025-12-05
+951828865,Ebais Tambor,EBAIS,CCSS,public,clinic,10.034998,-84.241711,alajuela,Alajuela,2025-07-21
+10021522020,Ebais San Carlos,EBAIS,CCSS,public,clinic,9.235586,-83.59206,perez zeledon,Pérez Zeledón,2022-09-13
+6193522331,Ebias El Barro,Clínica o área de salud,CCSS,,clinic,9.858198,-84.53167,turrubares,Turrubares,2024-07-30
+1087522101,Ebais Las Esperanzas,EBAIS,CCSS,public,clinic,9.273307,-83.705873,perez zeledon,Pérez Zeledón,2022-08-19
+9871030556,Ebais Llano Verde,EBAIS,CCSS,public,clinic,10.890512,-84.383919,san carlos,San Carlos,2022-07-06
+5179190503,Ebais La Gata,EBAIS,CCSS,,doctors,10.636135,-83.952994,sarapiqui,Sarapiquí,2019-04-26
+5504255801,Ebais Río Nuevo,EBAIS,CCSS,public,clinic,9.391129,-83.75571,perez zeledon,Pérez Zeledón,2022-05-30
+882063790,Ebais La Joya - La Estación,EBAIS,CCSS,public,clinic,9.841688,-83.866244,paraiso,Paraíso,2022-01-27
+7606724198,Ebais Palmichal,EBAIS,CCSS,,clinic,9.8377,-84.204035,acosta,Acosta,2024-10-05
+834525362,Ebais Tárcoles,EBAIS,CCSS,,doctors,9.759426,-84.624874,garabito,Garabito,2021-01-18
+1433880712,Ebais Santa Clara,EBAIS,CCSS,public,clinic,10.923556,-85.093088,upala,Upala,2021-11-08
+643017401,HCG - Servicio de Consulta Externa,Clínica o área de salud,CCSS,public,clinic,9.938158,-84.071608,san jose,San José,2023-05-06
+1101858950,Ebais de El Roble,EBAIS,CCSS,public,clinic,10.072289,-84.157267,santa barbara,Santa Bárbara,2026-07-29
+1189196827,Ebais El Amparo,EBAIS,CCSS,public,clinic,10.849907,-84.668682,los chiles,Los Chiles,2023-07-12
+5192106560,Ebais Las Nubes,EBAIS,CCSS,,clinic,10.907704,-84.554044,los chiles,Los Chiles,2024-01-17
+7242515858,Ebais Guadalupe,EBAIS,CCSS,,doctors,8.623032,-83.477444,puerto jimenez,Puerto Jiménez,2021-02-01
+1046630704,Ebais Laurel,EBAIS,CCSS,public,clinic,8.441241,-82.907123,corredores,Corredores,2023-11-18
+5767079543,Ebais Candelaria,EBAIS,CCSS,public,clinic,10.111618,-84.401258,naranjo,Naranjo,2025-02-06
+1545591011,Ebais Central Santo Domingo de Santa Bárbara,EBAIS,CCSS,public,clinic,10.067445,-84.153331,santa barbara,Santa Bárbara,2026-07-29
+13362752425,Ebais Hatillo,EBAIS,CCSS,public,clinic,9.304036,-83.90262,quepos,Quepos,2025-12-09
+127455590,Clínica CCSS Palmar,Clínica o área de salud,CCSS,public,clinic,8.960394,-83.456409,osa,Osa,2021-12-08
+601444454,HCG - Cirugía Reconstructiva,Clínica o área de salud,CCSS,public,clinic,9.938095,-84.069367,san jose,San José,2023-05-03
+1144547672,Ebais Buenavista,EBAIS,CCSS,,clinic,10.274049,-84.460822,san carlos,San Carlos,2023-02-13
+4565429891,Ebais Desmonte,EBAIS,CCSS,public,clinic,9.957774,-84.468927,san mateo,San Mateo,2026-03-04
+5213640094,Ebais Punto de Mira,EBAIS,CCSS,public,clinic,9.328469,-83.875619,quepos,Quepos,2025-12-08
+4833440746,Ebais Huacas,EBAIS,CCSS,public,clinic,10.02275,-85.363636,hojancha,Hojancha,2023-02-13
+8753428828,Ebais Londres,EBAIS,CCSS,,doctors,10.426723,-83.63985,pococi,Pococí,2021-05-21
+4592786669,Ebais Curubandé,EBAIS,CCSS,,doctors,10.721137,-85.409379,liberia,Liberia,2019-04-20
+4833212685,Ebais Monte Romo,EBAIS,CCSS,public,clinic,10.000673,-85.384815,hojancha,Hojancha,2021-11-30
+597128931,HCG - Servicio de Terapia Ambulatoria Parenteral,Clínica o área de salud,CCSS,,clinic,9.938646,-84.068607,san jose,San José,2023-05-03
+8632543834,Ebais Corozal Oeste,EBAIS,CCSS,public,clinic,9.981575,-85.173403,nandayure,Nandayure,2025-10-09
+1367297002,Clínica CCSS Roxana,Clínica o área de salud,CCSS,public,clinic,10.270756,-83.752879,pococi,Pococí,2022-12-20
+1221860864,Ebais Santa Marta,EBAIS,CCSS,public,clinic,10.003953,-84.645758,esparza,Esparza,2023-11-07
+5173887350,Ebais San Rafael,EBAIS,CCSS,,doctors,9.761429,-82.972165,limon,Limón,2021-04-29
+9239158236,Ebais Santa Cecilia,EBAIS,CCSS,public,clinic,10.880094,-85.053937,upala,Upala,2021-11-09
+714576235,Ebais Hacienda Vieja,EBAIS,UNIBE,association,clinic,9.910774,-84.032401,curridabat,Curridabat,2019-08-16
+6558553865,Ebais Valle Verde,EBAIS,CCSS,public,clinic,10.835454,-85.24254,upala,Upala,2021-11-12
+1010079577,EBAIS CCSS Carrizal,EBAIS,CCSS,public,clinic,10.085995,-84.170651,alajuela,Alajuela,2026-05-17
+9239014116,Ebais Santa Rosa,EBAIS,CCSS,public,clinic,10.799595,-84.976362,upala,Upala,2021-11-09
+356377927,Hospital Upala,Hospital,CCSS,public,hospital,10.897044,-85.024006,upala,Upala,2024-02-15
+9792750889,Ebais San Luis,EBAIS,CCSS,public,clinic,8.880809,-83.120576,buenos aires,Buenos Aires,2022-06-03
+1331754915,Ebais Finca 2,EBAIS,CCSS,,clinic,10.355628,-83.882745,sarapiqui,Sarapiquí,2021-10-25
+913665585,Ebais Bolsón,EBAIS,CCSS,public,clinic,10.361571,-85.459611,santa cruz,Santa Cruz,2023-02-23
+8753428847,Ebais Maravilla,EBAIS,CCSS,,doctors,10.416761,-83.654403,pococi,Pococí,2021-05-21
+9991654977,Ebais California,EBAIS,CCSS,public,clinic,9.470503,-83.810994,perez zeledon,Pérez Zeledón,2022-08-31
+4888020726,Ebais León XIII,EBAIS,CCSS,public,clinic,9.957538,-84.097614,tibas,Tibás,2022-07-04
+12574408413,Ebais San Miguel Este,EBAIS,CCSS,public,clinic,10.074164,-84.395283,naranjo,Naranjo,2025-02-10
+1459106517,Clínica CCSS Jicaral - Islas,Hospital,CCSS,public,hospital,9.960123,-85.117455,puntarenas,Puntarenas,2025-12-16
+429415692,Clínica CCSS Siquirres,Clínica o área de salud,CCSS,public,clinic,10.097759,-83.509524,siquirres,Siquirres,2024-06-14
+11527956369,Centro Odontológico CCSS San Juan - San Diego - Concepción,Clínica o área de salud,CCSS,,clinic,9.913887,-84.027993,curridabat,Curridabat,2024-06-14
+9146908566,Ebais Plazoleta 1 y 2,EBAIS,CCSS,public,clinic,9.899145,-84.058742,desamparados,Desamparados,2021-10-04
+297256681,Clínica Dr. Francisco Bolaños Araya,Clínica o área de salud,CCSS,public,clinic,10.000495,-84.121526,heredia,Heredia,2024-06-01
+9858534684,Ebais Veracruz,EBAIS,CCSS,public,clinic,10.511255,-84.246274,san carlos,San Carlos,2022-06-30
+11384107160,Ebais Bajo La Legua,EBAIS,CCSS,public,clinic,9.811838,-84.356484,puriscal,Puriscal,2023-11-29
+530345240,Ebais Cañaza,EBAIS,CCSS,public,clinic,8.582693,-83.411735,puerto jimenez,Puerto Jiménez,2025-11-25
+61349850,Hospital Dr. Maximiliano Peralta Jiménez,Hospital,CCSS,public,hospital,9.861477,-83.921959,cartago,Cartago,2023-11-07
+5093604427,Ebais Santa Clara,EBAIS,CCSS,public,clinic,10.359794,-84.50807,san carlos,San Carlos,2022-06-23
+1389423448,Cuidados Paliativos Maximiliano Peralta,Clínica o área de salud,CCSS,public,clinic,9.864535,-83.937471,cartago,Cartago,2025-05-25
+7247514626,Ebais Bajo Los Indios,EBAIS,CCSS,public,clinic,8.666194,-82.902458,corredores,Corredores,2025-10-06
+395163574,Banco Nacional de Sangre,Hospital,CCSS,public,hospital,9.919411,-84.053513,san jose,San José,2023-04-18
+8570287531,Ebais Sabanillas,EBAIS,CCSS,public,clinic,9.744808,-84.258583,acosta,Acosta,2024-11-26
+868389217,INS - Centro de Salud Preferencial de Heredia,Clínica o área de salud,INS,government,clinic,9.998997,-84.123736,heredia,Heredia,2022-09-08
+580565023,Ebais Santa Cruz,EBAIS,CCSS,,doctors,9.966733,-83.732882,turrialba,Turrialba,2021-06-24
+8761787544,Ebais La Unión,EBAIS,CCSS,,clinic,10.216672,-83.872605,pococi,Pococí,2024-04-04
+8723075962,Ebais San Carlos,EBAIS,CCSS,,doctors,10.121248,-83.380289,siquirres,Siquirres,2021-05-11
+1148551393,Ebais Maquenco - Belén,EBAIS,CCSS,public,clinic,9.966875,-85.514747,nicoya,Nicoya,2023-02-23
+597128930,HCG - Servicio de Geriatría,Clínica o área de salud,CCSS,public,clinic,9.938548,-84.068562,san jose,San José,2023-05-03
+8726145150,Ebais Bonilla,EBAIS,CCSS,,doctors,10.00735,-83.612541,siquirres,Siquirres,2021-05-12
+714344102,Ebais Escazú,EBAIS,Coopesana,cooperative,clinic,9.920026,-84.1379,escazu,Escazú,2019-08-16
+1562455251,Ebais del Llano,EBAIS,CCSS,public,clinic,9.859861,-84.060132,desamparados,Desamparados,2021-10-06
+971531408,Clínica CCSS Colonia del Toro,Clínica o área de salud,CCSS,,,10.303841,-84.244979,rio cuarto,Río Cuarto,2021-08-09
+511148237,Ebais,EBAIS,,,doctors,10.373311,-84.990269,tilaran,Tilarán,2017-07-28
+6223814092,Ebais San Josecito,EBAIS,CCSS,,clinic,10.496918,-84.52596,san carlos,San Carlos,2022-07-05
+5605362188,Ebais Pejibaye,EBAIS,CCSS,public,clinic,10.622329,-84.867305,guatuso,Guatuso,2021-11-12
+1064444401,Ebais San Rafael,EBAIS,CCSS,public,clinic,9.206425,-83.645708,perez zeledon,Pérez Zeledón,2022-05-27
+5200718381,Ebais Buenavista,EBAIS,CCSS,public,clinic,10.741207,-84.835441,guatuso,Guatuso,2025-11-29
+288248501,Clínica CCSS Orotina,Clínica o área de salud,CCSS,public,clinic,9.911428,-84.522081,orotina,Orotina,2026-05-03
+9990983046,Ebais Santa María,EBAIS,CCSS,public,clinic,9.320966,-83.583186,perez zeledon,Pérez Zeledón,2022-08-31
+8860605823,Ebais El Torito,EBAIS,CCSS,,doctors,9.991728,-83.700631,turrialba,Turrialba,2021-06-23
+370498621,Ebais Jesús,EBAIS,CCSS,public,clinic,9.972607,-84.417444,atenas,Atenas,2026-03-03
+5133520234,Ebais,EBAIS,,,doctors,10.11742,-84.668063,esparza,Esparza,2017-09-27
+1221860868,Ebais Nances,EBAIS,CCSS,public,clinic,9.99815,-84.645918,esparza,Esparza,2023-11-07
+4738755426,Ebais La Garita,EBAIS,CCSS,,doctors,11.087548,-85.551194,la cruz,La Cruz,2019-08-30
+5217232768,Ebais,EBAIS,CCSS,,doctors,8.761524,-83.5013,osa,Osa,2017-11-08
+5156315110,Ebais San Rafael de Bordón,EBAIS,CCSS,,doctors,9.714308,-82.907097,talamanca,Talamanca,2021-04-29
+9453311465,Ebais Santiago,EBAIS,CCSS,public,clinic,9.868844,-83.798245,paraiso,Paraíso,2023-06-11
+8702778422,Ebais Bartimore,EBAIS,CCSS,,doctors,10.016048,-83.309801,matina,Matina,2021-05-05
+7243393852,Ebais Las Delicias,EBAIS,CCSS,,doctors,8.715841,-83.05123,golfito,Golfito,2020-02-25
+9978328987,Ebais Bolivia,EBAIS,CCSS,public,clinic,9.187395,-83.619467,perez zeledon,Pérez Zeledón,2022-08-25
+6417244150,Ebais Artola,EBAIS,CCSS,,doctors,10.50967,-85.681729,carrillo,Carrillo,2019-04-20
+543935731,Ebais Tuba Creek,EBAIS,,,doctors,9.746676,-82.902579,talamanca,Talamanca,2019-10-03
+25530708,Centro Integrado de Salud de Coronado,Hospital,CCSS,public,hospital,9.970785,-84.01645,vazquez de coronado,Vázquez de Coronado,2024-06-24
+9858523110,Ebais Santa Elena,EBAIS,CCSS,public,clinic,10.543631,-84.310018,san carlos,San Carlos,2022-06-30
+5150838138,Ebais Namuwakir,EBAIS,CCSS,,doctors,9.497581,-82.949578,talamanca,Talamanca,2021-02-14
+1202356648,Ebais Valle Azul,EBAIS,CCSS,public,clinic,10.333452,-84.549324,san ramon,San Ramón,2023-08-26
+107117708,Clínica CCSS Santa Cruz,Hospital,CCSS,public,hospital,10.256843,-85.584467,santa cruz,Santa Cruz,2022-05-19
+10019207395,Ebais San Ramón Norte,EBAIS,CCSS,public,clinic,9.434754,-83.729594,perez zeledon,Pérez Zeledón,2022-09-12
+128247306,Hospital Dr. Adolfo Carit Eva,Hospital,CCSS,public,hospital,9.923906,-84.081267,san jose,San José,2026-01-29
+420522158,Ebais La Angostura,EBAIS,CCSS,public,clinic,9.281764,-83.674704,perez zeledon,Pérez Zeledón,2022-08-19
+1331945949,Ebais Las Marías,EBAIS,CCSS,,clinic,10.554109,-83.944405,sarapiqui,Sarapiquí,2023-08-25
+1020962782,Ebais Ciruelas,EBAIS,CCSS,public,clinic,9.981153,-84.258852,alajuela,Alajuela,2022-05-17
+3501765203,EBAIS Santa Ana,EBAIS,Coopesana,Cooperative,clinic,9.930789,-84.182021,santa ana,Santa Ana,2024-12-26
+5935606265,Ebais Rincón de Ricardo,EBAIS,CCSS,,doctors,9.987673,-84.098787,san pablo,San Pablo,2021-03-08
+8665909882,Ebais San Antonio,EBAIS,CCSS,public,clinic,10.200498,-85.429684,nicoya,Nicoya,2023-02-14
+9201267170,Ebais Finca Chávez,EBAIS,CCSS,public,clinic,10.383903,-83.945441,sarapiqui,Sarapiquí,2021-10-25
+1457384225,Ebais Rincón Herrera,EBAIS,CCSS,public,clinic,9.980536,-84.240552,alajuela,Alajuela,2025-12-10
+8766078017,Ebais Toro Amarillo 1 y 2,EBAIS,CCSS,,clinic,10.216733,-83.7905,pococi,Pococí,2022-07-30
+5199172122,Ebais Cóbano,EBAIS,CCSS,,clinic,10.821599,-84.566435,los chiles,Los Chiles,2024-01-18
+4398381251,Ebais Santiago del Monte,EBAIS,CCSS,,doctors,9.892499,-83.995879,la union,La Unión,2021-06-11
+714575017,Ebais Tirrases,EBAIS,UNIBE,association,clinic,9.906868,-84.04167,curridabat,Curridabat,2019-08-16
+9792739202,Ebais La Bonita,EBAIS,CCSS,public,clinic,8.919007,-83.189715,buenos aires,Buenos Aires,2022-06-03
+1174904740,Ebais San Vicente,EBAIS,CCSS,public,clinic,9.962032,-84.045854,moravia,Moravia,2023-05-22
+1148894623,Ebais Dulce Nombre,EBAIS,CCSS,public,clinic,10.079129,-85.493773,nicoya,Nicoya,2023-02-23
+8731067518,Ebais La Lucha,EBAIS,CCSS,,doctors,10.148981,-83.458631,siquirres,Siquirres,2021-05-14
+6020725096,Ebais Las Vegas,EBAIS,CCSS,,doctors,10.212867,-83.323569,siquirres,Siquirres,2021-05-11
+1418927733,Clínica CCSS Filadelfia,Hospital,CCSS,public,hospital,10.434768,-85.566716,carrillo,Carrillo,2025-07-31
+3960312041,Ebais de Patarrá,EBAIS,CCSS,public,clinic,9.883769,-84.034873,,,2023-07-10
+3646860884,EBAIS Caballo Blanco,EBAIS,,,doctors,9.852003,-83.900827,cartago,Cartago,2015-11-23
+8685681963,Ebais Río Blanco,EBAIS,CCSS,,doctors,9.973672,-83.155836,limon,Limón,2021-04-30
+720652433,Clínica CCSS Santa Bárbara,Clínica o área de salud,CCSS,public,clinic,10.032553,-84.160949,santa barbara,Santa Bárbara,2023-09-20
+961800985,Ebais San Nicolás,EBAIS,CCSS,public,clinic,9.878368,-83.936497,cartago,Cartago,2024-05-14
+1249544520,Ebais San Josecito,EBAIS,CCSS,public,clinic,10.018827,-84.03892,san isidro,San Isidro,2024-02-12
+974236144,Ebais Rancho Redondo,EBAIS,CCSS,public,clinic,9.961192,-83.946421,goicoechea,Goicoechea,2021-10-28
+220821518,Clínica CCSS Ciudad Quesada,Clínica o área de salud,CCSS,public,clinic,10.328311,-84.43209,san carlos,San Carlos,2023-11-20
+8685579763,Ebais Aguas Zarcas,EBAIS,CCSS,,doctors,9.894323,-83.115148,limon,Limón,2021-04-30
+6196431145,Ebais San Gabriel,EBAIS,CCSS,public,clinic,9.675899,-84.499697,turrubares,Turrubares,2022-01-17
+1274305377,Ebais Quebrada Grande,EBAIS,CCSS,,clinic,10.843578,-85.492827,liberia,Liberia,2024-04-20
+1025288088,Ebais Llanos de Santa Lucía,EBAIS,CCSS,public,clinic,9.84284,-83.880575,paraiso,Paraíso,2022-01-27
+6417180381,Ebais Las Vegas,EBAIS,CCSS,public,clinic,9.582548,-84.258701,parrita,Parrita,2025-03-26
+9098603990,Ebais Concepción,EBAIS,CCSS,,doctors,10.24061,-85.13595,abangares,Abangares,2021-09-16
+1026885070,Ebais El Cacao,EBAIS,CCSS,public,clinic,10.025664,-84.262993,alajuela,Alajuela,2023-06-05
+8672382667,Ebais Quebrada Grande,EBAIS,CCSS,,doctors,10.430838,-84.945983,tilaran,Tilarán,2021-04-27
+643017397,HCG - Servicio de Oftalmología,Clínica o área de salud,CCSS,public,clinic,9.938272,-84.071789,san jose,San José,2023-05-06
+5945041425,Ebais Bajo Caliente,EBAIS,CCSS,public,clinic,10.204385,-84.722731,puntarenas,Puntarenas,2025-12-16
+6831599340,Ebais Brasilia,EBAIS,,,doctors,11.009068,-85.348302,upala,Upala,2019-09-27
+11477697169,Nuevo Ebais de Montecarlo,EBAIS,CCSS,,clinic,9.354157,-83.606288,perez zeledon,Pérez Zeledón,2024-01-04
+1257754983,Ebais San Antonio,EBAIS,MEP,,doctors,10.944513,-84.965166,upala,Upala,2019-10-19
+1276136255,Clínica CCSS Pocosol,Hospital,CCSS,public,hospital,10.619697,-84.524807,san carlos,San Carlos,2024-04-25
+11200587844,Ebais Florida,EBAIS,CCSS,public,clinic,10.399049,-84.90298,tilaran,Tilarán,2023-09-18
+948240383,Ebais San Luis Morete,EBAIS,CCSS,public,clinic,9.250014,-83.728241,perez zeledon,Pérez Zeledón,2022-08-19
+1054320303,Ebais La Tigra,EBAIS,CCSS,public,clinic,10.339093,-84.579947,san carlos,San Carlos,2023-08-26
+1735931124,Ebais Central Norte,EBAIS,CCSS,public,clinic,10.21836,-83.789508,pococi,Pococí,2025-07-05
+1010079586,Ebais Pejibaye,EBAIS,CCSS,public,clinic,9.159212,-83.574458,perez zeledon,Pérez Zeledón,2022-08-31
+6423319871,Ebais San Pablo,EBAIS,CCSS,,doctors,10.024601,-84.129562,barva,Barva,2019-04-23
+402216516,Ebais El Roble,EBAIS,CCSS,,doctors,10.448436,-84.095662,sarapiqui,Sarapiquí,2018-06-27
+8632630983,Ebais Cerro Azul,EBAIS,CCSS,,doctors,9.938496,-85.297364,nandayure,Nandayure,2021-04-15
+8861690509,Ebais Tuis,EBAIS,CCSS,,clinic,9.837911,-83.583452,turrialba,Turrialba,2024-04-18
+4709000532,Ebais San Pedro,EBAIS,CCSS,,doctors,9.909671,-85.379397,nandayure,Nandayure,2021-04-15
+6713629808,Ebais Rositer Carballo,EBAIS,CCSS,public,clinic,9.964317,-84.126752,san jose,San José,2023-03-20
+8635978916,Ebais Jabillos,EBAIS,CCSS,,doctors,9.868693,-85.227334,nandayure,Nandayure,2021-04-16
+1087582302,Ebais Los Ángeles,EBAIS,CCSS,public,clinic,9.34657,-83.678844,perez zeledon,Pérez Zeledón,2022-08-19
+80309556,Clínica CCSS - Carmen - Montes de Oca,Clínica o área de salud,CCSS,public,clinic,9.931971,-84.056787,montes de oca,Montes de Oca,2024-07-08
+8253078065,Ebais Sixaola,EBAIS,CCSS,public,clinic,9.501814,-82.614812,talamanca,Talamanca,2025-07-09
+504299732,Ebais San Juan,EBAIS,CCSS,public,clinic,10.101067,-84.353069,sarchi,Sarchí,2025-02-17
+6058870829,Ebais de Jericó,EBAIS,CCSS,public,clinic,9.830649,-84.061034,desamparados,Desamparados,2021-10-06
+5219075938,Ebais Coronado,EBAIS,CCSS,public,clinic,9.048731,-83.614837,osa,Osa,2025-01-09
+5266241648,Ebais Palacios,EBAIS,CCSS,,doctors,10.495915,-83.618087,pococi,Pococí,2021-05-19
+663378469,Ebais Villas de Ayarco,EBAIS,CCSS,,clinic,9.9022,-84.011526,la union,La Unión,2022-06-09
+8685579762,Ebais María Luisa,EBAIS,CCSS,,doctors,9.899006,-83.091454,limon,Limón,2021-04-30
+9080806006,Ebais San Ramón,EBAIS,CCSS,,doctors,10.490766,-85.382747,bagaces,Bagaces,2021-09-10
+627665998,HCG - Servicio de Odontología,Clínica o área de salud,CCSS,public,clinic,9.937106,-84.070423,san jose,San José,2023-05-02
+7243533249,Ebais Las Fincas,EBAIS,CCSS,,doctors,8.601806,-82.967959,corredores,Corredores,2020-02-25
+537005232,Ebais Los Lirios,EBAIS,CCSS,public,clinic,10.758608,-84.581732,los chiles,Los Chiles,2024-12-11
+5199502847,Ebais,EBAIS,CCSS,,doctors,10.773636,-84.740856,los chiles,Los Chiles,2017-10-30
+8861753992,Ebais San Joaquín,EBAIS,CCSS,,doctors,9.878063,-83.538414,turrialba,Turrialba,2021-06-24
+1080582177,Ebais Cocorí,EBAIS,CCSS,public,clinic,9.357157,-83.704558,perez zeledon,Pérez Zeledón,2022-07-22
+8746937967,Ebais Jiménez,EBAIS,CCSS,public,clinic,10.20994,-83.740756,pococi,Pococí,2023-07-04
+8818873837,Ebais Río Celeste,EBAIS,CCSS,public,clinic,10.709294,-84.944372,guatuso,Guatuso,2025-10-17
+5473809857,Ebais Concepción,EBAIS,CCSS,public,clinic,10.025685,-84.046284,san isidro,San Isidro,2022-08-31
+148726022,Clínica de Pavas,Clínica o área de salud,Coopesalud RL,cooperative,clinic,9.951482,-84.13756,san jose,San José,2023-06-13
+70568771,Hospital Dr. Maximiliano Terán Valls,Hospital,CCSS,public,hospital,9.442609,-84.136371,quepos,Quepos,2024-06-14
+5222451176,Clínica CCSS San Francisco de Río Tinoco,Clínica o área de salud,CCSS,,clinic,8.891453,-83.376706,osa,Osa,2017-11-10
+1089406103,Ebais Yorkín,EBAIS,CCSS,,clinic,9.518174,-82.861393,talamanca,Talamanca,2022-08-26
+1023826764,Ebais Pacto del Jocote,EBAIS,CCSS,public,clinic,10.007239,-84.235129,alajuela,Alajuela,2022-01-28
+6714654036,Laboratorio de Pruebas de Paternidad,Clínica o área de salud,CCSS,public,clinic,9.935021,-84.086146,san jose,San José,2023-03-20
+7191256745,Ebais San Roque,EBAIS,CCSS,public,clinic,10.340166,-84.433783,san carlos,San Carlos,2022-06-16
+445074956,Ebais Santa Teresita,EBAIS,CCSS,public,clinic,9.975958,-83.646267,turrialba,Turrialba,2023-07-04
+272509675,Clínica Dr. Jorge Volio Jiménez,Clínica o área de salud,CCSS,public,clinic,10.00047,-84.149746,flores,Flores,2023-09-30
+451987085,Clínica Dr. Óscar Arias Sánchez,Clínica o área de salud,Coopesalud RL,cooperative,clinic,9.951091,-84.147178,san jose,San José,2023-04-18
+6717733784,Ebais Llano Grande,EBAIS,CCSS,public,clinic,9.940679,-83.911459,cartago,Cartago,2019-08-17
+1409787297,Ebais Villa Franca,EBAIS,CCSS,public,clinic,10.290452,-83.610567,guacimo,Guácimo,2025-06-26
+8681241597,Ebais Jabuy,EBAIS,CCSS,public,clinic,9.704201,-83.095383,limon,Limón,2025-11-16
+1155810100,Ebais Merced 2,EBAIS,CCSS,public,clinic,9.942252,-84.084161,san jose,San José,2023-03-30
+663378453,Ebais Concepción Norte,EBAIS,CCSS,,clinic,9.921798,-83.995468,la union,La Unión,2023-10-19
+1545955469,Ebais de Tierras Morenas,EBAIS,CCSS,public,clinic,10.57083,-85.025482,tilaran,Tilarán,2026-07-30
+8758905755,Ebais Santa Rosa,EBAIS,CCSS,,doctors,10.351867,-83.804643,pococi,Pococí,2021-05-23
+428023254,Ebais San Juan Bosco,EBAIS,CCSS,public,clinic,9.24939,-83.669027,perez zeledon,Pérez Zeledón,2022-08-19
+422578646,Ebais Pejivalle,EBAIS,CCSS,public,clinic,9.811659,-83.70434,jimenez,Jiménez,2025-07-27
+8716193292,Ebais Maryland,EBAIS,CCSS,,doctors,10.229996,-83.412457,siquirres,Siquirres,2021-05-10
+469738138,Clínica CCSS Conte,Clínica o área de salud,CCSS,public,clinic,8.445255,-83.042052,golfito,Golfito,2024-06-21
+285819751,Clínica CCSS Batán,Hospital,CCSS,public,hospital,10.088812,-83.340932,matina,Matina,2024-06-14
+9784121864,Ebais Convento,EBAIS,CCSS,public,clinic,9.253348,-83.501837,buenos aires,Buenos Aires,2022-05-30
+8670029522,Ebais Porozal,EBAIS,CCSS,,doctors,10.261123,-85.197779,canas,Cañas,2021-04-26
+3894015263,Ebais Cedral,EBAIS,CCSS,public,clinic,10.213068,-84.676834,montes de oro,Montes de Oro,2026-02-26
+8747504032,Ebais El Ceibo,EBAIS,CCSS,,doctors,10.464921,-83.612221,pococi,Pococí,2021-05-19
+9964591566,Ebais Concepción de Daniel Flores,EBAIS,CCSS,public,clinic,9.233073,-83.661736,perez zeledon,Pérez Zeledón,2022-08-19
+6714908115,EBAIS Uruca,EBAIS,Coopesana,Cooperative,clinic,9.93363,-84.192367,santa ana,Santa Ana,2024-12-26
+6423468299,Ebais La Tabla,EBAIS,CCSS,,clinic,10.410369,-84.241219,rio cuarto,Río Cuarto,2023-03-12
+6571166178,Ebais Villa Jaris,EBAIS,CCSS,,doctors,9.870881,-84.281601,mora,Mora,2019-06-25
+276494675,CAIS Puriscal,Hospital,CCSS,public,hospital,9.860996,-84.290266,puriscal,Puriscal,2023-11-27
+8723075938,Ebais Waldeck,EBAIS,CCSS,,doctors,10.148534,-83.392085,siquirres,Siquirres,2021-05-11
+5294910260,Ebais San Rafael,EBAIS,CCSS,public,clinic,10.515933,-84.183595,rio cuarto,Río Cuarto,2023-03-12
+1255807433,Ebais de Guatuso,EBAIS,CCSS,,clinic,9.871332,-84.037258,desamparados,Desamparados,2021-10-04
+8866722988,Ebais Tsipiriñak,EBAIS,CCSS,,doctors,9.816179,-83.400043,turrialba,Turrialba,2021-06-25
+5326214982,Ebais San Gerardo,EBAIS,CCSS,public,clinic,10.317265,-83.547181,pococi,Pococí,2025-06-25
+1331875648,Ebais Zapote,EBAIS,CCSS,,doctors,10.482115,-83.909505,sarapiqui,Sarapiquí,2019-04-26
+425293155,Ebias Rosario de Pacuar,Clínica o área de salud,CCSS,public,clinic,9.332918,-83.721866,perez zeledon,Pérez Zeledón,2022-08-19
+4736496838,Ebais La Virgen,EBAIS,CCSS,,doctors,11.110584,-85.383083,la cruz,La Cruz,2019-04-20
+6058848958,Ebais San Juan Norte,EBAIS,CCSS,public,clinic,9.798132,-84.069867,cartago,Cartago,2023-11-10
+224053164,Clínica CCSS Carmen,Clínica o área de salud,CCSS,public,clinic,10.200833,-83.479961,siquirres,Siquirres,2021-05-11
+8743101256,Ebais Aurora,EBAIS,CCSS,,doctors,10.344689,-83.517862,pococi,Pococí,2021-05-18
+8863785746,Ebais Tres Equis,EBAIS,CCSS,,doctors,9.958933,-83.571242,turrialba,Turrialba,2021-06-24
+392828614,Clínica CCSS Tres Ríos,Clínica o área de salud,CCSS,public,clinic,9.908351,-83.989671,la union,La Unión,2023-07-10
+7243301028,Ebais San Miguel,EBAIS,,,doctors,8.758911,-83.14834,golfito,Golfito,2020-02-25
+3888388788,Ebais Los Ángeles,EBAIS,CCSS,,doctors,10.410598,-83.715141,pococi,Pococí,2021-05-19
+1201722889,Ebais Aldea,EBAIS,CCSS,public,clinic,10.652469,-83.84012,sarapiqui,Sarapiquí,2025-10-27
+6431739984,Ebais San Ramón,EBAIS,,,doctors,10.345441,-84.132225,sarapiqui,Sarapiquí,2019-04-26
+907793458,Clínica CCSS La Casona,Clínica o área de salud,CCSS,public,clinic,8.835853,-83.07469,coto brus,Coto Brus,2024-06-21
+5217239329,Ebais,EBAIS,CCSS,,doctors,8.781238,-83.543845,osa,Osa,2017-11-08
+907167319,Ebais Sierra,EBAIS,CCSS,public,clinic,9.149365,-83.627951,perez zeledon,Pérez Zeledón,2022-08-25
+5182838393,Ebais Colonia Carvajal,EBAIS,CCSS,public,clinic,10.318247,-84.153343,sarapiqui,Sarapiquí,2021-10-21
+354970408,Clínica CCSS Guácimo,Clínica o área de salud,CCSS,government,clinic,10.213189,-83.680474,guacimo,Guácimo,2020-02-19
+5247606778,Clínica CCSS La Reforma,Clínica o área de salud,CCSS,public,clinic,9.952617,-84.222142,alajuela,Alajuela,2022-10-30
+492161359,Ebais Las Cruces,EBAIS,CCSS,,clinic,10.004962,-84.080998,san pablo,San Pablo,2024-04-12
+6423385322,Ebais San Rafael,EBAIS,CCSS,,doctors,10.174267,-84.136456,heredia,Heredia,2019-04-23
+5162577870,Ebais Corina Rodríguez,EBAIS,CCSS,public,clinic,9.917584,-84.114645,alajuelita,Alajuelita,2022-07-19
+35584324,Hospital Psiquiátrico Dr. Roberto Chacón Paut,Hospital,CCSS,public,hospital,9.936494,-83.976332,la union,La Unión,2024-07-16
+9183528453,Ebais La Luisa,EBAIS,CCSS,public,clinic,10.121239,-84.339269,sarchi,Sarchí,2021-10-19
+678645015,Ebais Flores,EBAIS,CCSS,,clinic,10.000469,-84.150303,flores,Flores,2025-02-13
+1396591388,Ebais Iroquois,EBAIS,CCSS,public,clinic,10.180787,-83.620361,guacimo,Guácimo,2025-06-19
+530865545,Ebais Bambú,EBAIS,CCSS,public,clinic,9.556358,-82.892919,talamanca,Talamanca,2022-08-04
+514594883,Ebais Tamarindo,EBAIS,CCSS,,doctors,10.30411,-85.803104,santa cruz,Santa Cruz,2021-04-26
+1561144271,Ebais de La Virgen,EBAIS,CCSS,public,clinic,10.878433,-84.602329,los chiles,Los Chiles,2026-09-21
+1236604922,Ebais San Francisco de La Palmera,EBAIS,CCSS,public,clinic,10.447687,-84.403242,san carlos,San Carlos,2024-01-03
+6423480227,Ebais San Vicente,EBAIS,CCSS,public,clinic,10.464361,-84.165136,rio cuarto,Río Cuarto,2023-03-12
+9844940477,Ebias La Palmera,Clínica o área de salud,CCSS,public,clinic,10.419404,-84.381104,san carlos,San Carlos,2022-06-24
+6229670490,Ebais Banderas,EBAIS,CCSS,public,clinic,10.846396,-84.468005,san carlos,San Carlos,2022-07-06
+367541866,Clínica CCSS Tilarán,Clínica o área de salud,CCSS,public,clinic,10.469653,-84.970426,tilaran,Tilarán,2022-07-06
+1224521127,Ebais San Antonio,EBAIS,CCSS,public,clinic,9.899044,-84.055496,desamparados,Desamparados,2021-10-04
+107886945,Hospital de La Anexión,Hospital,CCSS,public,hospital,10.148457,-85.453968,nicoya,Nicoya,2025-11-27
+1020173561,Ebais Cajón,EBAIS,CCSS,public,clinic,9.289499,-83.580037,perez zeledon,Pérez Zeledón,2022-05-30
+402501285,Ebais San Vicente 2,EBAIS,CCSS,public,clinic,9.959798,-84.047334,moravia,Moravia,2023-05-22
+1532576348,Ebais de Pavón,EBAIS,CCSS,public,clinic,10.845394,-84.622823,los chiles,Los Chiles,2026-06-26
+369196479,CAIS Los Santos,Hospital,CCSS,public,hospital,9.673584,-84.024952,tarrazu,Tarrazú,2025-10-23
+9244050034,Ebais El Pilón,EBAIS,CCSS,public,clinic,10.719133,-84.990942,upala,Upala,2021-11-11
+4737053522,Ebais Belice,EBAIS,CCSS,,doctors,11.054979,-85.278612,la cruz,La Cruz,2019-04-20
+4736410356,Ebais San Rafael,EBAIS,CCSS,,doctors,11.030583,-85.268018,la cruz,La Cruz,2019-04-20
+1333260600,Ebais San Juan,EBAIS,CCSS,public,clinic,9.877673,-84.085187,desamparados,Desamparados,2024-11-12
+5073758436,Ebais Berlín de San Ramón,EBAIS,CCSS,,clinic,10.014636,-84.47291,san ramon,San Ramón,2022-08-12
+5261139621,Ebais Santa Rosa,EBAIS,CCSS,,doctors,10.257812,-83.548144,guacimo,Guácimo,2021-05-03
+8723190224,Ebais Pacuarito,EBAIS,CCSS,,doctors,10.103057,-83.468024,siquirres,Siquirres,2021-05-11
+6831592791,Ebais San Luis,EBAIS,CCSS,public,clinic,10.931396,-85.341942,upala,Upala,2021-11-05
+302017917,Ebais Suretka,EBAIS,CCSS,public,clinic,9.566946,-82.930337,talamanca,Talamanca,2022-06-09
+8766088348,Ebais Central Sur,EBAIS,CCSS,,doctors,10.217077,-83.787856,pococi,Pococí,2021-05-25
+1189077444,Ebais Los Chiles 3,EBAIS,CCSS,public,clinic,11.035358,-84.717281,los chiles,Los Chiles,2023-07-12
+489431000,Ebais Nosara,EBAIS,CCSS,public,clinic,9.978851,-85.648679,nicoya,Nicoya,2023-02-23
+9977194465,Ebais Herradura,EBAIS,CCSS,public,clinic,9.481525,-83.612779,perez zeledon,Pérez Zeledón,2022-08-25
+9238974933,Ebais Colonia Puntarenas,EBAIS,CCSS,public,clinic,10.832867,-84.962902,upala,Upala,2021-11-09
+9977404408,Ebais Cristo Rey,EBAIS,CCSS,public,clinic,9.273495,-83.493024,perez zeledon,Pérez Zeledón,2022-08-25
+8812789017,Ebais Bajo Baley,EBAIS,,,clinic,9.604339,-83.212433,talamanca,Talamanca,2022-05-13
+8653329899,Ebais Pueblo Nuevo,EBAIS,CCSS,,doctors,9.917451,-84.979093,puntarenas,Puntarenas,2021-04-21
+12084080806,Ebais Lagunas,EBAIS,CCSS,public,clinic,9.842826,-84.518806,turrubares,Turrubares,2024-07-30
+388768209,Ebais Santo Domingo,EBAIS,CCSS,,clinic,9.981269,-84.089754,santo domingo,Santo Domingo,2021-12-02
+241305952,Hospital Dr. Tomás Casas Casajús,Hospital,CCSS,public,hospital,8.987494,-83.545106,osa,Osa,2024-06-14
+5250669998,Ebais Granadilla Norte,EBAIS,UNIBE,association,clinic,9.932698,-84.015068,curridabat,Curridabat,2019-08-16
+1409919115,Ebais Santa Cecilia,EBAIS,CCSS,public,clinic,9.988428,-84.139221,heredia,Heredia,2025-06-27
+7247675482,Ebais Abrojo - Montezuma,EBAIS,CCSS,,doctors,8.655,-82.87659,corredores,Corredores,2021-02-04
+276442811,Ebais Barbacoas,EBAIS,CCSS,public,clinic,9.858686,-84.348693,puriscal,Puriscal,2023-07-10
+9978338863,Ebais El Socorro,EBAIS,CCSS,public,clinic,9.205976,-83.664239,perez zeledon,Pérez Zeledón,2022-08-25
+945906539,Ebais Santa Lucía,EBAIS,CCSS,,doctors,10.232439,-85.187072,abangares,Abangares,2021-09-16
+8636057924,Ebais Zapote,EBAIS,CCSS,,clinic,9.836916,-85.190249,nandayure,Nandayure,2023-02-10
+12582331898,Ebais El Rosario,EBAIS,CCSS,public,clinic,10.045642,-84.37604,naranjo,Naranjo,2025-02-12
+553565727,Ebais Barra Honda,EBAIS,CCSS,public,clinic,10.149942,-85.353636,nicoya,Nicoya,2023-02-23
+8698419549,Ebais Santa Marta,EBAIS,CCSS,public,clinic,10.121695,-83.318391,matina,Matina,2022-02-12
+7239723910,Ebais Zancudo,EBAIS,CCSS,,doctors,8.537388,-83.144166,golfito,Golfito,2020-02-24
+1054567390,Clínica de Barva,Clínica o área de salud,Coopesiba,private,clinic,10.020189,-84.130316,barva,Barva,2024-06-14
+6202091810,Ebais Boca Tapada,EBAIS,CCSS,public,clinic,10.676897,-84.231617,san carlos,San Carlos,2023-08-25
+714534226,Ebais San Rafael de Montes de Oca,EBAIS,UNIBE,association,clinic,9.943562,-84.020083,montes de oca,Montes de Oca,2021-03-08
+1148892152,Ebais La Virginia - Quirimán,EBAIS,CCSS,public,clinic,10.048549,-85.541849,nicoya,Nicoya,2023-02-23
+8703340863,Ebais Río Peje,EBAIS,CCSS,,doctors,9.939114,-83.221921,matina,Matina,2021-05-06
+970433661,Clínica CCSS Garabito,Clínica o área de salud,CCSS,public,clinic,9.608402,-84.622705,garabito,Garabito,2024-06-13
+1342939243,Ebais El Cruce,EBAIS,CCSS,,doctors,10.100934,-83.584081,siquirres,Siquirres,2021-05-13
+1076175160,Ebais Coopevega,EBAIS,CCSS,public,clinic,10.723119,-84.38794,san carlos,San Carlos,2022-07-05
+489126918,Centro de Desarrollo Social Dr. Guillermo Padilla Castro,Hospital,CCSS,public,hospital,9.922575,-84.069965,san jose,San José,2023-05-15
+5133304823,Ebais,EBAIS,,,doctors,10.100048,-84.641085,san ramon,San Ramón,2017-09-27
+1052902077,Ebais Mercedes - Sabanilla,EBAIS,CCSS,public,clinic,9.943422,-84.038257,montes de oca,Montes de Oca,2024-07-05
+1040756521,Ebais La Victoria,EBAIS,CCSS,public,clinic,10.321953,-83.91632,sarapiqui,Sarapiquí,2022-04-21
+7245315801,Ebais San Martín,EBAIS,CCSS,public,clinic,8.599564,-83.090851,golfito,Golfito,2021-11-25
+4831190896,Ebais Lajas,EBAIS,CCSS,public,clinic,9.993985,-85.450292,hojancha,Hojancha,2021-11-30
+13334333572,Ebais La Piñera,EBAIS,CCSS,public,clinic,9.16048,-83.333573,buenos aires,Buenos Aires,2025-11-26
+5150842207,Ebais Turubokicha,EBAIS,CCSS,,doctors,9.49362,-82.914877,talamanca,Talamanca,2021-02-14
+685153104,Ebais Río Jiménez,EBAIS,CCSS,public,clinic,10.246097,-83.603787,guacimo,Guácimo,2025-06-25
+9858562251,Ebais Boca San Carlos,EBAIS,CCSS,public,clinic,10.788788,-84.185719,,,2022-06-30
+1087514577,Ebais La Palma,EBAIS,CCSS,public,clinic,9.350558,-83.732015,perez zeledon,Pérez Zeledón,2022-08-19
+102248886,Clínica CCSS Oreamuno,Clínica o área de salud,CCSS,public,clinic,9.867005,-83.900619,oreamuno,Oreamuno,2025-03-18
+1087512219,Ebais San Andrés,EBAIS,CCSS,public,clinic,9.375396,-83.698852,perez zeledon,Pérez Zeledón,2022-08-19
+9242106237,Ebais Armenias,EBAIS,CCSS,public,clinic,10.818046,-85.123163,upala,Upala,2021-11-11
+9238316512,Ebais San Gabriel,EBAIS,CCSS,public,clinic,10.852708,-84.932314,upala,Upala,2021-11-09
+8432881324,Ebais Alto Quetzal,EBAIS,CCSS,public,clinic,9.780696,-83.408904,turrialba,Turrialba,2022-06-09
+501514305,Clínica CCSS Cóbano,Hospital,CCSS,public,hospital,9.688827,-85.106732,puntarenas,Puntarenas,2024-06-13
+5217033622,Ebais,EBAIS,CCSS,,doctors,8.704723,-83.488254,osa,Osa,2018-01-27
+4936351447,Ebais Los Ángeles,EBAIS,CCSS,public,clinic,10.355062,-84.437794,san carlos,San Carlos,2022-06-15
+9146728610,Ebais El Rosario,EBAIS,CCSS,public,clinic,9.791831,-84.086496,desamparados,Desamparados,2021-10-04
+9977376666,Ebais La Guaria,EBAIS,CCSS,public,clinic,9.28896,-83.521103,perez zeledon,Pérez Zeledón,2022-08-25
+550794011,Clínica CCSS San Rafael,Clínica o área de salud,CCSS,public,clinic,10.010915,-84.101078,san rafael,San Rafael,2023-02-07
+1087547539,Ebais Santa Elena,EBAIS,CCSS,public,clinic,9.351586,-83.629257,perez zeledon,Pérez Zeledón,2022-08-19
+9977349909,Ebais La Esperanza,EBAIS,CCSS,public,clinic,9.240873,-83.519837,perez zeledon,Pérez Zeledón,2022-08-25
+9228576935,Ebais Birmania,EBAIS,CCSS,public,clinic,10.981629,-85.270559,upala,Upala,2021-11-05
+2532291128,Ebais La Guaria,EBAIS,CCSS,,doctors,10.144435,-83.806436,pococi,Pococí,2021-05-24
+6417246692,Ebais Coyolito,EBAIS,CCSS,,doctors,10.363599,-85.647684,carrillo,Carrillo,2019-04-20
+5784749051,Ebais,EBAIS,CCSS,,doctors,8.869925,-83.061627,coto brus,Coto Brus,2022-05-21
+1269168104,Ebais Venecia,EBAIS,CCSS,public,clinic,10.026025,-83.242765,matina,Matina,2025-11-07
+5192159483,Ebais Coquital,EBAIS,CCSS,,doctors,10.946998,-84.569628,los chiles,Los Chiles,2021-03-16
+1148898273,Ebais Santa Ana,EBAIS,CCSS,public,clinic,10.159492,-85.386381,nicoya,Nicoya,2023-02-23
+8685627914,Ebais Santa Rita,EBAIS,CCSS,,doctors,9.97157,-83.127307,limon,Limón,2021-05-06
+627666002,Clínica CCSS Central,Clínica o área de salud,CCSS,public,clinic,9.936314,-84.070622,san jose,San José,2025-04-16
+63530569,Clínica Doctor Solón Núñez Frutos,Hospital,CCSS,public,hospital,9.914662,-84.096819,san jose,San José,2025-11-09
+8729014109,Ebais San Antonio,EBAIS,CCSS,,doctors,10.047872,-83.614997,siquirres,Siquirres,2021-05-13
+714222501,Clínica Pavas Centro,Clínica o área de salud,CCSS,cooperative,clinic,9.942378,-84.137027,san jose,San José,2023-04-21
+13379873786,Ebais Santa Rosa,EBAIS,CCSS,public,clinic,10.185162,-84.815637,puntarenas,Puntarenas,2025-12-16
+8715651201,Ebais Sinoli - Xinaquicha,EBAIS,CCSS,,doctors,9.712637,-83.417456,limon,Limón,2021-05-09
+8674497718,Ebais Palmital,EBAIS,CCSS,,doctors,10.189141,-84.693966,montes de oro,Montes de Oro,2021-04-28
+833633127,Ebais Naranjito,EBAIS,CCSS,public,clinic,9.473273,-84.102144,quepos,Quepos,2025-12-07
+1276552626,Clínica CCSS Monterrey,Hospital,CCSS,public,hospital,10.555569,-84.653286,san carlos,San Carlos,2024-04-26
+370691641,Clínica CCSS Palmares,Clínica o área de salud,CCSS,public,clinic,10.056164,-84.43092,palmares,Palmares,2022-02-04
+1159472618,Laboratorio CCSS Pital,Clínica o área de salud,CCSS,,clinic,10.450391,-84.274708,san carlos,San Carlos,2023-08-21
+8685559905,Ebais Dondonia 2,EBAIS,CCSS,public,clinic,9.907174,-83.048898,limon,Limón,2025-11-14
+4201866733,Ebais San Diego,EBAIS,CCSS,,doctors,9.899098,-84.001846,la union,La Unión,2021-06-11
+5191961632,Ebais Cristo Rey,EBAIS,CCSS,,clinic,10.871304,-84.55894,los chiles,Los Chiles,2024-01-17
+265308975,Clínica del Dolor y Cuidados Paliativos,Clínica o área de salud,CCSS,,clinic,9.97734,-84.3843,atenas,Atenas,2021-11-25
+6831536629,Ebais Dos Ríos,EBAIS,CCSS,public,clinic,10.895951,-85.381485,upala,Upala,2023-07-12
+1191673997,Clínica CCSS La Fortuna,Hospital,CCSS,public,hospital,10.469653,-84.634632,san carlos,San Carlos,2025-10-27
+5192445292,Ebais Santa Fe,EBAIS,CCSS,public,clinic,10.986314,-84.546837,los chiles,Los Chiles,2024-01-17
+6001639566,Ebais San José,EBAIS,CCSS,public,clinic,10.950656,-85.122627,upala,Upala,2024-04-24
+5217522432,Ebais,EBAIS,CCSS,,doctors,8.838337,-83.330661,osa,Osa,2017-11-08
+729961985,Hospital Los Chiles,Hospital,CCSS,public,hospital,11.028506,-84.710634,los chiles,Los Chiles,2024-11-25
+9823241830,Ebais Concepción - La Abundancia,EBAIS,CCSS,public,clinic,10.331592,-84.44249,san carlos,San Carlos,2022-06-16
+6848837077,Ebais Bocana,EBAIS,CCSS,,clinic,10.089996,-85.118106,puntarenas,Puntarenas,2021-11-28
+1230752946,Ebais Peralta,EBAIS,,,clinic,9.96752,-83.611808,turrialba,Turrialba,2023-12-13
+1451665976,Hospital Dr. Tony Facio Castro,Hospital,CCSS,public,hospital,9.999608,-83.026686,limon,Limón,2025-11-18
+1272042249,Clínica CCSS San Isidro,Hospital,CCSS,public,hospital,10.003646,-84.065849,san isidro,San Isidro,2024-06-14
+515378661,Ebais Germania,EBAIS,CCSS,,doctors,10.147042,-83.570971,siquirres,Siquirres,2021-05-12
+6417188684,Ebais Dulce Nombre,EBAIS,CCSS,,clinic,10.009625,-84.290312,alajuela,Alajuela,2023-09-25
+6116403208,Ebais Lagunillas,EBAIS,CCSS,public,clinic,9.842811,-84.602271,garabito,Garabito,2022-05-16
+6616481980,Ebais Alto El Carmen,EBAIS,CCSS,,doctors,9.92515,-83.975187,la union,La Unión,2021-06-10
+9244002906,Ebais Santo Domingo,EBAIS,CCSS,public,clinic,10.750668,-84.964387,upala,Upala,2021-11-11
+270481852,Clínica CCSS Montes de Oro,Clínica o área de salud,CCSS,public,clinic,10.081841,-84.73146,montes de oro,Montes de Oro,2025-11-06
+8698407715,Ebais Goshen,EBAIS,CCSS,,doctors,10.159658,-83.322667,matina,Matina,2021-05-04
+8698419550,Ebais Luzón,EBAIS,CCSS,,clinic,10.100203,-83.320878,matina,Matina,2024-09-27
+6714893093,Ebais Guachipelín,EBAIS,Coopesana,cooperative,clinic,9.93787,-84.153057,escazu,Escazú,2019-08-16
+1361622229,Centro de Salud Referencial de Garabito,Clínica o área de salud,INS,government,clinic,9.609753,-84.622844,garabito,Garabito,2025-02-21
+4888014364,Ebais,EBAIS,CCSS,,doctors,9.763819,-84.39861,puriscal,Puriscal,2021-01-09
+3740432973,Ebais San Isidro,EBAIS,CCSS,public,clinic,9.991376,-84.418265,atenas,Atenas,2022-01-11
+569989355,Ebais Río Segundo 1 y 2,EBAIS,CCSS,public,clinic,10.003391,-84.186368,alajuela,Alajuela,2023-06-07
+8681233771,Ebais Bajo Cohen,EBAIS,CCSS,public,clinic,9.723526,-83.100831,limon,Limón,2025-11-16
+587287570,Ebais Barreal 1 y 2,EBAIS,CCSS,public,clinic,9.973911,-84.138991,heredia,Heredia,2021-09-28
+25400008,Hospital México,Hospital,CCSS,public,hospital,9.952416,-84.115379,san jose,San José,2023-06-30
+4084080628,Ebais Las Nubes,EBAIS,CCSS,,clinic,9.98671,-83.961562,vazquez de coronado,Vázquez de Coronado,2024-06-26
+7307678101,Ebais Rincón de Salas,EBAIS,CCSS,public,clinic,10.029583,-84.328967,grecia,Grecia,2026-03-11
+8672680004,Ebais San Pablo,EBAIS,CCSS,,clinic,10.030131,-85.233755,nandayure,Nandayure,2024-04-08
+5321391059,Ebais Tempate,EBAIS,CCSS,public,clinic,10.414351,-85.720323,santa cruz,Santa Cruz,2023-02-24
+9243882919,Ebais Zapote,EBAIS,CCSS,public,clinic,10.756134,-85.072115,upala,Upala,2021-11-11
+974225204,Ebais Noreste,EBAIS,CCSS,public,clinic,10.027124,-84.231575,alajuela,Alajuela,2025-07-16
+5605450469,Ebais Maquencal,EBAIS,CCSS,public,clinic,10.690366,-84.913697,guatuso,Guatuso,2021-11-13
+626389864,Ebais San Blas,EBAIS,CCSS,public,clinic,9.873692,-83.913268,cartago,Cartago,2021-11-02
+1054320313,Ebais de El Progreso,EBAIS,CCSS,public,clinic,10.334988,-84.566776,san ramon,San Ramón,2023-08-26
+9108351525,Ebais Palmira,EBAIS,CCSS,,doctors,10.544729,-85.086759,canas,Cañas,2021-09-20
+13334303360,Ebais Santa Cruz,EBAIS,CCSS,public,clinic,9.173043,-83.3252,buenos aires,Buenos Aires,2025-11-26
+9977420293,Ebais Tambor,EBAIS,CCSS,public,clinic,9.308688,-83.545027,perez zeledon,Pérez Zeledón,2022-08-25
+1304876765,Ebais Delicias,EBAIS,CCSS,public,clinic,9.712689,-84.518772,turrubares,Turrubares,2024-07-31
+9146766692,Ebais San Gabriel,EBAIS,CCSS,public,clinic,9.788272,-84.106674,aserri,Aserrí,2023-05-23
+395666685,Ebais Lagos - La Granada,EBAIS,CCSS,,doctors,9.973797,-84.116815,heredia,Heredia,2019-10-03
+442112000,EBAIS San Carlos,EBAIS,CCSS,,doctors,9.629931,-84.093066,tarrazu,Tarrazú,2021-03-25
+8723258042,Ebais Louisiana,EBAIS,CCSS,,doctors,10.144861,-83.522286,siquirres,Siquirres,2021-05-12
+445088226,Ebais Jesús,EBAIS,CCSS,public,clinic,10.043267,-84.143685,santa barbara,Santa Bárbara,2022-07-13
+9990983031,Ebais Santa Marta,EBAIS,CCSS,public,clinic,9.324919,-83.589765,perez zeledon,Pérez Zeledón,2023-03-13
+83755549,Hospital Ciudad Neily,Hospital,CCSS,public,hospital,8.63178,-82.937621,corredores,Corredores,2024-06-11
+5609738378,Ebais Lagunilla - Las Flores,EBAIS,CCSS,public,clinic,9.963945,-84.117986,heredia,Heredia,2022-03-30
+262310901,EBAIS Tucurrique,EBAIS,CCSS,government,clinic,9.855113,-83.724216,jimenez,Jiménez,2024-02-27
+736834796,Ebais Upala 1 y 2,EBAIS,CCSS,public,clinic,10.896651,-85.029073,upala,Upala,2021-11-09
+6714963768,Ebais Llano Grande,EBAIS,CCSS,public,clinic,9.890871,-84.358757,mora,Mora,2019-08-16
+972982806,Ebais Rincón Chiquito,EBAIS,CCSS,public,clinic,9.973753,-84.256403,alajuela,Alajuela,2022-01-13
+1087528549,Ebais San Agustín,EBAIS,CCSS,public,clinic,9.257298,-83.689779,perez zeledon,Pérez Zeledón,2022-08-19
+5131171642,Ebais Bajo Rodríguez,EBAIS,CCSS,,clinic,10.314522,-84.531492,san ramon,San Ramón,2023-08-26
+417886055,Ebais Daniel Flores A y B,EBAIS,CCSS,public,clinic,9.31827,-83.662669,perez zeledon,Pérez Zeledón,2022-05-27
+5939943057,Ebais Chomes,EBAIS,CCSS,,clinic,10.044425,-84.908185,puntarenas,Puntarenas,2024-04-10
+5201647431,Ebais Veracruz,EBAIS,CCSS,,doctors,10.855711,-84.866536,los chiles,Los Chiles,2020-03-18
+6195420031,Ebais Bijagual,EBAIS,CCSS,public,clinic,9.727655,-84.567927,turrubares,Turrubares,2024-07-31
+8681246967,Ebais Valle Las Rosas,EBAIS,CCSS,public,clinic,9.679727,-82.989466,limon,Limón,2025-11-16
+6417173631,Ebais San Juan,EBAIS,CCSS,public,clinic,9.603985,-84.248759,parrita,Parrita,2025-03-26
+8702288848,Ebais Cerro Azul,EBAIS,CCSS,,doctors,9.968997,-83.352129,turrialba,Turrialba,2021-05-05
+5155652299,Ebais Margarita,EBAIS,CCSS,public,clinic,9.605061,-82.76653,talamanca,Talamanca,2022-08-04
+4853876041,Ebais El Peje,EBAIS,,,clinic,10.172279,-83.52087,siquirres,Siquirres,2021-05-12
+264184394,Clínica CCSS Puerto Viejo,Clínica o área de salud,CCSS,public,clinic,10.456446,-84.006591,sarapiqui,Sarapiquí,2023-08-22
+402230097,Ebais La Rambla,EBAIS,CCSS,public,clinic,10.360574,-83.916813,sarapiqui,Sarapiquí,2021-10-25
+24857118,Hospital Nacional de Niños Dr. Carlos Sáenz Herrera,Hospital,CCSS,public,hospital,9.933634,-84.087598,san jose,San José,2021-11-01
+5217130559,Ebais,EBAIS,CCSS,,doctors,8.760937,-83.370476,osa,Osa,2017-11-07
+1087519435,Ebais Bajo Esperanzas,EBAIS,CCSS,public,clinic,9.296712,-83.705257,perez zeledon,Pérez Zeledón,2022-08-19
+1302357905,Ebais Sauces,EBAIS,CCSS,,clinic,9.902593,-83.97586,la union,La Unión,2024-07-18
+6714971284,Ebais Tabarcia,EBAIS,CCSS,public,clinic,9.850002,-84.233886,mora,Mora,2023-07-10
+201513043,Hospital San Vicente de Paúl,Hospital,CCSS,public,hospital,9.990397,-84.121864,heredia,Heredia,2025-06-27
+9236038020,Ebais La Victoria,EBAIS,CCSS,,clinic,10.998825,-85.115938,upala,Upala,2021-11-08
+3955244002,Ebais La Mansión,EBAIS,CCSS,public,clinic,10.097165,-85.37309,nicoya,Nicoya,2023-02-23
+1038029216,Ebais San Luis,EBAIS,CCSS,,clinic,10.279725,-84.809318,monteverde,Monteverde,2023-09-18
+4781594403,Ebais Santa Rosa,EBAIS,CCSS,,clinic,9.92904,-83.701198,turrialba,Turrialba,2023-07-04
+536961985,Ebais Cot,EBAIS,CCSS,,doctors,9.895899,-83.873366,oreamuno,Oreamuno,2021-06-30
+972387165,Clínica CCSS Zarcero,Clínica o área de salud,CCSS,public,clinic,10.186486,-84.393241,zarcero,Zarcero,2023-06-28
+1079646250,Equipo Básico de Atención Integral en Salud (EBAIS)  de Venecia/Área de Salud Aguas Zarcas,EBAIS,CCSS,public,clinic,10.353665,-84.275136,san carlos,San Carlos,2025-12-02
+9137959676,Ebais San Cristóbal Norte,EBAIS,CCSS,,clinic,9.769626,-84.006735,desamparados,Desamparados,2021-10-01
+9110969724,Ebais Libertad,EBAIS,CCSS,,doctors,10.380386,-85.112491,canas,Cañas,2021-09-21
+7263997252,Ebais Santa Rosa,EBAIS,CCSS,,doctors,8.3887,-83.01314,corredores,Corredores,2021-02-02
+8698419454,Ebais Sahara,EBAIS,CCSS,,doctors,10.134512,-83.355965,matina,Matina,2021-05-04
+8674445098,Ebais Santa Marta,EBAIS,CCSS,public,clinic,9.162356,-83.401564,buenos aires,Buenos Aires,2022-05-30
+8729888717,Ebais San Alberto,EBAIS,CCSS,,doctors,10.152866,-83.472921,siquirres,Siquirres,2021-05-13
+477987801,Ebais Santa Gertrudis,EBAIS,,,clinic,10.090759,-84.278478,grecia,Grecia,2021-10-18
+530741482,Ebais Barra del Tortuguero,EBAIS,CCSS,,doctors,10.541521,-83.502856,pococi,Pococí,2021-05-18
+5225231836,Ebais San Antonio,EBAIS,CCSS,,doctors,10.105343,-85.159344,puntarenas,Puntarenas,2019-10-03
+5133447872,Ebais Zapotal,EBAIS,CCSS,,doctors,10.177593,-84.677285,san ramon,San Ramón,2021-04-28
+9793646857,Ebais La Puna,EBAIS,CCSS,public,clinic,9.035912,-83.076799,buenos aires,Buenos Aires,2022-06-03
+1076126081,Clínica CCSS Boca Arenal,Clínica o área de salud,CCSS,public,clinic,10.527168,-84.476612,san carlos,San Carlos,2022-07-05
+5260714266,Ebais Argentina,EBAIS,CCSS,,doctors,10.138347,-83.634646,guacimo,Guácimo,2025-06-18
+832400860,Ebais San Juan de Dios,EBAIS,CCSS,public,clinic,9.319066,-83.829153,perez zeledon,Pérez Zeledón,2022-08-31
+6430766233,Ebais Tambor,EBAIS,CCSS,,doctors,10.731201,-83.969877,sarapiqui,Sarapiquí,2019-04-26
+1186869203,Ebais Miraflores,EBAIS,CCSS,public,clinic,9.988578,-84.108532,san pablo,San Pablo,2023-07-03
+537354349,Ebais Barranca,EBAIS,CCSS,public,clinic,9.989285,-84.711654,puntarenas,Puntarenas,2025-02-06
+5150896247,Ebais Coroma,EBAIS,CCSS,,clinic,9.536756,-82.992942,talamanca,Talamanca,2022-08-04
+9791168975,Ebais Cajón,EBAIS,CCSS,public,clinic,8.943122,-83.340528,buenos aires,Buenos Aires,2022-06-02
+1174129561,Ebais de Río Cuarto,EBAIS,CCSS,,clinic,10.34739,-84.225847,rio cuarto,Río Cuarto,2023-05-18
+172464754,Centro de Atención Integral de Salud - Dr. Marcial Fallas Díaz,Hospital,CCSS,public,hospital,9.893617,-84.065022,desamparados,Desamparados,2025-10-23
+12623503355,Ebais San Jerónimo,EBAIS,CCSS,public,clinic,10.03366,-84.636185,esparza,Esparza,2025-02-27
+434960366,Clínica Dr. Francisco Quintana Salinas,Hospital,CCSS,public,hospital,9.980057,-84.764893,puntarenas,Puntarenas,2024-06-14
+9802189342,Ebais San Antonio,EBAIS,CCSS,public,clinic,9.03045,-83.298695,buenos aires,Buenos Aires,2022-06-07
+5079680928,Ebais Santiago,EBAIS,CCSS,public,clinic,10.064698,-84.487054,san ramon,San Ramón,2024-04-01
+8758620810,Ebais Cocorí,EBAIS,CCSS,,doctors,10.414491,-83.7519,pococi,Pococí,2021-05-23
+475322312,Ebais La Costa,EBAIS,CCSS,,clinic,10.550351,-85.693364,carrillo,Carrillo,2021-11-18
+6898795743,Ebais Delicias,EBAIS,CCSS,,doctors,10.95247,-85.026716,upala,Upala,2023-06-08
+678642854,Ebais La Ribera,EBAIS,CCSS,,clinic,9.991215,-84.183723,belen,Belén,2022-06-06
+626040308,Ebais San Isidro,EBAIS,CCSS,government,clinic,10.076758,-84.192948,alajuela,Alajuela,2022-01-04
+109640458,Clínica CCSS Puerto Jiménez,Clínica o área de salud,CCSS,public,clinic,8.538122,-83.306814,puerto jimenez,Puerto Jiménez,2021-11-25
+6423348251,Ebais San José de la Montaña,EBAIS,CCSS,public,clinic,10.054055,-84.116309,barva,Barva,2024-02-22
+1238222187,Ebais El Mora,EBAIS,CCSS,public,clinic,9.916461,-83.673478,turrialba,Turrialba,2024-04-18
+5184886164,Ebais El Palmar,EBAIS,CCSS,public,clinic,10.40878,-83.932131,sarapiqui,Sarapiquí,2021-10-25
+434971035,Ebais El Roble,EBAIS,CCSS,public,clinic,9.981424,-84.731748,puntarenas,Puntarenas,2025-07-01
+6558463768,Ebais Aguas Claras,EBAIS,CCSS,,clinic,10.822666,-85.169727,upala,Upala,2023-07-11
+9183528476,Ebais Sabanilla,EBAIS,CCSS,public,clinic,10.124167,-84.349276,sarchi,Sarchí,2021-10-19
+1230600042,Ebais Pará,EBAIS,CCSS,public,clinic,10.007905,-84.030885,santo domingo,Santo Domingo,2023-12-12
+3960327857,Ebais Fátima,EBAIS,CCSS,public,clinic,9.888426,-84.042455,desamparados,Desamparados,2021-10-04
+6714839678,Ebais San Antonio,EBAIS,Coopesana,cooperative,clinic,9.90472,-84.132497,escazu,Escazú,2019-08-16
+1225573345,Ebais Matapalo,EBAIS,CCSS,public,clinic,9.331502,-83.957717,quepos,Quepos,2025-12-08
+450692233,Clínica CCSS San Rafael,Hospital,CCSS,public,hospital,10.660194,-84.820826,guatuso,Guatuso,2024-06-13
+8630702266,Ebais Río de Oro,EBAIS,CCSS,public,clinic,9.993746,-85.342713,nandayure,Nandayure,2023-02-13
+7239203730,Ebias La Virgen,Clínica o área de salud,CCSS,public,clinic,8.482181,-83.084969,golfito,Golfito,2023-01-06
+7245933988,Ebais La Campiña,EBAIS,CCSS,,doctors,8.517603,-83.013989,corredores,Corredores,2021-02-02
+402201081,Ebais Las Horquetas 1 y 2,EBAIS,CCSS,public,clinic,10.337938,-83.955306,sarapiqui,Sarapiquí,2021-10-25
+9853665238,Ebais Los Chiles,EBAIS,CCSS,public,clinic,10.400345,-84.337813,san carlos,San Carlos,2022-06-28
+549971447,Ebais Invu 1 y 2,EBAIS,CCSS,public,clinic,10.004586,-84.206664,alajuela,Alajuela,2023-03-18
+6219235024,Ebais,EBAIS,CCSS,,doctors,10.355303,-84.570288,san carlos,San Carlos,2019-01-18
+6417187790,Ebais Pacto - Coyol,EBAIS,CCSS,,doctors,10.005669,-84.247202,alajuela,Alajuela,2022-03-18
+1047370385,Ebais Puente de Piedra,EBAIS,CCSS,public,clinic,10.047797,-84.315428,grecia,Grecia,2022-04-25
+4589479177,Ebais Guadalupe,EBAIS,,,doctors,10.661538,-85.470333,liberia,Liberia,2019-04-20
+5225409677,Ebais Oriente,EBAIS,CCSS,,,9.99195,-85.060567,puntarenas,Puntarenas,2021-05-02
+8750992813,Ebais Nazareth,EBAIS,CCSS,,doctors,10.334065,-83.762057,pococi,Pococí,2021-05-20
+12583023500,Ebais San Roque,EBAIS,CCSS,public,clinic,10.10695,-84.432892,naranjo,Naranjo,2025-02-12
+1255695223,Ebais de La Guaria,EBAIS,,,doctors,9.88194,-84.07644,desamparados,Desamparados,2011-04-22
+913681959,Ebais,EBAIS,CCSS,public,clinic,10.07595,-84.215743,alajuela,Alajuela,2022-07-31
+8550880432,Ebais Llano Bonito,EBAIS,CCSS,,doctors,9.666102,-84.10605,leon cortes castro,León Cortés Castro,2021-03-22
+1002853379,Clínica CCSS Concepción,Clínica o área de salud,CCSS,public,clinic,10.090794,-84.412092,naranjo,Naranjo,2025-02-11
+5179253187,Ebais La Colonia,EBAIS,CCSS,,doctors,10.522411,-83.993384,sarapiqui,Sarapiquí,2019-04-26
+7243418018,Ebais Caracol Norte,EBAIS,CCSS,,doctors,8.683204,-83.004685,golfito,Golfito,2020-02-25
+9786502272,Ebais Peje,EBAIS,CCSS,public,clinic,9.184915,-83.440521,buenos aires,Buenos Aires,2022-05-31
+5151091484,Ebais San José Cabécar,EBAIS,CCSS,,doctors,9.509493,-83.140022,talamanca,Talamanca,2021-04-29
+427838683,Ebais Venado,EBAIS,CCSS,public,clinic,10.5572,-84.74822,san carlos,San Carlos,2022-06-16
+5201115254,Ebais San Jorge,EBAIS,CCSS,public,clinic,10.71546,-84.678104,los chiles,Los Chiles,2023-07-12
+1263107049,Ebais Tacares,EBAIS,CCSS,,clinic,10.024441,-84.296787,grecia,Grecia,2021-10-18
+913001101,Ebais Brasilito,EBAIS,CCSS,public,clinic,10.402608,-85.796426,santa cruz,Santa Cruz,2023-02-24
+9183540570,Ebais Trojas,EBAIS,CCSS,public,clinic,10.138593,-84.319175,sarchi,Sarchí,2021-10-19
+1148940556,Ebais San Vicente,EBAIS,CCSS,public,clinic,10.257841,-85.491219,nicoya,Nicoya,2023-02-23
+4951660041,Ebais Chimirol,EBAIS,CCSS,public,clinic,9.434253,-83.634288,perez zeledon,Pérez Zeledón,2022-08-25
+456266059,Ebais El Salto,EBAIS,CCSS,,doctors,10.569261,-85.388151,bagaces,Bagaces,2021-09-10
+832780694,Ebais Tierras Morenas,EBAIS,CCSS,public,clinic,9.342108,-83.863838,quepos,Quepos,2025-12-08
+5123610125,Ebais Bebedero,EBAIS,MSP,,doctors,10.372394,-85.185178,canas,Cañas,2021-04-26
+3948414996,Ebais de de San Buenaventura,EBAIS,,,clinic,10.188396,-85.154103,abangares,Abangares,2016-01-15
+5217102042,Ebais,EBAIS,CCSS,,doctors,8.731678,-83.462839,osa,Osa,2017-11-07
+8644393218,Ebais Río Frío,EBAIS,CCSS,,doctors,9.776536,-85.172825,puntarenas,Puntarenas,2021-04-19
+310459556,Ebais Pochote,EBAIS,CCSS,public,clinic,9.751405,-84.992666,puntarenas,Puntarenas,2025-12-18
+5945384171,Ebais San Rafael,EBAIS,CCSS,public,clinic,10.229209,-84.698326,puntarenas,Puntarenas,2025-12-16
+9991635640,Ebais Savegre,EBAIS,CCSS,public,clinic,9.432386,-83.841374,perez zeledon,Pérez Zeledón,2023-03-14
+326924912,Hospital Guápiles,Hospital,CCSS,public,hospital,10.216862,-83.78919,pococi,Pococí,2025-07-05
+362500996,Ebais San Ignacio,EBAIS,CCSS,public,clinic,9.794497,-84.164323,acosta,Acosta,2024-10-04
+957687064,Clínica CCSS Pavones,Clínica o área de salud,CCSS,public,clinic,9.906285,-83.621403,turrialba,Turrialba,2025-03-04
+965995288,Ebais La Guácima 1 y 2,EBAIS,CCSS,public,clinic,9.963207,-84.252441,alajuela,Alajuela,2026-05-13
+394742876,Ebais El Tejar,EBAIS,CCSS,public,clinic,9.847859,-83.939385,el guarco,El Guarco,2023-11-08
+8722795962,Ebais Freeman,EBAIS,CCSS,,doctors,10.200622,-83.333895,siquirres,Siquirres,2021-05-11
+681407512,Ebais Quebrada Ganado,EBAIS,CCSS,public,clinic,9.71737,-84.627813,garabito,Garabito,2023-11-20
+8861316549,Ebais Sitio de Mata,EBAIS,CCSS,,doctors,9.883437,-83.626053,turrialba,Turrialba,2021-06-23
+5192384936,Ebais Medio Queso,EBAIS,CCSS,public,clinic,10.966816,-84.622028,los chiles,Los Chiles,2024-01-19
+530483564,Clínica CCSS China Kichá,Clínica o área de salud,CCSS,public,clinic,9.591787,-82.978419,talamanca,Talamanca,2021-02-12
+4933537753,EBAIS Linda Vista,EBAIS,,,clinic,9.989161,-83.571824,siquirres,Siquirres,2017-06-24
+5260732815,Ebais Pocora,EBAIS,CCSS,,doctors,10.176212,-83.60248,guacimo,Guácimo,2021-05-03
+8855405854,Ebais Clorito Picado,EBAIS,CCSS,,clinic,9.902971,-83.682439,turrialba,Turrialba,2024-06-14
+776235762,Ebais La Palma,EBAIS,CCSS,public,clinic,8.645475,-83.461658,puerto jimenez,Puerto Jiménez,2024-02-05
+5087066924,Ebais Katira 1,EBAIS,CCSS,public,clinic,10.742005,-84.914368,guatuso,Guatuso,2021-11-13
+650428237,HCG - Psiquiatría Infaltil,Clínica o área de salud,CCSS,public,clinic,9.93738,-84.072117,san jose,San José,2023-05-06
+8651655449,Ebais San Rafael,EBAIS,CCSS,public,clinic,9.80353,-84.979898,puntarenas,Puntarenas,2025-12-21
+1030590064,Clínica CCSS Chachagua,Clínica o área de salud,CCSS,public,clinic,10.407528,-84.598282,san ramon,San Ramón,2026-06-27
+731201908,Ebais San Antonio,EBAIS,CCSS,,clinic,10.105352,-85.159341,puntarenas,Puntarenas,2023-12-22
+8855368619,Ebais Central A y C,EBAIS,CCSS,,doctors,9.911348,-83.681731,turrialba,Turrialba,2021-06-21
+8857853290,Ebais San Juan Norte,EBAIS,CCSS,,doctors,9.889185,-83.705928,turrialba,Turrialba,2021-06-22
+5246547421,Ebais San Rafael,EBAIS,CCSS,public,clinic,10.246148,-83.794897,pococi,Pococí,2023-07-04
+9181026503,Ebais San Roque,EBAIS,CCSS,public,clinic,10.09648,-84.301723,grecia,Grecia,2025-12-28
+8681256178,Ebais Duruy,EBAIS,CCSS,public,clinic,9.661012,-82.963944,limon,Limón,2025-11-16
+1241642373,Ebais Puerto Carrillo,EBAIS,CCSS,,clinic,9.864792,-85.479896,hojancha,Hojancha,2021-11-30
+6714654035,Laboratorio de Genética Humana Molecular,Clínica o área de salud,CCSS,public,clinic,9.935042,-84.086478,san jose,San José,2025-05-25
+452603934,Ebais Concepción,EBAIS,CCSS,public,clinic,9.894631,-84.092511,alajuelita,Alajuelita,2022-07-18
+4446093591,Ebais Potrero Grande,EBAIS,CCSS,public,clinic,9.016756,-83.17435,buenos aires,Buenos Aires,2023-11-16
+8676950595,Ebais La Palma,EBAIS,CCSS,,doctors,9.526834,-82.635964,talamanca,Talamanca,2021-04-28
+6981742264,Ebais Central D,EBAIS,,,doctors,9.906483,-83.68507,turrialba,Turrialba,2021-06-21
+1331892557,Ebais El Jardín,EBAIS,CCSS,,doctors,10.395279,-83.786922,pococi,Pococí,2021-05-23
+1224810721,Ebais Puerto Cortés,EBAIS,CCSS,public,clinic,8.983353,-83.539197,osa,Osa,2025-07-07
+1462728245,EBAIS La Brisa,EBAIS,Caja Costarricense del Seguro Social,public,clinic,10.229691,-84.396499,zarcero,Zarcero,2025-12-30
+971833827,Ebais Itiquís,EBAIS,CCSS,,doctors,10.046413,-84.20942,alajuela,Alajuela,2025-01-04
+8725791516,Ebais Milano,EBAIS,CCSS,,doctors,10.186433,-83.578891,siquirres,Siquirres,2021-05-12
+5215737534,Ebais Rancho Quemado,EBAIS,CCSS,public,clinic,8.684727,-83.566975,osa,Osa,2025-01-14
+8759024292,Ebais Nájera,EBAIS,CCSS,,doctors,10.318678,-83.762096,pococi,Pococí,2021-05-23
+6058824569,Clínica San Juan Sur,Clínica o área de salud,CCSS,public,clinic,9.791411,-84.067841,cartago,Cartago,2024-06-14
+8694956509,Ebais TIerra Grande,EBAIS,CCSS,,doctors,10.121099,-83.673277,guacimo,Guácimo,2025-06-18
+8702356950,Ebais Chumico,EBAIS,CCSS,,doctors,9.974366,-83.30719,matina,Matina,2021-05-05
+7239093981,Ebais Alto Conte,EBAIS,CCSS,,doctors,8.373851,-83.055626,golfito,Golfito,2020-02-24
+4974284935,Ebais Guayabo,EBAIS,CCSS,public,clinic,9.861401,-84.262,mora,Mora,2023-07-10
+8881415991,Ebais San Gerardo Norte,EBAIS,CCSS,,clinic,10.011379,-83.835136,oreamuno,Oreamuno,2024-09-25
+8863527592,Ebais Santubal,EBAIS,CCSS,,doctors,9.825184,-83.501559,turrialba,Turrialba,2021-06-24
+8726234242,Ebais San Isidro de Pascua,EBAIS,CCSS,,doctors,10.029268,-83.642959,siquirres,Siquirres,2021-05-12
+8694455783,Ebais El Silencio,EBAIS,CCSS,,doctors,10.24219,-83.50101,guacimo,Guácimo,2021-05-03
+8419096926,Ebais Gavilán Canta,EBAIS,CCSS,public,clinic,9.59424,-83.02627,talamanca,Talamanca,2022-08-05
+4929711497,Ebais Líbano,EBAIS,CCSS,public,clinic,10.418796,-84.986358,tilaran,Tilarán,2023-09-18
+4490864296,Ebais Llano Azul,EBAIS,CCSS,public,clinic,10.849164,-84.999939,upala,Upala,2021-11-09
+6423449380,Ebais Los Ángeles,EBAIS,CCSS,public,clinic,10.387027,-84.183964,rio cuarto,Río Cuarto,2023-03-12
+5184463591,Ebais Colonia Cubujuquí,EBAIS,CCSS,public,clinic,10.267656,-83.939032,sarapiqui,Sarapiquí,2021-10-23
+1005619562,Ebais El Chagüite,EBAIS,CCSS,public,clinic,9.983852,-84.744577,puntarenas,Puntarenas,2021-11-23
+782586011,Ebais Curridabat,EBAIS,CCSS,government,clinic,9.914405,-84.035152,curridabat,Curridabat,2022-01-24
+8758706820,Ebais Agroportica,EBAIS,CCSS,,clinic,10.418829,-83.793029,pococi,Pococí,2024-09-18
+8758290488,Ebais Cedral - Las Colinas,EBAIS,CCSS,,doctors,10.526415,-83.702038,pococi,Pococí,2021-05-23
+108188310,Clínica CCSS Nandayure,Clínica o área de salud,CCSS,public,clinic,9.995663,-85.25168,nandayure,Nandayure,2024-04-23
+9978438760,Ebais San Gerardo,EBAIS,CCSS,public,clinic,9.167808,-83.634298,perez zeledon,Pérez Zeledón,2022-08-25
+5131154032,Ebais,EBAIS,,,doctors,10.34868,-84.521437,san ramon,San Ramón,2019-06-07
+8575777842,Ebais Vuelta de Jorco,EBAIS,CCSS,,doctors,9.798559,-84.132499,aserri,Aserrí,2021-03-30
+9791168974,Ebais Curré,EBAIS,CCSS,public,clinic,8.981154,-83.267315,buenos aires,Buenos Aires,2022-06-02
+3448132653,Ebais Ipís - Zetillal,EBAIS,CCSS,,clinic,9.966838,-84.013296,goicoechea,Goicoechea,2021-10-28
+4734550111,Ebais Piedras Azules,EBAIS,CCSS,,doctors,11.053063,-85.316843,la cruz,La Cruz,2019-04-20
+131131956,Clínica CCSS Coto Brus,Clínica o área de salud,CCSS,public,clinic,8.821174,-82.972426,coto brus,Coto Brus,2024-06-13
+9802189341,Ebais Guácimo,EBAIS,CCSS,public,clinic,8.953307,-83.11792,buenos aires,Buenos Aires,2022-06-07
+4751201936,Ebais Los Andes,EBAIS,CCSS,,doctors,11.108105,-85.514411,la cruz,La Cruz,2019-04-20
+1269071086,Ebais Mercedes,EBAIS,CCSS,public,clinic,10.174989,-83.611244,guacimo,Guácimo,2024-04-04
+7242585068,Ebais Villa Briceño,EBAIS,CCSS,public,clinic,8.719627,-83.165847,golfito,Golfito,2025-12-01
+6832645679,Ebais Punta Banco,EBAIS,CCSS,public,clinic,8.352455,-83.131118,golfito,Golfito,2023-01-06
+6417184157,Ebais San Rafael,EBAIS,CCSS,,doctors,9.555104,-84.226405,parrita,Parrita,2021-01-26
+533699444,Ebais Volio,EBAIS,CCSS,public,clinic,10.126599,-84.456163,san ramon,San Ramón,2025-07-21
+5357700159,Ebais Getsemaní,EBAIS,CCSS,,doctors,10.039066,-84.106011,san rafael,San Rafael,2019-04-23
+9977224621,Ebais Buena Vista,EBAIS,CCSS,public,clinic,9.499419,-83.662845,perez zeledon,Pérez Zeledón,2022-08-25
+5205601668,Ebais La Gallega,EBAIS,CCSS,public,clinic,9.499947,-84.120416,quepos,Quepos,2023-11-21
+1221854418,Ebais El Mojón,EBAIS,CCSS,public,clinic,9.986853,-84.675253,esparza,Esparza,2023-11-07
+7243508406,Ebais Coto 54,EBAIS,CCSS,,doctors,8.626114,-83.006149,golfito,Golfito,2020-02-25
+9788930129,Ebais Bijagual,EBAIS,CCSS,public,clinic,9.061731,-83.353879,buenos aires,Buenos Aires,2022-06-01
+678640534,Ebais San Antonio,EBAIS,CCSS,public,clinic,9.979532,-84.18715,belen,Belén,2026-04-05
+8656290265,Ebais Corozal,EBAIS,CCSS,public,clinic,9.992174,-85.151267,puntarenas,Puntarenas,2025-12-16
+1085179235,Ebais de Florencia,EBAIS,CCSS,,clinic,10.363845,-84.472893,san carlos,San Carlos,2023-07-06
+5832939569,Ebais El Roble,EBAIS,CCSS,,clinic,9.986485,-84.243242,alajuela,Alajuela,2022-10-28
+6417246385,Ebais Los Planes,EBAIS,CCSS,,doctors,10.418902,-85.623221,carrillo,Carrillo,2019-04-20
+825515916,Ebais San isidro,EBAIS,CCSS,,doctors,9.491929,-83.97563,dota,Dota,2021-03-22
+1004792902,Clínica CCSS Grecia Este,Clínica o área de salud,CCSS,,clinic,10.07408,-84.307227,grecia,Grecia,2024-06-14
+6422030151,Ebais Birrí,EBAIS,CCSS,,doctors,10.057113,-84.137348,santa barbara,Santa Bárbara,2019-04-22
+7233520855,Ebais Alto Carona,EBAIS,,,doctors,8.258187,-82.9782,golfito,Golfito,2020-02-21
+6595294668,Ebais Providencia,EBAIS,CCSS,,doctors,9.559589,-83.857795,dota,Dota,2021-03-23
+1374368265,EBAIS Los Ángeles de Páramo,EBAIS,CCSS,public,clinic,9.479189,-83.801428,perez zeledon,Pérez Zeledón,2026-04-12
+4887980433,Ebais Paracito,EBAIS,CCSS,,clinic,9.991976,-84.025104,moravia,Moravia,2023-05-22
+1025239436,Ebais Orosi,EBAIS,CCSS,public,clinic,9.797749,-83.854568,paraiso,Paraíso,2022-01-27
+407788082,Ebais El Tigre,EBAIS,CCSS,public,clinic,10.412363,-83.982254,sarapiqui,Sarapiquí,2021-10-22
+7248021059,Ebais Colorado,EBAIS,CCSS,,doctors,8.538032,-82.927431,corredores,Corredores,2020-02-27
+907167229,Ebais Bajo Las Bonitas,EBAIS,CCSS,public,clinic,9.160409,-83.650956,perez zeledon,Pérez Zeledón,2022-08-25
+1267895261,Ebais Santa Elena,EBAIS,CCSS,,clinic,9.770827,-84.053599,cartago,Cartago,2024-09-27
+263309077,Hospital Dr. Raúl Blanco Cervantes,Hospital,CCSS,public,hospital,9.93185,-84.087432,san jose,San José,2026-05-10
+8758463844,Ebais Palmitas,EBAIS,CCSS,,doctors,10.453289,-83.703687,pococi,Pococí,2021-05-23
+1449481509,Ebais Santa Eduviges,EBAIS,CCSS,public,clinic,10.000469,-83.039017,limon,Limón,2025-11-19
+774855997,Clínica CCSS La Perla,Clínica o área de salud,CCSS,government,clinic,10.179149,-83.378055,siquirres,Siquirres,2021-05-11
+8881200127,Ebais San Pablo,EBAIS,CCSS,,doctors,9.936812,-83.834681,oreamuno,Oreamuno,2021-06-30
+8632902583,Ebais Pueblo Nuevo - Bejuco,EBAIS,CCSS,,doctors,9.834192,-85.329155,nandayure,Nandayure,2021-04-15
+1148895107,Ebais Quirimán,EBAIS,CCSS,public,clinic,10.110415,-85.508524,nicoya,Nicoya,2023-02-23
+504047786,Clínica CCSS Platanar,Clínica o área de salud,CCSS,public,clinic,10.419994,-84.469735,san carlos,San Carlos,2022-06-23
+714578219,Ebais José María Zeledón,EBAIS,UNIBE,association,clinic,9.921727,-84.045494,curridabat,Curridabat,2019-08-16
+9823251141,Ebais San Pablo,EBAIS,CCSS,public,clinic,10.344473,-84.433446,san carlos,San Carlos,2022-06-16
+7731901258,Ebais Pacayitas,EBAIS,CCSS,,doctors,9.886645,-83.583399,turrialba,Turrialba,2021-06-22
+6417243540,Ebais El Moral,EBAIS,CCSS,,doctors,10.481703,-85.601036,carrillo,Carrillo,2019-04-20
+9791168973,Ebais Shamba,EBAIS,CCSS,,clinic,9.031022,-83.348798,buenos aires,Buenos Aires,2022-06-02
+515369243,Ebais Estrada,EBAIS,CCSS,public,clinic,10.059718,-83.279596,matina,Matina,2025-11-09
+436276862,Ebais Cahuita,EBAIS,CCSS,,doctors,9.736279,-82.842637,talamanca,Talamanca,2021-04-28
+1270978649,Clínica CCSS Arenal,Hospital,CCSS,public,hospital,10.545254,-84.893865,tilaran,Tilarán,2024-04-08
+9990972553,Ebais San Francisco,EBAIS,CCSS,public,clinic,9.324172,-83.599729,perez zeledon,Pérez Zeledón,2022-08-31
+391266029,Ebais San Sebastián,EBAIS,CCSS,public,clinic,9.905827,-84.08765,san jose,San José,2023-06-26
+8685617011,Ebais Filadelfia,EBAIS,CCSS,public,clinic,9.936873,-83.045272,limon,Limón,2025-11-10
+560390099,Ebais La Carpio,EBAIS,ASEMECO,,doctors,9.962954,-84.15305,san jose,San José,2019-08-16
+5154192198,Ebais Rancho Grande,EBAIS,CCSS,public,clinic,9.626121,-82.880941,talamanca,Talamanca,2022-08-05
+551489127,Ebais Cedros,EBAIS,CCSS,,doctors,9.843691,-84.878387,puntarenas,Puntarenas,2021-04-21
+8719999108,Ebais Islona - Los Ángeles,EBAIS,CCSS,,doctors,10.222118,-83.440586,siquirres,Siquirres,2021-05-10
+8725891088,Ebais Llanos de Bonilla,EBAIS,CCSS,,doctors,10.003872,-83.601878,siquirres,Siquirres,2021-05-12
+5173600040,Ebais Caño Negro,EBAIS,CCSS,,doctors,9.811288,-83.03736,limon,Limón,2021-04-29
+529509339,Ebais San Rafael,EBAIS,CCSS,public,clinic,10.06036,-84.474223,san ramon,San Ramón,2025-07-21
+4745628092,Ebais El Jobo,EBAIS,CCSS,,doctors,11.016365,-85.724941,la cruz,La Cruz,2019-04-20
+466398573,Ebais Belén 1 y 2,EBAIS,CCSS,public,clinic,10.407106,-85.585651,carrillo,Carrillo,2023-07-06
+1539957368,Ebais de Pueblo Nuevo,EBAIS,CCSS,public,clinic,10.481954,-84.106887,sarapiqui,Sarapiquí,2026-07-17
+4311772241,Ebais La Guaria,EBAIS,CCSS,public,clinic,10.454275,-84.027159,sarapiqui,Sarapiquí,2021-10-22
+12702458870,Ebais El Carmen,EBAIS,CCSS,public,clinic,9.616694,-84.208618,parrita,Parrita,2025-03-26
+5150896278,Ebais Bajo Coen,EBAIS,CCSS,public,clinic,9.534466,-83.01125,talamanca,Talamanca,2022-01-16
+8750748720,Ebais Palermo,EBAIS,CCSS,public,clinic,10.372179,-83.741609,pococi,Pococí,2026-08-26
+961790172,Ebais San Nicolás,EBAIS,CCSS,public,clinic,9.875857,-83.932926,cartago,Cartago,2023-07-05
+9978197806,Ebais Cristo Rey,EBAIS,CCSS,public,clinic,9.244526,-83.624049,perez zeledon,Pérez Zeledón,2022-08-25
+9432218926,Ebais San Joaquín,EBAIS,CCSS,public,clinic,10.111679,-85.313459,nicoya,Nicoya,2023-02-23
+8762654581,Ebais La Leona,EBAIS,CCSS,,clinic,10.168308,-83.812983,pococi,Pococí,2024-09-15
+5151146855,Ebais Alto Telire,EBAIS,CCSS,,doctors,9.553753,-83.31201,talamanca,Talamanca,2021-04-29
+1148945001,Ebais Moracia,EBAIS,CCSS,public,clinic,10.22658,-85.388591,nicoya,Nicoya,2023-02-23
+8726234237,Ebais Pascua,EBAIS,CCSS,,doctors,10.026566,-83.613013,siquirres,Siquirres,2021-05-12
+84969446,Clínica Lic. Rodrigo Fournier Guevara,Hospital,CCSS,public,hospital,9.964133,-84.076029,tibas,Tibás,2024-06-14
+6342450428,Ebais,EBAIS,CCSS,,doctors,9.962851,-84.631947,esparza,Esparza,2019-03-17
+504641888,Ebais General Viejo,EBAIS,CCSS,public,clinic,9.37364,-83.661799,perez zeledon,Pérez Zeledón,2022-05-26
+8653070381,Ebais Playa Blanca,EBAIS,CCSS,,clinic,9.919282,-84.921541,puntarenas,Puntarenas,2022-12-15
+717713506,Ebais Bijagual,EBAIS,CCSS,,doctors,9.638347,-84.293357,acosta,Acosta,2021-03-29
+5249134005,Ebais Espavel Abajo,EBAIS,CCSS,,doctors,10.078218,-83.402661,matina,Matina,2021-05-04
+5187664646,Ebais,EBAIS,CCSS,,doctors,10.353497,-83.953954,sarapiqui,Sarapiquí,2017-10-25
+8681257395,Ebais Progreso,EBAIS,CCSS,,doctors,9.755011,-83.049201,limon,Limón,2021-04-29
+533068462,Ebais Río Banano 1 y 2,EBAIS,CCSS,public,clinic,9.917645,-83.019202,limon,Limón,2025-11-10
+5345677696,Ebais San Roque,EBAIS,CCSS,,doctors,10.016171,-84.132364,barva,Barva,2021-09-07
+1055267158,Ebais Concepción,EBAIS,CCSS,public,clinic,10.027606,-84.066442,san rafael,San Rafael,2023-12-18
+8750689890,Ebais Caribe,EBAIS,CCSS,,clinic,10.378385,-83.746787,pococi,Pococí,2024-09-19
+6417257987,Ebais Las Brisas,EBAIS,CCSS,,doctors,11.169299,-85.571578,la cruz,La Cruz,2019-04-20
+5224002090,Ebais Piedras Blancas,EBAIS,CCSS,government,clinic,8.781468,-83.238361,osa,Osa,2019-08-17
+643017408,HCG - Clínica de Adolescentes,Clínica o área de salud,CCSS,public,clinic,9.938452,-84.071081,san jose,San José,2023-05-06
+8550562418,Ebais San Andrés,EBAIS,CCSS,,doctors,9.738795,-84.084917,leon cortes castro,León Cortés Castro,2021-03-22
+9091665372,Ebais Santa Fe,EBAIS,CCSS,,doctors,10.562076,-85.152864,bagaces,Bagaces,2021-09-14
+6417187865,Ebais Coyol 1 y 2,EBAIS,CCSS,,doctors,10.001028,-84.258876,alajuela,Alajuela,2019-04-20
+8843352777,Ebais San Lorenzo,EBAIS,CCSS,,doctors,9.893891,-84.046931,desamparados,Desamparados,2021-06-17
+8747558557,Ebais El Maná,EBAIS,CCSS,,doctors,10.471325,-83.667822,pococi,Pococí,2021-05-19
+504272623,Ebais Sarchí Sur,EBAIS,CCSS,public,clinic,10.088129,-84.337396,sarchi,Sarchí,2021-10-19
+6110381240,Ebais Santiago,EBAIS,CCSS,,clinic,10.021074,-84.445205,palmares,Palmares,2022-08-12
+1038397006,Ebais El Dos,EBAIS,CCSS,,clinic,10.381072,-84.902778,tilaran,Tilarán,2024-04-23
+6417257487,Ebias Tempatal,Clínica o área de salud,CCSS,,doctors,11.026364,-85.665521,la cruz,La Cruz,2019-04-20
+1148965941,Ebais Corralillo,EBAIS,CCSS,public,clinic,10.218104,-85.375428,nicoya,Nicoya,2023-02-23
+8710489647,Ebais Dondonia 1,EBAIS,CCSS,public,clinic,9.892602,-83.058576,limon,Limón,2025-11-14
+792720684,Ebais San Lorenzo,EBAIS,CCSS,public,clinic,9.638756,-84.0292,tarrazu,Tarrazú,2021-03-24
+6188987148,Ebais,EBAIS,CCSS,,doctors,9.877547,-84.585144,orotina,Orotina,2019-01-07
+5294923789,Ebais Santa Rita,EBAIS,CCSS,public,clinic,10.406439,-84.216488,rio cuarto,Río Cuarto,2023-03-12
+8858575058,Ebais El Silencio,EBAIS,CCSS,,doctors,9.872831,-83.614218,turrialba,Turrialba,2021-06-22
+1013232996,Ebais Parque Industrial,EBAIS,CCSS,public,clinic,9.852627,-83.947404,cartago,Cartago,2024-06-14
+1065215873,Ebais Páramo,EBAIS,CCSS,public,clinic,9.415262,-83.733045,perez zeledon,Pérez Zeledón,2022-05-30
+723266951,Ebais Centro Norte,EBAIS,CCSS,public,clinic,9.17306,-83.334937,buenos aires,Buenos Aires,2025-11-26
+67694521,Clínica Dr. Carlos Durán Cartín,Hospital,CCSS,public,hospital,9.921799,-84.069848,san jose,San José,2025-03-27
+8656931599,Ebais San Blas,EBAIS,CCSS,,doctors,9.87052,-85.163223,puntarenas,Puntarenas,2021-04-22
+8694286688,Ebais Pueblo Nuevo,EBAIS,CCSS,,doctors,10.332025,-83.596867,guacimo,Guácimo,2021-05-03
+6193509398,Ebais Paso Agres,EBAIS,CCSS,,clinic,9.881421,-84.510984,turrubares,Turrubares,2024-07-30
+9243985360,Ebais San Miguel,EBAIS,CCSS,public,clinic,10.747858,-85.004508,upala,Upala,2021-11-11
+8753592784,Ebais Llano Bonito,EBAIS,CCSS,,doctors,10.391272,-83.668329,pococi,Pococí,2021-05-21
+444063700,Ebais Purral - Bellavista,EBAIS,CCSS,public,clinic,9.956004,-84.030322,goicoechea,Goicoechea,2021-10-28
+4913538963,Ebais,EBAIS,,,doctors,10.40619,-85.310817,bagaces,Bagaces,2018-02-14
+8426993098,Ebais China Kichá,EBAIS,CCSS,,clinic,9.172248,-83.507455,perez zeledon,Pérez Zeledón,2022-09-13
+9990950167,Ebais Cedral,EBAIS,CCSS,public,clinic,9.354459,-83.551499,perez zeledon,Pérez Zeledón,2022-08-31
+480238976,Ebais Santa Elena,EBAIS,CCSS,public,clinic,10.941647,-85.67838,la cruz,La Cruz,2024-04-09
+8758670529,Ebais Tournón,EBAIS,CCSS,,doctors,10.436054,-83.757618,pococi,Pococí,2021-05-23
+5940940030,Ebais Costa de Pájaros,EBAIS,CCSS,,clinic,10.104704,-84.998815,puntarenas,Puntarenas,2021-11-26
+9978432317,Ebais Villa Argentina,EBAIS,CCSS,public,clinic,9.18456,-83.637901,perez zeledon,Pérez Zeledón,2022-08-25
+498348137,Ebais San Pablo,EBAIS,"Coopesiba, R.L.",public,clinic,9.998551,-84.093781,san pablo,San Pablo,2022-08-18
+5572239722,Ebais Porvenir,EBAIS,,,clinic,10.446332,-83.818094,pococi,Pococí,2021-05-23
+918487083,Ebais Diriá,EBAIS,CCSS,,doctors,10.280602,-85.526258,santa cruz,Santa Cruz,2021-04-26
+491165216,Clínica CCSS Hojancha,Clínica o área de salud,CCSS,public,clinic,10.058888,-85.418319,hojancha,Hojancha,2023-07-07
+4338694434,Ebais Ángeles,EBAIS,CCSS,public,clinic,10.039575,-84.082798,san rafael,San Rafael,2023-12-11
+5093737798,Ebais San Juan,EBAIS,CCSS,public,clinic,10.343107,-84.405348,san carlos,San Carlos,2022-06-16
+5227079612,Ebais Cañas Dulces,EBAIS,CCSS,public,clinic,10.737204,-85.477826,liberia,Liberia,2022-07-15
+770754969,Ebais Fila Guinea,EBAIS,CCSS,public,clinic,8.904298,-82.943193,coto brus,Coto Brus,2023-07-05
+9977406311,Ebais Zapotal,EBAIS,CCSS,public,clinic,9.331401,-83.504279,perez zeledon,Pérez Zeledón,2022-08-25
+539906018,Ebais,EBAIS,CCSS,,clinic,10.114415,-84.218517,poas,Poás,2022-07-31
+1065554930,Ebais San Juan,EBAIS,CCSS,public,clinic,9.150981,-83.201483,buenos aires,Buenos Aires,2022-06-07
+5605146048,Ebais Costa Ana,EBAIS,CCSS,public,clinic,10.781416,-84.826821,guatuso,Guatuso,2021-11-13
+1154079061,Ebais Las Brisas,EBAIS,CCSS,public,clinic,9.265966,-83.614018,perez zeledon,Pérez Zeledón,2023-03-13
+887990072,Ebais Cordoncillo,EBAIS,CCSS,public,clinic,9.253559,-83.457328,buenos aires,Buenos Aires,2022-05-31
+8758604198,Ebais Cocotales,EBAIS,CCSS,,doctors,10.450095,-83.768725,pococi,Pococí,2021-05-23
+1092943491,INS - Centro de Salud Referencial de Alajuela,Clínica o área de salud,INS,government,clinic,10.023083,-84.204215,alajuela,Alajuela,2025-02-28
+533104585,Ebais Liverpool,EBAIS,CCSS,public,clinic,9.991502,-83.129055,limon,Limón,2025-11-10
+5226972481,Ebais Buena Vista,EBAIS,CCSS,public,clinic,10.748344,-85.471497,liberia,Liberia,2022-07-15
+8818867755,Ebais Tujankir,EBAIS,CCSS,public,clinic,10.766746,-84.890341,guatuso,Guatuso,2021-11-13
+9243985334,Ebais Las Flores,EBAIS,CCSS,public,clinic,10.761887,-85.02606,upala,Upala,2021-11-11
+970559649,Ebais Las Brisas,EBAIS,CCSS,public,clinic,9.370678,-83.680063,perez zeledon,Pérez Zeledón,2022-08-19
+1168131323,,Hospital,CCSS,public,hospital,9.935064,-84.068695,san jose,San José,2025-02-17
+8681254408,Ebais Gavilán,EBAIS,CCSS,,doctors,9.724438,-83.068962,limon,Limón,2021-04-29
+4000060096,Ebais Puente Salas,EBAIS,CCSS,public,clinic,10.03684,-84.130679,barva,Barva,2022-05-02
+420859710,Ebais San Miguel,EBAIS,CCSS,public,clinic,9.868419,-84.059905,desamparados,Desamparados,2021-10-06
+1292243556,Clínica CCSS San Ramón,Clínica o área de salud,CCSS,public,clinic,10.093278,-84.468735,san ramon,San Ramón,2024-06-14
+1069977155,Ebais Cedral,EBAIS,CCSS,public,clinic,10.366881,-84.435921,san carlos,San Carlos,2022-06-15
+8565239643,Ebais Bajos de Jorco,EBAIS,,,doctors,9.814318,-84.218557,acosta,Acosta,2021-03-26
+988640593,Clínica CCSS Frailes,Clínica o área de salud,CCSS,public,clinic,9.751292,-84.055579,desamparados,Desamparados,2023-05-30
+8644310520,Ebais Bello Horizonte,EBAIS,CCSS,,doctors,9.693344,-85.19612,puntarenas,Puntarenas,2021-04-19
+1042791745,Ebais San José,EBAIS,CCSS,public,clinic,9.999667,-84.396899,atenas,Atenas,2025-06-02
+5201250682,Ebais Montealegre,EBAIS,CCSS,,doctors,10.752344,-84.699909,los chiles,Los Chiles,2020-03-18
+8694556559,Ebais La Lucha,EBAIS,CCSS,public,clinic,10.246879,-83.551889,guacimo,Guácimo,2025-07-03
+530875610,Clínica CCSS Bribri,Clínica o área de salud,CCSS,public,clinic,9.625705,-82.850691,talamanca,Talamanca,2023-07-04
+512381401,Clínica CCSS Grecia Oeste,Clínica o área de salud,CCSS,public,clinic,10.072117,-84.315321,grecia,Grecia,2024-06-14
+964427290,Ebais La Esperanza,EBAIS,CCSS,public,clinic,10.147275,-85.567519,nicoya,Nicoya,2023-02-23
+9788871001,Ebais Concepción,EBAIS,CCSS,public,clinic,9.10197,-83.467297,buenos aires,Buenos Aires,2022-06-01
+8670043818,Ebais San Juan,EBAIS,CCSS,,doctors,10.263221,-84.946764,abangares,Abangares,2022-12-04
+997295444,Clínica Dr. Ricardo Jiménez Núñez,Clínica o área de salud,CCSS,public,clinic,9.950345,-84.048919,goicoechea,Goicoechea,2024-06-14
+402211234,Ebais Primavera,EBAIS,CCSS,,doctors,10.42779,-83.78089,pococi,Pococí,2021-05-23
+1055524061,Ebais Altos de Naranjo,EBAIS,CCSS,,clinic,9.999433,-84.434421,atenas,Atenas,2022-04-27
+10846835787,Ebais Salitrillos,EBAIS,CCSS,,clinic,9.853656,-84.092276,aserri,Aserrí,2024-10-02
+316313028,Clínica Dr. Marcial Rodríguez Conejo,Hospital,CCSS,public,hospital,10.023867,-84.203516,alajuela,Alajuela,2024-06-14
+55702491,Ebais San Francisco,EBAIS,Coopesana,cooperative,clinic,9.908828,-84.057142,san jose,San José,2022-08-12
+8722741270,Ebais Mondonguillo - Pacuare,EBAIS,CCSS,,doctors,10.206878,-83.272773,siquirres,Siquirres,2021-05-11
+9228602635,Ebais El Progreso,EBAIS,CCSS,public,clinic,10.985789,-85.243308,upala,Upala,2021-11-05
+457131800,Ebais Los Guido,EBAIS,CCSS,public,clinic,9.86776,-84.044386,desamparados,Desamparados,2021-10-01
+534342136,Ebais La Virgen,EBAIS,CCSS,public,clinic,10.390517,-84.139121,sarapiqui,Sarapiquí,2023-08-23
+8674384290,Ebais Colinas,EBAIS,CCSS,public,clinic,9.049245,-83.45583,buenos aires,Buenos Aires,2022-06-02
+8866713743,Ebais Grano de Oro,EBAIS,CCSS,public,clinic,9.814276,-83.454372,turrialba,Turrialba,2025-03-07
+1168011056,Hospital Dr. Rafael Ángel Calderón Guardia,Hospital,CCSS,public,hospital,9.936699,-84.069536,san jose,San José,2023-05-02
+704894235,EBAIS Damitas,EBAIS,CCSS,public,clinic,9.520812,-84.204484,parrita,Parrita,2025-03-26
+5116137453,Ebais,EBAIS,,,doctors,10.065239,-84.466458,san ramon,San Ramón,2017-09-19
+9848349275,Ebais La Tigra de Venado,EBAIS,CCSS,public,clinic,10.551059,-84.778217,san carlos,San Carlos,2022-06-26
+178389422,CCSS - Dirección Regional de Sucursales Central,Clínica o área de salud,CCSS,public,clinic,9.944578,-84.0534,goicoechea,Goicoechea,2021-10-31
+5191818068,Ebais Caño Castilla,EBAIS,CCSS,public,clinic,10.922894,-84.491629,los chiles,Los Chiles,2024-01-17
+8702204470,Ebais La Colonia,EBAIS,CCSS,,doctors,10.029263,-83.369956,matina,Matina,2021-05-05
+8681255511,Ebias Buena Vista,Clínica o área de salud,CCSS,,doctors,9.807791,-82.960538,limon,Limón,2021-04-29
+1025268603,Clínica CCSS Cachí,Clínica o área de salud,CCSS,public,clinic,9.825184,-83.803101,paraiso,Paraíso,2022-01-27
+650339057,Ebais Concepción,EBAIS,CCSS,,doctors,9.96332,-84.362429,atenas,Atenas,2019-04-20
+507370932,Clínica CCSS Mora,Hospital,CCSS,public,hospital,9.922915,-84.242588,mora,Mora,2023-06-27
+9201099488,Ebais La Esperanza,EBAIS,CCSS,public,clinic,10.256125,-83.91468,sarapiqui,Sarapiquí,2021-10-25
+307183192,Hospital San Francisco de Asis,Hospital,CCSS,public,hospital,10.071798,-84.316688,grecia,Grecia,2024-02-15
+302499367,Ebais,EBAIS,CCSS,,doctors,10.772294,-83.59569,pococi,Pococí,2023-07-11
+1024040912,Ebais La Garita,EBAIS,CCSS,public,clinic,9.992552,-84.317773,alajuela,Alajuela,2022-06-14
+6831657124,Ebais El Porvenir,EBAIS,CCSS,,clinic,10.927025,-85.237545,upala,Upala,2021-11-12
+5261128043,Ebais Los Ángeles,EBAIS,CCSS,,clinic,10.293143,-83.533805,guacimo,Guácimo,2023-04-04
+8573002392,Ebais Limonal,EBAIS,CCSS,,clinic,9.7751,-84.119068,aserri,Aserrí,2024-10-02
+6460093633,Ebais Cascajal,EBAIS,CCSS,,doctors,10.003202,-83.959587,vazquez de coronado,Vázquez de Coronado,2021-02-11
+5940946534,Ebais Aranjuez,EBAIS,CCSS,public,clinic,10.055403,-84.796758,puntarenas,Puntarenas,2021-11-26
+12758538359,Ebais La Guaria,EBAIS,CCSS,public,clinic,10.074988,-84.454802,san ramon,San Ramón,2025-04-15
+1084525747,Ebais de Montecillos 2,EBAIS,CCSS,,clinic,10.008591,-84.220008,alajuela,Alajuela,2022-08-08
+265303474,Hospital Dr. Carlos Luis Valverde Vega,Hospital,CCSS,public,hospital,10.092923,-84.469976,san ramon,San Ramón,2025-07-21
+8866751818,Ebais Sharabata,EBAIS,CCSS,,doctors,9.765229,-83.471733,turrialba,Turrialba,2021-06-25
+8722110829,Ebais Imperio,EBAIS,CCSS,,doctors,10.18207,-83.419028,siquirres,Siquirres,2021-05-11
+6714864303,Ebais Corazón de Jesús,EBAIS,Coopesana,cooperative,clinic,9.91434,-84.147905,escazu,Escazú,2024-07-26
+8723185328,Ebais Cimarrones,EBAIS,CCSS,,clinic,10.097001,-83.424695,siquirres,Siquirres,2024-04-04
+9241338854,Ebais Cuatro Cruces,EBAIS,CCSS,public,clinic,10.833736,-84.997769,upala,Upala,2021-11-10
+670036799,Ebais Los Chiles 1,EBAIS,CCSS,public,clinic,11.031028,-84.711335,los chiles,Los Chiles,2023-07-12
+9977435404,Ebais San Rafael,EBAIS,CCSS,public,clinic,9.316159,-83.521704,perez zeledon,Pérez Zeledón,2023-03-13
+5242991981,Ebais Tirrases,EBAIS,CCSS,,clinic,9.89967,-84.02583,curridabat,Curridabat,2021-11-15
+441269286,Clínica CCSS Colorado,Clínica o área de salud,CCSS,public,clinic,10.186289,-85.108723,abangares,Abangares,2024-02-21
+7248226714,Ebais Bella Luz,EBAIS,CCSS,,doctors,8.436377,-82.985441,corredores,Corredores,2020-02-27
+1221875215,Ebais Paraíso,EBAIS,CCSS,public,clinic,10.00211,-84.62034,esparza,Esparza,2023-11-07
+8756454891,Ebais Delta,EBAIS,CCSS,public,clinic,10.733512,-83.739201,sarapiqui,Sarapiquí,2021-10-20
+9793659774,Ebais Bajo Coto,EBAIS,CCSS,public,clinic,8.962821,-83.097691,buenos aires,Buenos Aires,2022-06-03
+434971925,Ebais Fray Casiano de Madrid,EBAIS,CCSS,public,clinic,9.987065,-84.764204,puntarenas,Puntarenas,2021-11-18
+1038396992,Ebais Cañitas,EBAIS,CCSS,,clinic,10.32833,-84.844247,abangares,Abangares,2023-09-18
+964454980,Ebais Zaragoza,EBAIS,CCSS,public,clinic,9.972082,-85.566247,nicoya,Nicoya,2023-02-23
+2645856708,Ebais Sabana Grande,EBAIS,CCSS,public,clinic,10.186267,-85.48418,nicoya,Nicoya,2023-02-23
+485394852,Ebais San Jerónimo,EBAIS,CCSS,public,clinic,10.005507,-84.017332,moravia,Moravia,2023-05-22
+9242106573,Ebais San Cristóbal,EBAIS,CCSS,public,clinic,10.792934,-85.098634,upala,Upala,2021-11-11
+1030590032,Ebais,EBAIS,CCSS,,clinic,10.545749,-84.899724,tilaran,Tilarán,2022-07-31
+423710149,Ebais Monterrey,EBAIS,CCSS,,doctors,9.757743,-84.108406,aserri,Aserrí,2021-03-29
+948492249,Ebais La Emilia,EBAIS,CCSS,,clinic,10.216549,-83.790151,pococi,Pococí,2022-07-30
+8685681917,Ebais Río Quito,EBAIS,,,doctors,9.956945,-83.167098,limon,Limón,2021-04-30
+5224042479,Ebais,EBAIS,CCSS,,,8.774363,-83.179155,osa,Osa,2017-11-12
+1052902059,Ebais San Rafael Norte,EBAIS,CCSS,,clinic,9.906179,-83.970205,la union,La Unión,2024-07-16
+8780136617,Ebais San Pedro,EBAIS,CCSS,public,clinic,9.280394,-83.551625,perez zeledon,Pérez Zeledón,2023-03-13
+418303200,Ebais Peñas Blancas,EBAIS,CCSS,public,clinic,9.317725,-83.643313,perez zeledon,Pérez Zeledón,2023-03-08
+486502167,Ebais Guadalupe Este,EBAIS,CCSS,public,clinic,9.949677,-84.048697,goicoechea,Goicoechea,2021-11-01
+7243393829,Ebais Vaquillas,EBAIS,CCSS,,doctors,8.675737,-83.10057,golfito,Golfito,2020-02-25
+4425371760,Ebais El Limbo,EBAIS,CCSS,,doctors,10.325511,-83.65342,guacimo,Guácimo,2021-05-03
+643130108,Ebais Escobal,EBAIS,CCSS,public,clinic,9.934175,-84.436418,atenas,Atenas,2022-01-12
+4485784114,Ebais Amubri,EBAIS,CCSS,public,clinic,9.518692,-82.954681,talamanca,Talamanca,2022-08-04
+511097894,Ebais Tromadora,EBAIS,,,doctors,10.499464,-84.921824,tilaran,Tilarán,2021-04-27
+8681228759,Ebais Alto Coen,EBAIS,CCSS,,doctors,9.501496,-83.088509,talamanca,Talamanca,2021-04-29
+1136529989,EBAIS de Guadalupe,EBAIS,,,hospital,9.863033,-83.933986,cartago,Cartago,2012-07-22
+359249524,Hospital Dr. Fernando Escalante Pradilla,Hospital,CCSS,public,hospital,9.36749,-83.70369,perez zeledon,Pérez Zeledón,2022-05-26
+246979270,Ebais Río Naranjo,EBAIS,CCSS,,doctors,10.683593,-85.092512,bagaces,Bagaces,2021-04-26
+1467157395,Clínica CCSS Cariari,Hospital,CCSS,public,hospital,10.360287,-83.750033,pococi,Pococí,2026-08-26
+9261223834,Ebais Tobosi,EBAIS,CCSS,public,clinic,9.838258,-83.983163,el guarco,El Guarco,2021-11-17
+1148935912,Ebais Roblar,EBAIS,CCSS,public,clinic,10.226043,-85.296737,nicoya,Nicoya,2023-02-23
+8723244578,Ebais El Cairo,EBAIS,CCSS,,doctors,10.117683,-83.543819,siquirres,Siquirres,2021-05-11
+11200684577,Ebais La Unión,EBAIS,CCSS,public,clinic,10.358484,-84.873162,tilaran,Tilarán,2023-09-18
+556206051,Clínica CCSS Guararí,Hospital,CCSS,public,hospital,9.979196,-84.118143,heredia,Heredia,2024-06-14
+232194056,Clínica San Rafael,Hospital,CCSS,public,hospital,9.975366,-84.836915,puntarenas,Puntarenas,2024-03-18
+9788930684,Ebais Santa Teresita,EBAIS,CCSS,public,clinic,9.042304,-83.371289,buenos aires,Buenos Aires,2022-06-01
+6558591698,Ebais Colonia Blanca,EBAIS,CCSS,,doctors,10.810308,-85.239431,upala,Upala,2019-06-19
+1148897938,Ebais Nambí,EBAIS,CCSS,public,clinic,10.209469,-85.500924,nicoya,Nicoya,2023-02-23
+868390749,INS - Centro de Salud Preferencial de Ciudad Quesada,Clínica o área de salud,INS,public,clinic,10.321696,-84.430737,san carlos,San Carlos,2022-09-08
+389976552,Farmacia y Laboratorio - Área de Salud Escazú,Clínica o área de salud,CCSS,public,clinic,9.92124,-84.145595,escazu,Escazú,2024-07-27
+8572569996,Ebais Alto El Aguacate,EBAIS,CCSS,,doctors,9.659086,-84.178495,aserri,Aserrí,2021-03-29
+374980269,Centro Nacional de Rehabilitación Dr. Humberto Araya Rojas,Hospital,CCSS,public,hospital,9.949675,-84.116316,san jose,San José,2023-06-30
+68251594,Hospital del Trauma,Hospital,INS,public,hospital,9.950464,-84.117451,san jose,San José,2023-06-30
+493470427,Ebais La Alegría,EBAIS,,,clinic,10.088662,-83.600617,siquirres,Siquirres,2021-05-13
+9238284168,Ebais San Jorge,EBAIS,CCSS,public,clinic,10.876431,-84.9146,upala,Upala,2021-11-09
+8669501244,Ebais Matapalo,EBAIS,CCSS,public,clinic,10.362678,-85.811129,santa cruz,Santa Cruz,2024-04-06
+6150700679,Ebais Carrillos Alto,EBAIS,CCSS,public,clinic,10.036286,-84.26515,poas,Poás,2024-09-13
+9379922054,Ebais Birrisito,EBAIS,CCSS,public,clinic,9.847907,-83.84315,paraiso,Paraíso,2021-12-30
+5189448250,Ebais Colonia Virgen del Socorro,EBAIS,CCSS,,doctors,10.276961,-84.16342,alajuela,Alajuela,2017-10-25
+533097986,Clínica CCSS Bananito,Clínica o área de salud,CCSS,public,clinic,9.872311,-83.004529,limon,Limón,2025-11-14
+946641482,Ebais La Lucha,EBAIS,CCSS,public,clinic,9.750716,-84.003802,desamparados,Desamparados,2021-10-01
+395894614,Ebais Pitahaya,EBAIS,CCSS,public,clinic,9.860199,-83.922726,cartago,Cartago,2024-06-14
+5199419347,Ebais La Unión,EBAIS,CCSS,,doctors,10.828643,-84.713388,los chiles,Los Chiles,2021-03-17
+983445788,Ebais Colonia Pata de Gallo,EBAIS,CCSS,public,clinic,10.286538,-84.203862,alajuela,Alajuela,2024-11-11
+915663212,Ebais Rivas,EBAIS,CCSS,public,clinic,9.421935,-83.657423,perez zeledon,Pérez Zeledón,2022-05-27
+8458314626,Ebais Juanito Mora,EBAIS,CCSS,public,clinic,9.974477,-84.726172,puntarenas,Puntarenas,2021-11-26
+5249299501,Ebais Las Brisas de Pacuare,EBAIS,CCSS,,doctors,10.00033,-83.464106,siquirres,Siquirres,2021-05-04
+4831043057,Ebais Santa Marta,EBAIS,CCSS,public,clinic,9.926912,-85.43238,hojancha,Hojancha,2021-11-30
+8674435453,Ebais El Carmen de Biolley,EBAIS,CCSS,public,clinic,8.988331,-83.028447,buenos aires,Buenos Aires,2022-05-30
+9823242019,Ebais San Martín - Gamonales,EBAIS,CCSS,public,clinic,10.320365,-84.425964,san carlos,San Carlos,2022-06-16
+434177951,Ebais Filadelfia Sur,EBAIS,CCSS,public,clinic,10.442522,-85.55482,carrillo,Carrillo,2023-08-26
+9793674247,Ebais Colorado,EBAIS,CCSS,public,clinic,9.008785,-83.02968,buenos aires,Buenos Aires,2022-06-03
+8758099309,Ebais Fortuna - San Juan de Pococí,EBAIS,CCSS,,doctors,10.511688,-83.790812,pococi,Pococí,2021-05-23
+5173951625,Ebais Penshurt,EBAIS,CCSS,,doctors,9.772767,-82.907118,limon,Limón,2021-05-09
+9858525306,Ebais Sahíno,EBAIS,CCSS,public,clinic,10.579223,-84.2793,san carlos,San Carlos,2022-06-30
+1161565211,Ebais Sabalito,EBAIS,CCSS,public,clinic,8.818659,-82.913402,coto brus,Coto Brus,2025-11-12
+8725861849,Ebais Florida,EBAIS,CCSS,,doctors,10.093701,-83.568917,siquirres,Siquirres,2021-05-12
+5370575586,Ebais Chánguena,EBAIS,CCSS,public,clinic,8.93769,-83.200453,buenos aires,Buenos Aires,2022-05-30
+1189077445,Ebais Los Chiles 2,EBAIS,CCSS,public,clinic,10.952872,-84.66678,los chiles,Los Chiles,2023-07-12
+6424351572,Ebais Los Ángeles,EBAIS,CCSS,public,clinic,10.6851,-83.974888,sarapiqui,Sarapiquí,2021-10-20
+5179169438,Ebais Arbolito,EBAIS,CCSS,,doctors,10.643258,-83.995108,sarapiqui,Sarapiquí,2019-04-26
+488979318,Hospital William Allen Taylor,Hospital,CCSS,public,hospital,9.872437,-83.651216,turrialba,Turrialba,2024-02-24
+5605130633,Ebais El Charco,EBAIS,CCSS,public,clinic,10.784853,-84.854605,guatuso,Guatuso,2021-11-13
+674428643,Ebais Balsa,EBAIS,CCSS,public,clinic,9.94232,-84.375078,atenas,Atenas,2025-04-10
+9238959278,Ebais Jazmines A,EBAIS,CCSS,,clinic,10.818433,-84.933841,upala,Upala,2021-11-09
+657950108,Clínica CCSS Monteverde,Hospital,CCSS,public,hospital,10.319993,-84.826401,monteverde,Monteverde,2023-09-18
+5153028957,Ebais Chires,EBAIS,CCSS,public,clinic,9.656336,-84.442299,puriscal,Puriscal,2023-07-10
+376713195,Ebais Zaragoza,EBAIS,,,doctors,10.04156,-84.429357,palmares,Palmares,2022-03-23
+9868990419,Ebais Los Santos,EBAIS,CCSS,public,clinic,10.560082,-84.422474,san carlos,San Carlos,2022-07-05
+926920675,Clínica CCSS El Empalme,Clínica o área de salud,CCSS,,clinic,9.718484,-83.949799,desamparados,Desamparados,2024-09-22
+246056616,Clínica Mercedes Chacón Porras,Hospital,CCSS,public,hospital,9.868864,-84.090715,aserri,Aserrí,2024-10-02
+921120127,Ebais Juan Díaz,EBAIS,CCSS,public,clinic,10.167239,-85.54064,nicoya,Nicoya,2023-02-20
+8880805611,Ebais Cipreses,EBAIS,CCSS,,clinic,9.890196,-83.843504,oreamuno,Oreamuno,2023-07-05
+5944210540,Ebais Sardinal,EBAIS,CCSS,public,clinic,10.117699,-84.827007,puntarenas,Puntarenas,2021-11-28
+1437188351,Ebais San Vito,EBAIS,CCSS,public,clinic,8.81291,-82.96738,coto brus,Coto Brus,2024-06-14
+6430788473,Ebais Fátima,EBAIS,CCSS,public,clinic,10.715878,-83.867195,sarapiqui,Sarapiquí,2026-06-16
+4833520420,Ebais,EBAIS,,,doctors,10.245982,-85.008453,abangares,Abangares,2017-05-03
+8565239552,Ebais Guaitil,EBAIS,,,doctors,9.791347,-84.230957,acosta,Acosta,2021-03-26
+5150833981,Ebais Katsi,EBAIS,CCSS,,doctors,9.505364,-82.93739,talamanca,Talamanca,2021-02-14
+1447583625,Clínica CCSS Valverde Vega,Hospital,CCSS,public,hospital,10.090628,-84.348941,sarchi,Sarchí,2025-11-05
+1220029458,Ebais Río Azul,EBAIS,CCSS,public,clinic,9.891429,-84.033543,la union,La Unión,2023-11-01
+500252958,Ebais Montenegro,EBAIS,CCSS,,doctors,10.474964,-85.210264,bagaces,Bagaces,2021-09-10
+383564902,Clínica CCSS Bagaces,Clínica o área de salud,CCSS,public,clinic,10.520597,-85.255057,bagaces,Bagaces,2024-06-13
+8674405181,Ebais Boruca,EBAIS,CCSS,public,clinic,9.004619,-83.323188,buenos aires,Buenos Aires,2022-05-30
+773665749,EBAIS Sierpe,EBAIS,CCSS,public,clinic,8.861385,-83.471242,osa,Osa,2024-06-19
+449311163,Ebais Cipreses - Guayabo,EBAIS,UNIBE,association,clinic,9.919601,-84.034087,curridabat,Curridabat,2019-08-16
+6558612183,Ebais Buenos Aires,EBAIS,CCSS,,doctors,10.893616,-85.313557,upala,Upala,2019-06-19
+2709643945,Ebais Santa Eulalia,EBAIS,CCSS,public,clinic,10.002939,-84.376431,atenas,Atenas,2025-04-23
+13521008804,Sede de EBAIS #3 El Mesón,EBAIS,,,hospital,10.092957,-84.293054,grecia,Grecia,2026-02-03
+626391033,Ebais San Blas,EBAIS,CCSS,,clinic,9.871099,-83.920662,cartago,Cartago,2022-04-14
+9238959280,Ebais Jazmines B,EBAIS,CCSS,public,clinic,10.819456,-84.91146,upala,Upala,2021-11-09
+6616481122,Ebias Dulce Nombre,Clínica o área de salud,CCSS,,clinic,9.921397,-83.980504,la union,La Unión,2024-07-16
+1054137942,Ebais El Castillo,EBAIS,CCSS,,clinic,10.425434,-84.751838,san ramon,San Ramón,2022-04-23
+3886593915,Ebais San Luis,EBAIS,CCSS,,clinic,10.245958,-83.660892,guacimo,Guácimo,2021-05-03
+9652351612,Ebais Jesús María - Labrador,EBAIS,CCSS,public,clinic,9.956744,-84.590665,san mateo,San Mateo,2025-06-08
+476186699,Ebais Legua de Naranjo,EBAIS,CCSS,,clinic,9.751532,-84.142019,aserri,Aserrí,2021-03-30
+622154653,Clínica CCSS Alajuela Oeste,Hospital,CCSS,public,hospital,10.019355,-84.241902,alajuela,Alajuela,2024-06-14
+11019988342,Ebais Paso Canoas,EBAIS,CCSS,,clinic,8.537748,-82.845012,corredores,Corredores,2023-07-02
+264205012,Hospital Juana Pirola,Hospital,CCSS,public,hospital,8.813729,-82.967488,coto brus,Coto Brus,2023-11-19
+877554647,Ebais San Pedro,EBAIS,CCSS,public,clinic,10.030547,-84.170859,santa barbara,Santa Bárbara,2022-04-20
+107108151,Clínica CCSS Sardinal,Clínica o área de salud,CCSS,public,clinic,10.515354,-85.647881,carrillo,Carrillo,2019-08-29
+5150900787,Ebais Duriñak,EBAIS,CCSS,,doctors,9.474477,-83.021737,talamanca,Talamanca,2021-02-15
+533070408,Ebais Valle La Aurora,EBAIS,CCSS,public,clinic,9.946492,-83.094966,limon,Limón,2025-11-14

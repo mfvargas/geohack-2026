@@ -2,21 +2,25 @@
 del GeoHack CR 2026 (OIM) y del shapefile cantonal del INEC.
 
 Uso:
-    python scripts/preparar_datos.py <dir Datos_GeoHACK_OIM> <dir shapefile INEC> <dir sica> [datos]
+    python scripts/preparar_datos.py <dir Datos_GeoHACK_OIM> <dir shapefile INEC> <dir sica> [datos] [healthsites.geojson]
 
     <dir Datos_GeoHACK_OIM>  carpeta con NIC_2025_2026.xlsx y
                              Población_migrantes_por_canton__con_indicadores.xlsx
     <dir shapefile INEC>     carpeta "Unidad Geoestadística Cantonal 2024" (de data_CR.zip)
     <dir sica>               carpeta databases_geohack/sica (de databases_geohack.zip)
     [datos]                  carpeta de salida (por defecto datos/ junto al repositorio)
+    [healthsites.geojson]    GeoJSON "Costa Rica healthsites" de HDX (healthsites.io, derivado de OpenStreetMap);
+                             si se da, produce datos/ccss_healthsites.csv con la red pública de salud
 
 Salidas:
     datos/nic_limpio.csv      encuesta NIC (flujo mixto nicaragüense) por cantón y mes,
                               con las 17 necesidades del archivo original
     datos/cantones.geojson    84 cantones INEC 2024 (WGS84, simplificados) con población 2022
     datos/sica.csv            series mensuales SICA 2019-2026 en formato largo
+    datos/ccss_healthsites.csv  establecimientos públicos de salud (CCSS y cooperativas contratadas) según OSM
     datos/registro_preparacion.md  qué se hizo y qué quedó pendiente
 """
+import re
 import sys, unicodedata, pathlib
 import pandas as pd
 import geopandas as gpd
@@ -135,6 +139,45 @@ def preparar_sica(d_sica, notas):
     return sica
 
 
+RED_PUBLICA = re.compile(r'ccss|caja costarricense|seguro social|coopesana|coopesalud|coopesiba|coopesain|asemeco|'
+                         r'ministerio de salud|unibe', re.I)
+EXCLUIR = {'pharmacy', 'dentist', 'laboratory', 'optometrist', 'physiotherapist', 'alternative', 'veterinary'}
+
+
+def preparar_healthsites(ruta, cantones, notas):
+    """Extrae de Healthsites (OSM) los establecimientos de la red pública de salud y les asigna cantón."""
+    g = gpd.read_file(ruta)
+    g = g[g.geometry.notna()].copy()
+    g['geometry'] = g.geometry.representative_point()
+    g = g.to_crs(4326)
+    for c in ('name', 'operator', 'operator_type', 'amenity', 'healthcare'):
+        g[c] = g[c].fillna('') if c in g.columns else ''
+    nombre = g['name'].str.lower()
+    es_ebais = nombre.str.contains(r'ebais|e\.b\.a\.i\.s|equipo b[aá]sico', regex=True)
+    publico = (g['operator'].str.contains(RED_PUBLICA) | g['operator_type'].str.lower().isin(['public', 'government']) | es_ebais)
+    excluido = g['amenity'].isin(EXCLUIR) | g['healthcare'].isin(EXCLUIR)
+    sel = g[publico & ~excluido].copy()
+    sel['tipo'] = 'Clínica o área de salud'
+    sel.loc[(sel['amenity'] == 'hospital') | (sel['healthcare'] == 'hospital') | nombre.loc[sel.index].str.contains('hospital'), 'tipo'] = 'Hospital'
+    sel.loc[es_ebais.loc[sel.index], 'tipo'] = 'EBAIS'
+    j = gpd.sjoin(sel, cantones[['clave', 'canton', 'geometry']], how='left', predicate='within')
+    j = j[~j.index.duplicated()]
+    out = pd.DataFrame({
+        'osm_id': j['osm_id'].astype(str), 'nombre': j['name'], 'tipo': j['tipo'], 'operador': j['operator'],
+        'operator_type': j['operator_type'], 'amenity': j['amenity'],
+        'lat': j.geometry.y.round(6), 'lon': j.geometry.x.round(6),
+        'clave_canton': j['clave'], 'canton': j['canton'], 'editado_osm': j['changeset_timestamp'].astype(str).str[:10],
+    })
+    sin_canton = out['clave_canton'].isna().sum()
+    notas.append(f'- Healthsites (OSM, HDX, descargado el 8 de noviembre de 2026): {len(g)} entidades de salud en Costa Rica; '
+                 f'{len(out)} clasificadas como red pública (operador CCSS, Ministerio de Salud o cooperativas contratadas por la CCSS, '
+                 f'operator_type public/government, o nombre con EBAIS), sin farmacias, dentistas ni laboratorios. '
+                 f'Por tipo: {out["tipo"].value_counts().to_dict()}. {sin_canton} fuera de los polígonos cantonales. '
+                 f'Es un respaldo de la capa oficial de la CCSS (fuera de servicio al 8 de noviembre): cobertura y clasificación '
+                 f'dependen de lo que la comunidad OSM ha mapeado.')
+    return out
+
+
 def main():
     if len(sys.argv) < 4:
         sys.exit(__doc__)
@@ -148,10 +191,13 @@ def main():
     sin_poligono = sorted(set(nic['clave'].dropna()) - set(cantones['clave']))
     notas.append(f'- Claves de cantón de NIC sin polígono INEC: {sin_poligono or "ninguna"}.')
     sica = preparar_sica(d_sica, notas)
+    salud = preparar_healthsites(pathlib.Path(sys.argv[5]), cantones, notas) if len(sys.argv) > 5 else None
 
     nic.to_csv(salida / 'nic_limpio.csv', index=False)
     cantones.to_file(salida / 'cantones.geojson', driver='GeoJSON', coordinate_precision=5)
     sica.to_csv(salida / 'sica.csv', index=False)
+    if salud is not None:
+        salud.to_csv(salida / 'ccss_healthsites.csv', index=False)
     (salida / 'registro_preparacion.md').write_text(
         '# Registro de preparación de datos\n\nGenerado por `scripts/preparar_datos.py`.\n\n' + '\n'.join(notas) + '\n',
         encoding='utf-8')
