@@ -1,0 +1,19 @@
+# Ambiente conda del prototipo GeoHack CR 2026 (grupo 4).
+#
+# Crear:      conda env create -f environment.yml      (crea "geohack-2026")
+# Actualizar: conda env update -f environment.yml
+# Usar:       conda activate geohack-2026
+#
+# Versiones alineadas con el ambiente del curso GF-0657 (2026-II).
+name: geohack-2026
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.14.6
+  - numpy=2.5.1
+  - pandas=3.0.5
+  - openpyxl=3.1.5
+  - geopandas=1.1.4
+  - plotly=6.9.0
+  - streamlit=1.61.1

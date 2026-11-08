@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos originales del paquete GeoHack (3.8 GB, no se versionan; ver README)
+originales/
+
+# Temporales de LibreOffice / Word y del sistema
+.~lock.*
+~$*
+.DS_Store
+
+# Configuración personal del editor y de Streamlit
+.vscode/
+.streamlit/secrets.toml

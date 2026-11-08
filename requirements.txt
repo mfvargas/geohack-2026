@@ -1,0 +1,6 @@
+# Dependencias mínimas para ejecutar app.py (por ejemplo en Streamlit Community Cloud).
+# Para preparar los datos se necesita además geopandas: usar environment.yml.
+streamlit>=1.40
+pandas>=2.2
+plotly>=6.0
+openpyxl>=3.1
