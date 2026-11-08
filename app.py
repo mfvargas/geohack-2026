@@ -17,7 +17,7 @@ DATOS = pathlib.Path(__file__).parent / 'datos'
 # orden categórico fijo por país para las series SICA.
 SEQ = ['#cde2fb', '#b7d3f6', '#9ec5f4', '#86b6ef', '#6da7ec', '#5598e7', '#3987e5',
        '#2a78d6', '#256abf', '#1c5cab', '#184f95', '#104281', '#0d366b']
-AZUL, SIN_DATOS, GRID, INK2, MUTED = '#2a78d6', '#e1e0d9', '#e1e0d9', '#52514e', '#898781'
+AZUL, NARANJA, SIN_DATOS, GRID, INK2, MUTED = '#2a78d6', '#eb6834', '#e1e0d9', '#e1e0d9', '#52514e', '#898781'
 PAISES = {'Costa Rica': '#2a78d6', 'Panamá': '#eb6834', 'Guatemala': '#1baf7a', 'Honduras': '#eda100',
           'El Salvador': '#e87ba4', 'Rep. Dominicana': '#008300', 'Belize': '#6250d6', 'Nicaragua': '#e34948'}
 MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
@@ -41,11 +41,12 @@ def cargar():
     cantones = pd.DataFrame([f['properties'] for f in gj['features']])
     sica = pd.read_csv(DATOS / 'sica.csv')
     inst = pd.read_csv(DATOS / 'instituciones.csv')
+    puntos = pd.read_csv(DATOS / 'instituciones_puntos.csv')
     notas = (DATOS / 'registro_preparacion.md').read_text(encoding='utf-8')
-    return nic, gj, cantones, sica, inst, notas
+    return nic, gj, cantones, sica, inst, puntos, notas
 
 
-nic, gj, cantones, sica, inst, notas = cargar()
+nic, gj, cantones, sica, inst, puntos, notas = cargar()
 NECESIDADES = [c for c in nic.columns if c not in
                ('anio', 'mes', 'canton_original', 'clave', 'nota', 'promedio_grupo_sin_encuestado')]
 nic['total'] = nic[NECESIDADES].sum(axis=1)
@@ -83,6 +84,10 @@ with tab_mapa:
     df['tasa'] = df['menciones'] / df['poblacion_2022'] * 10_000
     df['pct'] = df['menciones'] / df['total'].where(df['total'] > 0) * 100
     df['valor'] = df[MEDIDAS[medida]]
+    pts = puntos if necesidad == TODAS else puntos[puntos['necesidades'].str.contains(necesidad, regex=False)]
+    oferta = pts.groupby('clave_canton').size().rename('puntos')
+    df = df.merge(oferta, left_on='clave', right_index=True, how='left')
+    df['puntos'] = df['puntos'].fillna(0).astype(int)
 
     periodo_txt = ('enero 2025 a marzo 2026' if anio == 'Todos' else
                    f'{anio}' if mes == 'Todos' else f'{mes} {anio}')
@@ -114,17 +119,39 @@ with tab_mapa:
         geojson=gj, featureidkey='properties.clave', locations=con['clave'], z=con['valor'],
         colorscale=SEQ, zmin=0, marker_line_color='#ffffff', marker_line_width=0.8,
         colorbar=dict(title=etiqueta, thickness=12, len=0.6, outlinewidth=0),
-        customdata=con[['canton', 'provincia', 'menciones', 'total', 'poblacion_2022', 'tasa', 'pct']].fillna(-1).values,
+        customdata=con[['canton', 'provincia', 'menciones', 'total', 'poblacion_2022', 'tasa', 'pct', 'puntos']].fillna(-1).values,
         hovertemplate=('<b>%{customdata[0]}</b> (%{customdata[1]})<br>'
                        'Menciones: %{customdata[2]:,.0f} de %{customdata[3]:,.0f} en total<br>'
-                       'Por 10 mil hab.: %{customdata[5]:.1f}<br>% de menciones: %{customdata[6]:.1f}<extra></extra>'),
+                       'Por 10 mil hab.: %{customdata[5]:.1f}<br>% de menciones: %{customdata[6]:.1f}<br>'
+                       'Puntos de atención (base del grupo): %{customdata[7]:.0f}<extra></extra>'),
         name=etiqueta))
+    mostrar_puntos = st.toggle('Mostrar puntos de atención (base de instituciones del grupo, 22 sedes)', value=True)
+    if mostrar_puntos and len(pts):
+        fig.add_trace(go.Scattermap(
+            lat=pts['lat'], lon=pts['lon'], mode='markers', name='Puntos de atención',
+            marker=dict(size=11, color=NARANJA, opacity=0.95),
+            customdata=pts[['institucion_sede', 'servicios', 'confianza', 'metodo', 'canton']].values,
+            hovertemplate=('<b>%{customdata[0]}</b><br>%{customdata[1]}<br>Cantón: %{customdata[4]}<br>'
+                           'Ubicación: confianza %{customdata[2]} (%{customdata[3]})<extra></extra>')))
     fig.update_layout(map=dict(style='carto-positron', center=dict(lat=9.75, lon=-84.45), zoom=6.5),
                       height=560, title=dict(text=f'{"Todas las necesidades" if necesidad == TODAS else necesidad}, {periodo_txt}', x=0.01, font=dict(size=15, color='#0b0b0b')),
                       **LAYOUT)
     st.plotly_chart(fig, width='stretch')
-    st.caption('Gris: cantones donde OIM no registró encuestas en el periodo (no es un cero). '
+    st.caption('Gris: cantones donde OIM no registró encuestas en el periodo (no es un cero). Naranja: sedes de la base de '
+               'instituciones del grupo que atienden la necesidad seleccionada; falta la red de la CCSS. '
                'Monteverde y Puerto Jiménez no tienen población en la tabla de OIM, por lo que no tienen tasa.')
+
+    st.markdown('**Necesidad alta sin puntos de atención en el cantón**')
+    brecha = con.dropna(subset=['valor']).sort_values('valor', ascending=False)
+    brecha = brecha[brecha['valor'] > 0].head(15)
+    sin_oferta = brecha[brecha['puntos'] == 0]
+    st.caption(f'De los 15 cantones con mayor valor de la medida elegida, {len(sin_oferta)} no tienen ninguna sede de la base del grupo '
+               f'que atienda esta necesidad. La oferta solo incluye las 22 sedes de la base; cuando se agregue la red de la CCSS cambiará.')
+    st.dataframe(brecha[['canton', 'provincia', 'menciones', 'tasa', 'pct', 'puntos']].rename(columns={
+        'canton': 'Cantón', 'provincia': 'Provincia', 'menciones': 'Menciones', 'tasa': 'Por 10 mil hab.',
+        'pct': '% de menciones', 'puntos': 'Puntos de atención'}), hide_index=True, width='stretch',
+        column_config={'Por 10 mil hab.': st.column_config.NumberColumn(format='%.1f'),
+                       '% de menciones': st.column_config.NumberColumn(format='%.1f')})
 
     g1, g2 = st.columns(2)
     top = con.dropna(subset=['valor']).nlargest(15, 'valor').sort_values('valor')
@@ -145,9 +172,9 @@ with tab_mapa:
     g2.plotly_chart(fl, width='stretch')
 
     with st.expander('Ver la tabla del mapa'):
-        tabla = df[['provincia', 'canton', 'poblacion_2022', 'menciones', 'total', 'tasa', 'pct', 'con_datos']].rename(columns={
+        tabla = df[['provincia', 'canton', 'poblacion_2022', 'menciones', 'total', 'tasa', 'pct', 'puntos', 'con_datos']].rename(columns={
             'provincia': 'Provincia', 'canton': 'Cantón', 'poblacion_2022': 'Población 2022', 'menciones': 'Menciones',
-            'total': 'Menciones totales', 'tasa': 'Por 10 mil hab.', 'pct': '% de menciones', 'con_datos': 'Con encuestas'})
+            'total': 'Menciones totales', 'tasa': 'Por 10 mil hab.', 'pct': '% de menciones', 'puntos': 'Puntos de atención', 'con_datos': 'Con encuestas'})
         st.dataframe(tabla.sort_values('Menciones', ascending=False), hide_index=True, width='stretch',
                      column_config={'Por 10 mil hab.': st.column_config.NumberColumn(format='%.1f'),
                                     '% de menciones': st.column_config.NumberColumn(format='%.1f')})
@@ -165,6 +192,19 @@ with tab_inst:
     st.dataframe(filas.rename(columns={'institucion': 'Institución', 'tipo': 'Tipo', 'necesidades': 'Necesidades que atiende',
                                        'que_atiende': 'Servicios', 'cobertura': 'Cobertura'}),
                  hide_index=True, width='stretch', height=min(60 + 38 * len(filas), 900))
+    st.markdown('**Sedes geocodificadas (base de instituciones del grupo, 22 sedes)**')
+    st.caption('Coordenadas obtenidas de los enlaces de Google Maps publicados por ACNUR (confianza alta), de hitos de la '
+               'dirección buscados en OpenStreetMap (alta o media) o del centroide del distrito (baja). Una sede, el Servicio '
+               'Jesuita de San José, cae en Montes de Oca según el polígono del INEC aunque la base dice San José.')
+    pts_tab = puntos if nec_inst == 'Todas' else puntos[puntos['necesidades'].str.contains(nec_inst, regex=False)]
+    st.dataframe(pts_tab[['institucion_sede', 'tipo_actor', 'canton_sig', 'distrito', 'lat', 'lon', 'confianza', 'metodo', 'servicios']].rename(columns={
+        'institucion_sede': 'Sede', 'tipo_actor': 'Tipo', 'canton_sig': 'Cantón (polígono INEC)', 'distrito': 'Distrito',
+        'lat': 'Latitud', 'lon': 'Longitud', 'confianza': 'Confianza', 'metodo': 'Método', 'servicios': 'Servicios'}),
+        hide_index=True, width='stretch', column_config={'Latitud': st.column_config.NumberColumn(format='%.5f'),
+                                                          'Longitud': st.column_config.NumberColumn(format='%.5f')})
+    st.download_button('Descargar instituciones_puntos.csv', puntos.to_csv(index=False).encode('utf-8'),
+                       'instituciones_puntos.csv', 'text/csv')
+    st.markdown('**Instituciones por necesidad (tabla de la propuesta)**')
     conteo = inst['necesidades'].str.split(';').explode().value_counts().reindex([n for n in NECESIDADES if n not in NO_NECESIDAD]).fillna(0)
     sin_inst = [n for n, v in conteo.items() if v == 0]
     if sin_inst:
@@ -231,6 +271,11 @@ with tab_datos:
 - **Denominador de las tasas.** Las tasas por 10 mil habitantes usan la población total del cantón (censo 2022),
   no la población migrante ni la encuestada: sirven para quitar el efecto del tamaño del cantón, no para medir
   prevalencia. Monteverde y Puerto Jiménez no tienen población en la tabla de OIM.
+- **Oferta de servicios incompleta.** Los puntos de atención provienen de la base de 22 sedes que elaboró el grupo
+  (ONG, organismos internacionales y centros municipales para migrantes). Falta la red de la CCSS: su capa oficial
+  de establecimientos existe en el servidor ArcGIS de la institución, pero el 7 y 8 de noviembre el servicio
+  respondía con error y su certificado TLS estaba vencido. Mientras tanto, "sin puntos de atención" significa sin sedes
+  de esa base, no sin servicios públicos.
 - **Columna sin explicar.** `Promedio_grupo_sin_encuestado` viene en el original sin diccionario; se conserva
   y no se usa. Preguntar a OIM si es un factor de ponderación.
 ''')
