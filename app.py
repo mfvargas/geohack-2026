@@ -22,7 +22,7 @@ PAISES = {'Costa Rica': '#2a78d6', 'Panamá': '#eb6834', 'Guatemala': '#1baf7a',
           'El Salvador': '#e87ba4', 'Rep. Dominicana': '#008300', 'Belize': '#6250d6', 'Nicaragua': '#e34948'}
 MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
 NO_NECESIDAD = {'Ninguna necesidad', 'Prefiere no responder'}
-TOTAL = 'Total de menciones (todas las necesidades)'
+TODAS = 'Todas'
 MEDIDAS = {
     'Menciones (número)': 'menciones',
     'Menciones por 10 mil habitantes del cantón': 'tasa',
@@ -49,6 +49,7 @@ nic, gj, cantones, sica, inst, notas = cargar()
 NECESIDADES = [c for c in nic.columns if c not in
                ('anio', 'mes', 'canton_original', 'clave', 'nota', 'promedio_grupo_sin_encuestado')]
 nic['total'] = nic[NECESIDADES].sum(axis=1)
+nic['todas'] = nic[[c for c in NECESIDADES if c not in NO_NECESIDAD]].sum(axis=1)
 nic['periodo'] = pd.to_datetime(dict(year=nic['anio'], month=nic['mes'], day=1))
 
 st.set_page_config(page_title='Necesidades por cantón', page_icon='🗺️', layout='wide')
@@ -63,7 +64,8 @@ tab_mapa, tab_inst, tab_sica, tab_datos = st.tabs(
 # ---------------------------------------------------------------- Mapa por cantón
 with tab_mapa:
     c1, c2, c3, c4 = st.columns([3, 1, 1, 2])
-    necesidad = c1.selectbox('Necesidad', [TOTAL] + NECESIDADES, index=1)
+    necesidad = c1.selectbox('Necesidad', [TODAS] + NECESIDADES, index=1,
+                             help='"Todas" suma las menciones de las 15 necesidades; no incluye "Ninguna necesidad" ni "Prefiere no responder".')
     anio = c2.selectbox('Año', ['Todos', 2025, 2026])
     meses_disp = sorted(nic.loc[nic['anio'] == anio, 'mes'].unique()) if anio != 'Todos' else list(range(1, 13))
     mes = c3.selectbox('Mes', ['Todos'] + [MESES[m - 1] for m in meses_disp])
@@ -74,7 +76,7 @@ with tab_mapa:
         sel = sel[sel['anio'] == anio]
     if mes != 'Todos':
         sel = sel[sel['mes'] == MESES.index(mes) + 1]
-    col = 'total' if necesidad == TOTAL else necesidad
+    col = 'todas' if necesidad == TODAS else necesidad
     agg = sel.groupby('clave').agg(menciones=(col, 'sum'), total=('total', 'sum'), meses=('mes', 'size')).reset_index()
     df = cantones.merge(agg, on='clave', how='left')
     df['con_datos'] = df['menciones'].notna()
@@ -85,8 +87,8 @@ with tab_mapa:
     periodo_txt = ('enero 2025 a marzo 2026' if anio == 'Todos' else
                    f'{anio}' if mes == 'Todos' else f'{mes} {anio}')
     k1, k2, k3, k4 = st.columns(4)
-    k1.metric('Menciones de la necesidad', f"{int(df['menciones'].sum()):,}".replace(',', ' '))
-    k2.metric('Menciones totales (todas)', f"{int(df['total'].sum()):,}".replace(',', ' '))
+    k1.metric('Menciones de la necesidad' if necesidad != TODAS else 'Menciones de alguna necesidad', f"{int(df['menciones'].sum()):,}".replace(',', ' '))
+    k2.metric('Respuestas totales (incluye "ninguna")', f"{int(df['total'].sum()):,}".replace(',', ' '))
     k3.metric('Cantones con encuestas', f"{int(df['con_datos'].sum())} de 84")
     k4.metric('Cantones sin encuestas', int((~df['con_datos']).sum()))
 
@@ -118,7 +120,7 @@ with tab_mapa:
                        'Por 10 mil hab.: %{customdata[5]:.1f}<br>% de menciones: %{customdata[6]:.1f}<extra></extra>'),
         name=etiqueta))
     fig.update_layout(map=dict(style='carto-positron', center=dict(lat=9.75, lon=-84.45), zoom=6.5),
-                      height=560, title=dict(text=f'{necesidad}, {periodo_txt}', x=0.01, font=dict(size=15, color='#0b0b0b')),
+                      height=560, title=dict(text=f'{"Todas las necesidades" if necesidad == TODAS else necesidad}, {periodo_txt}', x=0.01, font=dict(size=15, color='#0b0b0b')),
                       **LAYOUT)
     st.plotly_chart(fig, width='stretch')
     st.caption('Gris: cantones donde OIM no registró encuestas en el periodo (no es un cero). '
@@ -137,7 +139,7 @@ with tab_mapa:
     fl = go.Figure(go.Scatter(x=serie['periodo'], y=serie['valor'], mode='lines+markers', line=dict(color=AZUL, width=2),
                               marker=dict(size=8, color=AZUL, line=dict(color='#fcfcfb', width=2)), customdata=serie[['total']].values,
                               text=[f'{MESES[d.month - 1]} {d.year}' for d in serie['periodo']], hovertemplate='%{text}<br>Menciones: %{y:,.0f} de %{customdata[0]:,.0f}<extra></extra>'))
-    fl.update_layout(title=dict(text=f'Menciones por mes en todo el país: {necesidad}', x=0.01, font=dict(size=14, color='#0b0b0b')),
+    fl.update_layout(title=dict(text=f'Menciones por mes en todo el país: {"todas las necesidades" if necesidad == TODAS else necesidad}', x=0.01, font=dict(size=14, color='#0b0b0b')),
                      height=460, xaxis=dict(**EJES, tickmode='array', tickvals=serie['periodo'], ticktext=[f'{MESES[d.month - 1]}<br>{d.year}' for d in serie['periodo']]), yaxis=dict(title='Menciones', rangemode='tozero', **EJES),
                      hovermode='x unified', **LAYOUT)
     g2.plotly_chart(fl, width='stretch')
