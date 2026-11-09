@@ -23,6 +23,10 @@ No sustituye el producto final del grupo.
 | `scripts/geocodificar_instituciones.py` | Geocodifica la base de instituciones del grupo (`Base_insticrcr.csv`, no versionada) con los enlaces de Google Maps publicados por ACNUR, hitos en OpenStreetMap (Nominatim) o centroides distritales INEC, y asigna el cantón por intersección. |
 | `datos/instituciones_puntos.csv` | Las 22 sedes geocodificadas con método, confianza (12 alta, 7 media, 3 baja) y categorías de necesidad que atienden. |
 | `datos/ccss_healthsites.csv` | Red pública de salud (EBAIS, clínicas, hospitales con operador CCSS, Ministerio de Salud o cooperativas contratadas) extraída de Healthsites (OpenStreetMap vía HDX, septiembre 2026), con cantón asignado. Respaldo de la capa oficial de la CCSS. |
+| `datos/missing_migrants_cr.csv` | 23 incidentes del Missing Migrants Project (OIM) ocurridos en Costa Rica, 2016-2026, con coordenadas, causa, origen y cantón (los de frontera o mar, asignados al más cercano). |
+| `datos/missing_migrants_nicaragua.csv` | Personas de origen nicaragüense muertas o desaparecidas, por año y país del incidente (misma fuente). |
+| `datos/transito_necesidades.csv` | Primera necesidad declarada en las encuestas de tránsito (DTM, CRC005) por mes y sitio, 2021-2026, con las 131 filas mal entrecomilladas del CSV original corregidas. |
+| `datos/fms_encuestados.csv` | Personas encuestadas por país y mes en las encuestas de tránsito (FMS, Americas Data Browser), 2025. |
 | `datos/instituciones.csv` | Instituciones que pueden atender cada necesidad, a partir de la propuesta del grupo (4 de noviembre de 2026). La asignación a categorías de la encuesta es una propuesta por validar. |
 | `datos/registro_preparacion.md` | Qué hizo el script y qué quedó pendiente (lo genera el propio script). |
 | `environment.yml` | Ambiente conda `geohack-2026` (incluye geopandas para preparar los datos). |
@@ -40,7 +44,7 @@ conda env create -f environment.yml
 conda activate geohack-2026
 
 # Regenerar los datos (solo si cambian los originales)
-python scripts/preparar_datos.py <Datos_GeoHACK_OIM> "<Unidad Geoestadística Cantonal 2024>" <sica> datos <costa-rica.geojson de Healthsites>
+python scripts/preparar_datos.py <Datos_GeoHACK_OIM> "<Unidad Geoestadística Cantonal 2024>" <sica> datos <costa-rica.geojson de Healthsites> <20260928_FMS_AllMonths.xlsx>
 
 # Geocodificar la base de instituciones del grupo (requiere red: Google Maps y Nominatim)
 python scripts/geocodificar_instituciones.py <Base_insticrcr.csv> "<Unidad Geoestadística Distrital 2024>"
@@ -65,6 +69,11 @@ streamlit run app.py
   necesidad elegida, y se cuentan por cantón para señalar cantones con necesidad alta y sin puntos de atención.
   La red pública de salud entra desde OpenStreetMap (Healthsites) mientras la capa oficial de la CCSS
   (https://sgis.ccss.sa.cr) siga fuera de servicio, como lo estaba el 8 de noviembre de 2026.
+- **Archivos "USO" del catálogo.** Las bases exigen al menos una fuente OIM (la encuesta NIC) y el SICA como
+  contexto; el catálogo marca además 10 archivos como "USO". La pestaña de datos dice qué se hace con cada uno:
+  Missing Migrants entra como capa de incidentes en Costa Rica (12 de 23 por falta de acceso a atención médica) y
+  como resumen de personas nicaragüenses por país; FMS sirve de denominador de la tabla de necesidades en tránsito
+  (coincide con ella mes a mes en 2025, con diferencias de 0 a 32); MMP_All no se usa por ser la misma fuente agregada.
 - **SICA como contexto, no como capa.** Series por país con colores fijos y una matriz
   de cobertura que muestra el vacío principal: Nicaragua no reporta ningún indicador.
 
@@ -76,6 +85,9 @@ streamlit run app.py
   multidimensional (PEN 2020). Paquete de datos del GeoHack CR 2026.
 - INEC, Unidad Geoestadística Cantonal 2024 (límites cantonales).
 - SICA / OBSMI, estadísticas migratorias mensuales por país, 2019-2026.
+- OIM, Missing Migrants Project, archivo global del paquete (Missing_Migrants_Global_Figures_allData, 2014-2026).
+- OIM, DTM, Americas Data Browser: personas encuestadas en las encuestas de tránsito (FMS, 2025) y tabla de
+  principales necesidades en tránsito del paquete (CRC005, 2021-2026).
 - Healthsites.io vía HDX (https://data.humdata.org/dataset/costa-rica-healthsites), establecimientos de salud de
   Costa Rica derivados de OpenStreetMap (ODbL), descargado el 8 de noviembre de 2026.
 - Base de instituciones y puntos de atención del grupo 4 (Paz Ramírez Brizuela, 4 de noviembre de 2026), con

@@ -18,6 +18,7 @@ DATOS = pathlib.Path(__file__).parent / 'datos'
 SEQ = ['#cde2fb', '#b7d3f6', '#9ec5f4', '#86b6ef', '#6da7ec', '#5598e7', '#3987e5',
        '#2a78d6', '#256abf', '#1c5cab', '#184f95', '#104281', '#0d366b']
 AZUL, NARANJA, AQUA, SIN_DATOS, GRID, INK2, MUTED = '#2a78d6', '#eb6834', '#1baf7a', '#e1e0d9', '#e1e0d9', '#52514e', '#898781'
+TINTA = '#2b2a27'  # incidentes Missing Migrants: tinta oscura, fuera de la rampa y de los colores de oferta
 PAISES = {'Costa Rica': '#2a78d6', 'Panamá': '#eb6834', 'Guatemala': '#1baf7a', 'Honduras': '#eda100',
           'El Salvador': '#e87ba4', 'Rep. Dominicana': '#008300', 'Belize': '#6250d6', 'Nicaragua': '#e34948'}
 MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
@@ -43,11 +44,15 @@ def cargar():
     inst = pd.read_csv(DATOS / 'instituciones.csv')
     puntos = pd.read_csv(DATOS / 'instituciones_puntos.csv')
     salud = pd.read_csv(DATOS / 'ccss_healthsites.csv')
+    mm = pd.read_csv(DATOS / 'missing_migrants_cr.csv')
+    mm_nic = pd.read_csv(DATOS / 'missing_migrants_nicaragua.csv')
+    transito = pd.read_csv(DATOS / 'transito_necesidades.csv')
+    fms = pd.read_csv(DATOS / 'fms_encuestados.csv')
     notas = (DATOS / 'registro_preparacion.md').read_text(encoding='utf-8')
-    return nic, gj, cantones, sica, inst, puntos, salud, notas
+    return nic, gj, cantones, sica, inst, puntos, salud, mm, mm_nic, transito, fms, notas
 
 
-nic, gj, cantones, sica, inst, puntos, salud, notas = cargar()
+nic, gj, cantones, sica, inst, puntos, salud, mm, mm_nic, transito, fms, notas = cargar()
 NECESIDADES = [c for c in nic.columns if c not in
                ('anio', 'mes', 'canton_original', 'clave', 'nota', 'promedio_grupo_sin_encuestado')]
 nic['total'] = nic[NECESIDADES].sum(axis=1)
@@ -130,10 +135,20 @@ with tab_mapa:
                        'Por 10 mil hab.: %{customdata[5]:.1f}<br>% de menciones: %{customdata[6]:.1f}<br>'
                        'Sedes de la base del grupo: %{customdata[7]:.0f}<br>Establecimientos públicos de salud (OSM): %{customdata[8]:.0f}<extra></extra>'),
         name=etiqueta))
-    t1, t2 = st.columns(2)
+    t1, t2, t3 = st.columns(3)
     mostrar_puntos = t1.toggle('Sedes de la base de instituciones del grupo (22)', value=True)
     mostrar_salud = t2.toggle(f'Establecimientos públicos de salud según OpenStreetMap ({len(salud)})', value=aplica_salud,
                               disabled=not aplica_salud, help='Se activa con "Asistencia médica" o "Todas".')
+    mostrar_mm = t3.toggle(f'Muertes y desapariciones de migrantes ({len(mm)} incidentes, 2016-2026)', value=False,
+                           help='Missing Migrants Project (OIM). Todas las nacionalidades; 12 de los 23 incidentes son por '
+                                'enfermedad o falta de acceso a atención médica. Estimaciones mínimas con subregistro.')
+    if mostrar_mm:
+        fig.add_trace(go.Scattermap(
+            lat=mm['lat'], lon=mm['lon'], mode='markers', name='Missing Migrants',
+            marker=dict(size=(9 + mm['total'].clip(upper=13) * 1.1), color=TINTA, opacity=0.85),
+            customdata=mm[['fecha', 'total', 'origen', 'causa', 'lugar', 'canton']].fillna('').values,
+            hovertemplate=('<b>%{customdata[0]}</b>: %{customdata[1]} persona(s) muerta(s) o desaparecida(s)<br>'
+                           'Origen: %{customdata[2]}<br>Causa: %{customdata[3]}<br>%{customdata[4]}<br>Cantón: %{customdata[5]}<extra></extra>')))
     if mostrar_salud and aplica_salud:
         fig.add_trace(go.Scattermap(
             lat=salud['lat'], lon=salud['lon'], mode='markers', name='Salud pública (OSM)',
@@ -153,7 +168,8 @@ with tab_mapa:
     st.plotly_chart(fig, width='stretch')
     st.caption('Gris: cantones donde OIM no registró encuestas en el periodo (no es un cero). Naranja: sedes de la base de '
                'instituciones del grupo que atienden la necesidad seleccionada. Verde: EBAIS, clínicas y hospitales públicos '
-               'según OpenStreetMap (Healthsites, septiembre 2026), respaldo de la capa oficial de la CCSS. '
+               'según OpenStreetMap (Healthsites, septiembre 2026), respaldo de la capa oficial de la CCSS. Negro: incidentes del '
+               'Missing Migrants Project (OIM, 2016-2026, todas las nacionalidades), con tamaño según el número de personas. '
                'Monteverde y Puerto Jiménez no tienen población en la tabla de OIM, por lo que no tienen tasa.')
 
     st.markdown('**Necesidad alta sin puntos de atención en el cantón**')
@@ -285,6 +301,27 @@ with tab_sica:
             'Para el flujo nicaragüense, el único dato regional disponible es lo que registran Costa Rica y los '
             'demás países receptores: un vacío de información que conviene señalar en el eje 2.')
 
+    st.subheader('Personas nicaragüenses muertas o desaparecidas en ruta')
+    st.caption('Fuente: OIM, Missing Migrants Project (archivo global del paquete, 2014-2026). Incidentes con al menos una '
+               'persona de origen nicaragüense, por país donde ocurrió el incidente. Son estimaciones mínimas con subregistro.')
+    m1, m2 = st.columns(2)
+    por_pais = mm_nic.groupby('pais_incidente')['total'].sum().sort_values()
+    fp = go.Figure(go.Bar(x=por_pais.values, y=por_pais.index, orientation='h', marker_color=AZUL, marker_cornerradius=4,
+                          hovertemplate='<b>%{y}</b>: %{x} personas<extra></extra>'))
+    fp.update_layout(title=dict(text=f'Por país del incidente, 2014-2026 ({int(por_pais.sum())} personas)', x=0.01, font=dict(size=14, color='#0b0b0b')),
+                     height=360, xaxis=dict(title='Personas muertas o desaparecidas', **EJES), yaxis=dict(**EJES), bargap=0.3, **LAYOUT)
+    m1.plotly_chart(fp, width='stretch')
+    por_anio = mm_nic.groupby('anio')['total'].sum().reindex(range(2014, 2027), fill_value=0)
+    fa = go.Figure(go.Bar(x=por_anio.index.astype(str), y=por_anio.values, marker_color=AZUL, marker_cornerradius=4,
+                          hovertemplate='<b>%{x}</b>: %{y} personas<extra></extra>'))
+    fa.update_layout(title=dict(text='Por año (todos los países)', x=0.01, font=dict(size=14, color='#0b0b0b')),
+                     height=360, xaxis=dict(**EJES), yaxis=dict(title='Personas', **EJES), bargap=0.3, **LAYOUT)
+    m2.plotly_chart(fa, width='stretch')
+    st.caption('El pico de 2022 corresponde sobre todo a incidentes en México y en la propia Nicaragua. En Costa Rica la fuente '
+               'registra 6 personas nicaragüenses muertas entre 2024 y 2026 (Cartago, Paraíso, Los Chiles, Puntarenas y San José), '
+               'por violencia o accidentes; ninguna por falta de atención médica. Los 23 incidentes en Costa Rica, de todas las '
+               'nacionalidades, se pueden ver en el mapa por cantón.')
+
 # ---------------------------------------------------------------- Datos y vacíos
 with tab_datos:
     st.subheader('Qué datos hay detrás del mapa y qué les falta')
@@ -314,6 +351,38 @@ with tab_datos:
 - **Columna sin explicar.** `Promedio_grupo_sin_encuestado` viene en el original sin diccionario; se conserva
   y no se usa. Preguntar a OIM si es un factor de ponderación.
 ''')
+    st.subheader('Archivos del catálogo marcados como "USO"')
+    st.markdown('''
+Las bases del GeoHack exigen usar al menos una fuente OIM pertinente (aquí, la encuesta NIC) y datos del SICA como contexto,
+o justificar por qué no. El catálogo de metadatos marca además 10 archivos como "USO". Qué se hace con cada uno:
+
+| Archivo | Qué trae | Tratamiento en este prototipo |
+|---|---|---|
+| `SICA_*.xlsx` (6) | Series mensuales 2019-2026 por país, 6 indicadores | Pestaña "Contexto regional (SICA)" y matriz de cobertura. Nicaragua no reporta nada. |
+| `Missing_Migrants_Global_Figures_allData.xlsx` | 22 818 incidentes con coordenadas, 2014-2026 | 23 incidentes en Costa Rica como capa del mapa (12 por falta de acceso a atención médica); personas nicaragüenses por país y año en la pestaña SICA. |
+| `20260928_MMP_All.xlsx` | La misma fuente agregada por país y origen, sin coordenadas | No se usa, para no duplicar incidentes; la versión detallada lo contiene. |
+| `20260928_FMS_AllMonths.xlsx` | Personas encuestadas por país y mes en las encuestas de tránsito (2025) | Denominador de la tabla de necesidades en tránsito (abajo). No aplica a la encuesta NIC, que es otra población y otra unidad. |
+| `puestos_fronterizos_oficiales_Costa_Rica.png` | Imagen de los puestos fronterizos oficiales (COMEX) | No está en el paquete recibido. Los puestos se georreferenciaron aparte (36 puntos de monitoreo). |
+''')
+    st.markdown('**Encuestas de tránsito en Costa Rica, 2025: personas encuestadas (FMS) y respuestas registradas**')
+    st.caption('La tabla de "principales necesidades en tránsito" del paquete tampoco trae el número de encuestados. El archivo FMS '
+               'lo da por mes para 2025 y permite leer esa tabla como porcentaje de personas, algo que no es posible con la NIC. '
+               'La pregunta de tránsito es de respuesta única (primera necesidad más urgente), así que respuestas y personas '
+               'deberían coincidir; la diferencia mide filas sin necesidad registrada o cortes distintos de la exportación.')
+    fms_cr = fms[fms['pais'] == 'Costa Rica'][['anio', 'mes', 'encuestados']]
+    tr25 = transito[transito['anio'] == 2025].groupby(['anio', 'mes'])['n'].sum().rename('respuestas').reset_index()
+    comp = fms_cr.merge(tr25, on=['anio', 'mes'], how='outer').sort_values(['anio', 'mes'])
+    comp['diferencia'] = comp['respuestas'] - comp['encuestados']
+    comp['Mes'] = [f'{MESES[int(m) - 1]} {int(a)}' for a, m in zip(comp['anio'], comp['mes'])]
+    st.dataframe(comp[['Mes', 'encuestados', 'respuestas', 'diferencia']].rename(columns={
+        'encuestados': 'Encuestados (FMS)', 'respuestas': 'Respuestas (tabla de tránsito)', 'diferencia': 'Diferencia'}),
+        hide_index=True, width='stretch')
+    with st.expander('Incidentes del Missing Migrants Project en Costa Rica (23, 2016-2026)'):
+        st.dataframe(mm[['fecha', 'total', 'muertos', 'desaparecidos', 'origen', 'causa', 'lugar', 'canton', 'canton_asignado', 'fuente']].rename(columns={
+            'fecha': 'Fecha', 'total': 'Total', 'muertos': 'Muertos', 'desaparecidos': 'Desaparecidos', 'origen': 'Origen',
+            'causa': 'Causa', 'lugar': 'Lugar', 'canton': 'Cantón', 'canton_asignado': 'Nota de cantón', 'fuente': 'Fuente'}),
+            hide_index=True, width='stretch')
+        st.download_button('Descargar missing_migrants_cr.csv', mm.to_csv(index=False).encode('utf-8'), 'missing_migrants_cr.csv', 'text/csv')
     with st.expander('Registro de preparación de datos (generado por scripts/preparar_datos.py)'):
         st.markdown(notas)
     with st.expander('Tabla completa de la encuesta NIC (659 filas cantón-mes)'):

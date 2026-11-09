@@ -1,0 +1,1937 @@
+anio,mes,sitio,necesidad,n
+2021,11,Ciudad Neily,Albergue,1
+2021,11,Los Chiles,Alimentación y nutrición,1
+2021,11,Los Chiles,Asistencia legal / documentación,1
+2021,11,Los Chiles,Ingresos económicos / empleo,1
+2021,11,Los Chiles,Ninguna,1
+2021,11,Río Claro,Albergue,1
+2021,11,Río Claro,Alimentación y nutrición,1
+2021,11,Río Claro,Artículos no alimentarios,1
+2021,11,Río Claro,Asistencia legal / documentación,4
+2021,11,Río Claro,Atención médica / salubre,3
+2021,11,Río Claro,Ninguna,4
+2021,11,Río Claro,Otra,2
+2021,11,Río Claro,Protección y seguridad,1
+2021,11,Uvita,Asistencia legal / documentación,3
+2021,12,Ciudad Neily,Albergue,1
+2021,12,Ciudad Neily,Alimentación y nutrición,6
+2021,12,Ciudad Neily,Asistencia legal / documentación,2
+2021,12,Ciudad Neily,Atención médica / salubre,1
+2021,12,Ciudad Neily,Comunicación,1
+2021,12,Ciudad Neily,Ingresos económicos / empleo,4
+2021,12,Ciudad Neily,Ninguna,24
+2021,12,Ciudad Neily,Otra,2
+2021,12,Ciudad Neily,Protección y seguridad,1
+2021,12,Los Chiles,Alimentación y nutrición,5
+2021,12,Los Chiles,Asistencia legal / documentación,3
+2021,12,Los Chiles,Ninguna,6
+2021,12,Paso Canoas,Alimentación y nutrición,2
+2021,12,Paso Canoas,Asistencia legal / documentación,6
+2021,12,Paso Canoas,Atención médica / salubre,2
+2021,12,Paso Canoas,Comunicación,1
+2021,12,Paso Canoas,Ninguna,14
+2021,12,Paso Canoas,Otra,1
+2021,12,Río Claro,Albergue,5
+2021,12,Río Claro,Alimentación y nutrición,6
+2021,12,Río Claro,Asistencia legal / documentación,6
+2021,12,Río Claro,Atención médica / salubre,5
+2021,12,Río Claro,Comunicación,2
+2021,12,Río Claro,Ingresos económicos / empleo,2
+2021,12,Río Claro,Ninguna,50
+2021,12,Río Claro,Otra,6
+2021,12,Río Claro,Protección y seguridad,3
+2021,12,Uvita,Asistencia legal / documentación,2
+2021,12,Uvita,Ingresos económicos / empleo,1
+2021,12,Uvita,Ninguna,12
+2021,12,Uvita,Otra,1
+2022,1,Ciudad Neily,Albergue,3
+2022,1,Ciudad Neily,Alimentación y nutrición,11
+2022,1,Ciudad Neily,Artículos no alimentarios,1
+2022,1,Ciudad Neily,Asistencia legal / documentación,5
+2022,1,Ciudad Neily,Atención médica / salubre,5
+2022,1,Ciudad Neily,Comunicación,1
+2022,1,Ciudad Neily,Ingresos económicos / empleo,2
+2022,1,Ciudad Neily,Ninguna,39
+2022,1,Ciudad Neily,Protección y seguridad,2
+2022,1,Los Chiles,Alimentación y nutrición,1
+2022,1,Los Chiles,Ninguna,2
+2022,1,Paso Canoas,Alimentación y nutrición,1
+2022,1,Paso Canoas,Asistencia legal / documentación,1
+2022,1,Paso Canoas,Ninguna,7
+2022,1,Río Claro,Albergue,6
+2022,1,Río Claro,Alimentación y nutrición,22
+2022,1,Río Claro,Artículos no alimentarios,2
+2022,1,Río Claro,Asistencia legal / documentación,18
+2022,1,Río Claro,Atención médica / salubre,13
+2022,1,Río Claro,Comunicación,6
+2022,1,Río Claro,Ingresos económicos / empleo,1
+2022,1,Río Claro,Ninguna,104
+2022,1,Río Claro,Protección y seguridad,11
+2022,1,Uvita,Alimentación y nutrición,1
+2022,1,Uvita,Ninguna,15
+2022,1,Uvita,Otra,1
+2022,1,Uvita,Protección y seguridad,1
+2022,2,Ciudad Neily,Albergue,3
+2022,2,Ciudad Neily,Alimentación y nutrición,7
+2022,2,Ciudad Neily,Asistencia legal / documentación,4
+2022,2,Ciudad Neily,Atención médica / salubre,4
+2022,2,Ciudad Neily,Ninguna,28
+2022,2,Ciudad Neily,Protección y seguridad,9
+2022,2,Los Chiles,Alimentación y nutrición,1
+2022,2,Los Chiles,Artículos no alimentarios,1
+2022,2,Los Chiles,Ninguna,4
+2022,2,Río Claro,Albergue,12
+2022,2,Río Claro,Alimentación y nutrición,15
+2022,2,Río Claro,Artículos no alimentarios,4
+2022,2,Río Claro,Asistencia legal / documentación,23
+2022,2,Río Claro,Atención médica / salubre,15
+2022,2,Río Claro,Comunicación,7
+2022,2,Río Claro,Ninguna,63
+2022,2,Río Claro,Otra,1
+2022,2,Río Claro,Protección y seguridad,4
+2022,2,Uvita,Alimentación y nutrición,1
+2022,2,Uvita,Comunicación,2
+2022,2,Uvita,Educación,1
+2022,2,Uvita,Ninguna,26
+2022,3,Ciudad Neily,Albergue,1
+2022,3,Ciudad Neily,Alimentación y nutrición,7
+2022,3,Ciudad Neily,Asistencia legal / documentación,1
+2022,3,Ciudad Neily,Atención médica / salubre,3
+2022,3,Ciudad Neily,Ninguna,14
+2022,3,Ciudad Neily,Protección y seguridad,4
+2022,3,Paso Canoas,Asistencia legal / documentación,1
+2022,3,Río Claro,Albergue,4
+2022,3,Río Claro,Alimentación y nutrición,5
+2022,3,Río Claro,Artículos no alimentarios,2
+2022,3,Río Claro,Asistencia legal / documentación,12
+2022,3,Río Claro,Atención médica / salubre,13
+2022,3,Río Claro,Comunicación,1
+2022,3,Río Claro,Educación,1
+2022,3,Río Claro,Ingresos económicos / empleo,1
+2022,3,Río Claro,Ninguna,36
+2022,3,Río Claro,Otra,1
+2022,3,Río Claro,Protección y seguridad,7
+2022,3,Uvita,Alimentación y nutrición,1
+2022,3,Uvita,Atención médica / salubre,1
+2022,3,Uvita,Ingresos económicos / empleo,2
+2022,3,Uvita,Ninguna,8
+2022,4,Ciudad Neily,Albergue,1
+2022,4,Ciudad Neily,Alimentación y nutrición,5
+2022,4,Ciudad Neily,Artículos no alimentarios,1
+2022,4,Ciudad Neily,Asistencia legal / documentación,2
+2022,4,Ciudad Neily,Atención médica / salubre,10
+2022,4,Ciudad Neily,Ninguna,9
+2022,4,Ciudad Neily,Otra,1
+2022,4,Ciudad Neily,Protección y seguridad,3
+2022,4,Río Claro,Albergue,1
+2022,4,Río Claro,Alimentación y nutrición,3
+2022,4,Río Claro,Atención médica / salubre,4
+2022,4,Río Claro,Ingresos económicos / empleo,1
+2022,4,Río Claro,Ninguna,23
+2022,4,Río Claro,Protección y seguridad,7
+2022,4,Uvita,Ninguna,1
+2022,5,Ciudad Neily,Albergue,12
+2022,5,Ciudad Neily,Asistencia legal / documentación,2
+2022,5,Ciudad Neily,Atención médica / salubre,9
+2022,5,Ciudad Neily,Ninguna,4
+2022,5,Ciudad Neily,Protección y seguridad,10
+2022,5,Paso Canoas,Alimentación y nutrición,1
+2022,5,Paso Canoas,Atención médica / salubre,2
+2022,5,Paso Canoas,Ninguna,1
+2022,5,Paso Canoas,Protección y seguridad,2
+2022,5,Río Claro,Albergue,3
+2022,5,Río Claro,Alimentación y nutrición,2
+2022,5,Río Claro,Asistencia legal / documentación,2
+2022,5,Río Claro,Atención médica / salubre,6
+2022,5,Río Claro,Ingresos económicos / empleo,2
+2022,5,Río Claro,Ninguna,24
+2022,5,Río Claro,Protección y seguridad,2
+2022,6,Ciudad Neily,Albergue,8
+2022,6,Ciudad Neily,Alimentación y nutrición,2
+2022,6,Ciudad Neily,Asistencia legal / documentación,1
+2022,6,Ciudad Neily,Atención médica / salubre,4
+2022,6,Ciudad Neily,Ninguna,9
+2022,6,Ciudad Neily,Protección y seguridad,2
+2022,6,Río Claro,Albergue,3
+2022,6,Río Claro,Alimentación y nutrición,2
+2022,6,Río Claro,Asistencia legal / documentación,2
+2022,6,Río Claro,Atención médica / salubre,2
+2022,6,Río Claro,Ingresos económicos / empleo,1
+2022,6,Río Claro,Ninguna,14
+2022,6,Río Claro,Protección y seguridad,4
+2022,12,Albergue Puente 2,Albergue,1
+2022,12,Albergue Puente 2,Alimentación y nutrición,1
+2022,12,Albergue Puente 2,Apoyo en retorno,1
+2022,12,Albergue Puente 2,Atención médica / salubre,1
+2022,12,Albergue Puente 2,Ingresos económicos / empleo,6
+2022,12,Dormitorio Solidario la Merced,Albergue,1
+2022,12,Dormitorio Solidario la Merced,Apoyo en retorno,1
+2022,12,Dormitorio Solidario la Merced,Asistencia legal / documentación,1
+2022,12,Dormitorio Solidario la Merced,Ingresos económicos / empleo,2
+2022,12,Puente 1,Atención médica / salubre,1
+2022,12,Puente 1,Ingresos económicos / empleo,4
+2023,1,Albergue Puente 2,Apoyo en retorno,1
+2023,1,Albergue Puente 2,Apoyo psicosocial,1
+2023,1,Albergue Puente 2,Asistencia legal / documentación,2
+2023,1,Albergue Puente 2,Ingresos económicos / empleo,5
+2023,1,Albergue Puente 2,Otra,2
+2023,1,Calle 20,Albergue,1
+2023,1,Calle 20,Asistencia legal / documentación,1
+2023,1,Casa de Acogida,Alimentación y nutrición,1
+2023,1,Casa de Acogida,Ingresos económicos / empleo,1
+2023,1,Obras del Espíritu Santo,Apoyo en retorno,3
+2023,1,Obras del Espíritu Santo,Asistencia legal / documentación,2
+2023,1,Obras del Espíritu Santo,Educación,1
+2023,1,Obras del Espíritu Santo,Ingresos económicos / empleo,8
+2023,1,Puente 1,Alimentación y nutrición,1
+2023,1,Puente 1,Apoyo en retorno,1
+2023,1,Puente 1,Ingresos económicos / empleo,2
+2023,2,Albergue Puente 2,Albergue,9
+2023,2,Albergue Puente 2,Alimentación y nutrición,2
+2023,2,Albergue Puente 2,Artículos no alimentarios,1
+2023,2,Albergue Puente 2,Atención médica / salubre,1
+2023,2,Albergue Puente 2,Ingresos económicos / empleo,7
+2023,2,Albergue Puente 2,Medios de vida,1
+2023,2,Albergue Puente 2,Protección y seguridad,1
+2023,2,Calle 20,Albergue,2
+2023,2,Calle 20,Ingresos económicos / empleo,4
+2023,2,Calle 20,Medios de vida,1
+2023,2,Obras del Espíritu Santo,Ingresos económicos / empleo,5
+2023,2,Obras del Espíritu Santo,Medios de vida,1
+2023,3,Albergue Puente 2,Albergue,4
+2023,3,Albergue Puente 2,Alimentación y nutrición,4
+2023,3,Albergue Puente 2,Atención médica / salubre,3
+2023,3,Albergue Puente 2,Ingresos económicos / empleo,12
+2023,3,Albergue Puente 2,Otra,2
+2023,3,Albergue Puente 2,Transporte,2
+2023,3,Calle 20,Albergue,1
+2023,3,Calle 20,Alimentación y nutrición,3
+2023,3,Calle 20,Atención médica / salubre,1
+2023,3,Calle 20,Ingresos económicos / empleo,5
+2023,3,Calle 20,Otra,1
+2023,3,Casa de Acogida,Ingresos económicos / empleo,1
+2023,3,Obras del Espíritu Santo,Albergue,16
+2023,3,Obras del Espíritu Santo,Alimentación y nutrición,10
+2023,3,Obras del Espíritu Santo,Ingresos económicos / empleo,7
+2023,3,Obras del Espíritu Santo,Otra,2
+2023,3,Obras del Espíritu Santo,Protección y seguridad,1
+2023,4,Albergue Puente 2,Alimentación y nutrición,3
+2023,4,Albergue Puente 2,Atención médica / salubre,3
+2023,4,Albergue Puente 2,Ingresos económicos / empleo,7
+2023,4,Albergue Puente 2,Otra,1
+2023,4,Albergue Puente 2,Protección y seguridad,1
+2023,4,Calle 20,Alimentación y nutrición,1
+2023,4,Calle 20,Ingresos económicos / empleo,1
+2023,4,Liberia,Albergue,9
+2023,4,Liberia,Alimentación y nutrición,2
+2023,4,Liberia,Ingresos económicos / empleo,10
+2023,4,Los Chiles,Agua,1
+2023,4,Los Chiles,Albergue,7
+2023,4,Los Chiles,Alimentación y nutrición,39
+2023,4,Los Chiles,Apoyo psicosocial,1
+2023,4,Los Chiles,Artículos de higiene femenina,1
+2023,4,Los Chiles,Atención médica / salubre,2
+2023,4,Los Chiles,Ingresos económicos / empleo,59
+2023,4,Los Chiles,Ninguna,4
+2023,4,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2023,4,Los Chiles,Protección y seguridad,4
+2023,4,Los Chiles,Saneamiento e higiene,1
+2023,4,Obras del Espíritu Santo,Albergue,12
+2023,4,Obras del Espíritu Santo,Alimentación y nutrición,12
+2023,4,Obras del Espíritu Santo,Ingresos económicos / empleo,9
+2023,4,Obras del Espíritu Santo,Otra,1
+2023,4,Obras del Espíritu Santo,Saneamiento e higiene,1
+2023,4,Upala,Alimentación y nutrición,2
+2023,4,Upala,Atención médica / salubre,2
+2023,4,Upala,Ingresos económicos / empleo,5
+2023,4,Upala,Ninguna,1
+2023,5,Albergue Puente 2,Albergue,1
+2023,5,Albergue Puente 2,Alimentación y nutrición,1
+2023,5,Albergue Puente 2,Atención médica / salubre,2
+2023,5,Albergue Puente 2,Ingresos económicos / empleo,8
+2023,5,Albergue Puente 2,Otra,1
+2023,5,CATEM SUR,Alimentación y nutrición,3
+2023,5,CATEM SUR,Apoyo en retorno,1
+2023,5,CATEM SUR,Artículos no alimentarios,1
+2023,5,CATEM SUR,Asistencia legal / documentación,1
+2023,5,CATEM SUR,Atención médica / salubre,1
+2023,5,CATEM SUR,Ingresos económicos / empleo,53
+2023,5,CATEM SUR,Medios de vida,1
+2023,5,CATEM SUR,Otra,1
+2023,5,CATEM SUR,Protección y seguridad,2
+2023,5,CATEM SUR,Saneamiento e higiene,1
+2023,5,Calle 20,Albergue,1
+2023,5,Calle 20,Apoyo psicosocial,1
+2023,5,Calle 20,Artículos no alimentarios,1
+2023,5,Calle 20,Ingresos económicos / empleo,3
+2023,5,Calle 20,Otra,1
+2023,5,Ciudad Neily,Albergue,5
+2023,5,Ciudad Neily,Alimentación y nutrición,44
+2023,5,Ciudad Neily,Artículos de higiene femenina,1
+2023,5,Ciudad Neily,Atención médica / salubre,3
+2023,5,Ciudad Neily,Dieta especial para embarazadas y enfermos,1
+2023,5,Ciudad Neily,Ingresos económicos / empleo,42
+2023,5,Ciudad Neily,Medios de vida,1
+2023,5,Ciudad Neily,Ninguna,3
+2023,5,Ciudad Neily,Otra,3
+2023,5,Ciudad Neily,Protección y seguridad,2
+2023,5,Ciudad Neily,Saneamiento e higiene,4
+2023,5,Liberia,Albergue,20
+2023,5,Liberia,Alimentación y nutrición,9
+2023,5,Liberia,Atención médica / salubre,2
+2023,5,Liberia,Ingresos económicos / empleo,24
+2023,5,Los Chiles,Agua,1
+2023,5,Los Chiles,Albergue,12
+2023,5,Los Chiles,Alimentación y nutrición,177
+2023,5,Los Chiles,Atención médica / salubre,4
+2023,5,Los Chiles,Ingresos económicos / empleo,74
+2023,5,Los Chiles,Ninguna,6
+2023,5,Los Chiles,Protección y seguridad,3
+2023,5,Los Chiles,Sin respuesta,1
+2023,5,Obras del Espíritu Santo,Albergue,28
+2023,5,Obras del Espíritu Santo,Alimentación y nutrición,15
+2023,5,Obras del Espíritu Santo,Apoyo psicosocial,1
+2023,5,Obras del Espíritu Santo,Artículos no alimentarios,1
+2023,5,Obras del Espíritu Santo,Atención médica / salubre,1
+2023,5,Obras del Espíritu Santo,Ingresos económicos / empleo,8
+2023,5,Obras del Espíritu Santo,Protección y seguridad,1
+2023,5,Paso Canoas,Agua,3
+2023,5,Paso Canoas,Albergue,23
+2023,5,Paso Canoas,Alimentación y nutrición,156
+2023,5,Paso Canoas,Artículos de higiene femenina,1
+2023,5,Paso Canoas,Artículos no alimentarios,2
+2023,5,Paso Canoas,Asistencia legal / documentación,1
+2023,5,Paso Canoas,Atención médica / salubre,14
+2023,5,Paso Canoas,Educación,3
+2023,5,Paso Canoas,Ingresos económicos / empleo,95
+2023,5,Paso Canoas,Medios de vida,2
+2023,5,Paso Canoas,Ninguna,9
+2023,5,Paso Canoas,Otra,3
+2023,5,Paso Canoas,"Pañales, leche de fórmula, otros para bebés",4
+2023,5,Paso Canoas,Protección y seguridad,7
+2023,5,Paso Canoas,Saneamiento e higiene,5
+2023,5,Paso Canoas,Transporte,3
+2023,5,Upala,Albergue,1
+2023,5,Upala,Alimentación y nutrición,5
+2023,5,Upala,Ingresos económicos / empleo,10
+2023,5,Upala,Ninguna,2
+2023,6,Albergue Puente 2,Albergue,1
+2023,6,Albergue Puente 2,Artículos no alimentarios,1
+2023,6,Albergue Puente 2,Atención médica / salubre,3
+2023,6,Albergue Puente 2,Educación,2
+2023,6,Albergue Puente 2,Ingresos económicos / empleo,12
+2023,6,Albergue Puente 2,"Pañales, leche de fórmula, otros para bebés",1
+2023,6,CATEM SUR,Agua,1
+2023,6,CATEM SUR,Alimentación y nutrición,1
+2023,6,CATEM SUR,Atención médica / salubre,3
+2023,6,CATEM SUR,Ingresos económicos / empleo,44
+2023,6,CATEM SUR,Protección y seguridad,1
+2023,6,Calle 20,Albergue,5
+2023,6,Calle 20,Ingresos económicos / empleo,6
+2023,6,Calle 20,Otra,1
+2023,6,Ciudad Neily,Albergue,1
+2023,6,Ciudad Neily,Alimentación y nutrición,13
+2023,6,Ciudad Neily,Ingresos económicos / empleo,12
+2023,6,Ciudad Neily,Otra,2
+2023,6,Ciudad Neily,Saneamiento e higiene,1
+2023,6,Ciudad Neily,Sin respuesta,1
+2023,6,Ciudad Neily,Transporte,1
+2023,6,Liberia,Albergue,36
+2023,6,Liberia,Alimentación y nutrición,15
+2023,6,Liberia,Atención médica / salubre,4
+2023,6,Liberia,Ingresos económicos / empleo,6
+2023,6,Liberia,Protección y seguridad,1
+2023,6,Liberia,Saneamiento e higiene,1
+2023,6,Liberia,Transporte,1
+2023,6,Los Chiles,Agua,1
+2023,6,Los Chiles,Albergue,6
+2023,6,Los Chiles,Alimentación y nutrición,156
+2023,6,Los Chiles,Comunicación,1
+2023,6,Los Chiles,Ingresos económicos / empleo,34
+2023,6,Los Chiles,Ninguna,4
+2023,6,Los Chiles,Otra,1
+2023,6,Los Chiles,Saneamiento e higiene,1
+2023,6,Obras del Espíritu Santo,Albergue,11
+2023,6,Obras del Espíritu Santo,Alimentación y nutrición,8
+2023,6,Obras del Espíritu Santo,Asistencia legal / documentación,2
+2023,6,Obras del Espíritu Santo,Atención médica / salubre,1
+2023,6,Obras del Espíritu Santo,Ingresos económicos / empleo,4
+2023,6,Paso Canoas,Albergue,20
+2023,6,Paso Canoas,Alimentación y nutrición,143
+2023,6,Paso Canoas,Artículos de higiene femenina,1
+2023,6,Paso Canoas,Artículos no alimentarios,8
+2023,6,Paso Canoas,Asistencia legal / documentación,1
+2023,6,Paso Canoas,Atención médica / salubre,16
+2023,6,Paso Canoas,Comunicación,4
+2023,6,Paso Canoas,Educación,1
+2023,6,Paso Canoas,Ingresos económicos / empleo,76
+2023,6,Paso Canoas,Medios de vida,1
+2023,6,Paso Canoas,Ninguna,3
+2023,6,Paso Canoas,Otra,5
+2023,6,Paso Canoas,"Pañales, leche de fórmula, otros para bebés",3
+2023,6,Paso Canoas,Protección y seguridad,4
+2023,6,Paso Canoas,Saneamiento e higiene,8
+2023,6,Paso Canoas,Sin respuesta,1
+2023,7,Albergue Puente 2,Albergue,1
+2023,7,Albergue Puente 2,Atención médica / salubre,3
+2023,7,Albergue Puente 2,Ingresos económicos / empleo,11
+2023,7,CATEM SUR,Alimentación y nutrición,3
+2023,7,CATEM SUR,Artículos no alimentarios,1
+2023,7,CATEM SUR,Atención médica / salubre,3
+2023,7,CATEM SUR,Comunicación,2
+2023,7,CATEM SUR,Ingresos económicos / empleo,36
+2023,7,CATEM SUR,Otra,1
+2023,7,CATEM SUR,Protección y seguridad,1
+2023,7,CATEM SUR,Saneamiento e higiene,1
+2023,7,CATEM SUR,Transporte,1
+2023,7,Calle 20,Albergue,1
+2023,7,Calle 20,Alimentación y nutrición,1
+2023,7,Calle 20,Artículos no alimentarios,1
+2023,7,Calle 20,Dieta especial para embarazadas y enfermos,1
+2023,7,Calle 20,Ingresos económicos / empleo,4
+2023,7,Ciudad Neily,Agua,1
+2023,7,Ciudad Neily,Alimentación y nutrición,19
+2023,7,Ciudad Neily,Comunicación,1
+2023,7,Ciudad Neily,Ingresos económicos / empleo,9
+2023,7,Ciudad Neily,Otra,1
+2023,7,Ciudad Neily,Protección y seguridad,1
+2023,7,Ciudad Neily,Saneamiento e higiene,1
+2023,7,Liberia,Albergue,18
+2023,7,Liberia,Alimentación y nutrición,4
+2023,7,Liberia,Ingresos económicos / empleo,7
+2023,7,Liberia,Saneamiento e higiene,2
+2023,7,Los Chiles,Agua,1
+2023,7,Los Chiles,Albergue,6
+2023,7,Los Chiles,Alimentación y nutrición,125
+2023,7,Los Chiles,Atención médica / salubre,3
+2023,7,Los Chiles,Ingresos económicos / empleo,71
+2023,7,Los Chiles,Ninguna,1
+2023,7,Obras del Espíritu Santo,Albergue,14
+2023,7,Obras del Espíritu Santo,Alimentación y nutrición,7
+2023,7,Obras del Espíritu Santo,Artículos no alimentarios,1
+2023,7,Obras del Espíritu Santo,Ingresos económicos / empleo,4
+2023,7,Obras del Espíritu Santo,Otra,1
+2023,7,Paso Canoas,Agua,2
+2023,7,Paso Canoas,Albergue,26
+2023,7,Paso Canoas,Alimentación y nutrición,251
+2023,7,Paso Canoas,Artículos de higiene femenina,3
+2023,7,Paso Canoas,Artículos no alimentarios,3
+2023,7,Paso Canoas,Atención médica / salubre,31
+2023,7,Paso Canoas,Comunicación,5
+2023,7,Paso Canoas,Ingresos económicos / empleo,102
+2023,7,Paso Canoas,Medios de vida,1
+2023,7,Paso Canoas,Ninguna,4
+2023,7,Paso Canoas,Otra,12
+2023,7,Paso Canoas,"Pañales, leche de fórmula, otros para bebés",4
+2023,7,Paso Canoas,Protección y seguridad,9
+2023,7,Paso Canoas,Saneamiento e higiene,2
+2023,7,Paso Canoas,Sin respuesta,1
+2023,7,Paso Canoas,Transporte,5
+2023,8,Albergue Puente 2,Apoyo en retorno,1
+2023,8,Albergue Puente 2,Ingresos económicos / empleo,7
+2023,8,CATEM SUR,Agua,1
+2023,8,CATEM SUR,Artículos de higiene femenina,1
+2023,8,CATEM SUR,Comunicación,2
+2023,8,CATEM SUR,Ingresos económicos / empleo,13
+2023,8,CATEM SUR,Protección y seguridad,4
+2023,8,CATEM SUR,Transporte,1
+2023,8,Calle 20,Ingresos económicos / empleo,3
+2023,8,Calle 20,Otra,1
+2023,8,Ciudad Neily,Albergue,2
+2023,8,Ciudad Neily,Alimentación y nutrición,4
+2023,8,Ciudad Neily,Artículos no alimentarios,1
+2023,8,Ciudad Neily,Ingresos económicos / empleo,3
+2023,8,Ciudad Neily,"Pañales, leche de fórmula, otros para bebés",1
+2023,8,Ciudad Neily,Protección y seguridad,1
+2023,8,Liberia,Agua,1
+2023,8,Liberia,Alimentación y nutrición,3
+2023,8,Liberia,Ingresos económicos / empleo,1
+2023,8,Los Chiles,Agua,23
+2023,8,Los Chiles,Albergue,5
+2023,8,Los Chiles,Alimentación y nutrición,15
+2023,8,Los Chiles,Atención médica / salubre,1
+2023,8,Los Chiles,Ingresos económicos / empleo,15
+2023,8,Los Chiles,Ninguna,1
+2023,8,Obras del Espíritu Santo,Albergue,30
+2023,8,Obras del Espíritu Santo,Alimentación y nutrición,31
+2023,8,Obras del Espíritu Santo,Artículos no alimentarios,1
+2023,8,Obras del Espíritu Santo,Ingresos económicos / empleo,7
+2023,8,Obras del Espíritu Santo,Protección y seguridad,1
+2023,8,Paso Canoas,Agua,4
+2023,8,Paso Canoas,Albergue,7
+2023,8,Paso Canoas,Alimentación y nutrición,32
+2023,8,Paso Canoas,Atención médica / salubre,4
+2023,8,Paso Canoas,Ingresos económicos / empleo,17
+2023,8,Paso Canoas,"Pañales, leche de fórmula, otros para bebés",2
+2023,8,Paso Canoas,Saneamiento e higiene,3
+2023,8,Paso Canoas,Transporte,3
+2023,9,Albergue Puente 2,Albergue,3
+2023,9,Albergue Puente 2,Atención médica / salubre,3
+2023,9,Albergue Puente 2,Ingresos económicos / empleo,6
+2023,9,CATEM SUR,Agua,1
+2023,9,CATEM SUR,Alimentación y nutrición,4
+2023,9,CATEM SUR,Apoyo psicosocial,1
+2023,9,CATEM SUR,Artículos de higiene femenina,1
+2023,9,CATEM SUR,Artículos no alimentarios,4
+2023,9,CATEM SUR,Atención médica / salubre,9
+2023,9,CATEM SUR,Comunicación,8
+2023,9,CATEM SUR,Ingresos económicos / empleo,38
+2023,9,CATEM SUR,Otra,2
+2023,9,CATEM SUR,"Pañales, leche de fórmula, otros para bebés",6
+2023,9,CATEM SUR,Sin respuesta,1
+2023,9,CATEM SUR,Transporte,6
+2023,9,Calle 20,Albergue,2
+2023,9,Calle 20,Ingresos económicos / empleo,1
+2023,9,Ciudad Neily,Agua,1
+2023,9,Ciudad Neily,Albergue,6
+2023,9,Ciudad Neily,Alimentación y nutrición,18
+2023,9,Ciudad Neily,Atención médica / salubre,4
+2023,9,Ciudad Neily,Comunicación,3
+2023,9,Ciudad Neily,Ingresos económicos / empleo,14
+2023,9,Ciudad Neily,Ninguna,1
+2023,9,Ciudad Neily,Saneamiento e higiene,2
+2023,9,Ciudad Neily,Sin respuesta,1
+2023,9,Liberia,Agua,1
+2023,9,Liberia,Albergue,37
+2023,9,Liberia,Alimentación y nutrición,15
+2023,9,Liberia,Atención médica / salubre,1
+2023,9,Liberia,Ingresos económicos / empleo,17
+2023,9,Los Chiles,Agua,381
+2023,9,Los Chiles,Albergue,57
+2023,9,Los Chiles,Alimentación y nutrición,178
+2023,9,Los Chiles,Artículos no alimentarios,3
+2023,9,Los Chiles,Atención médica / salubre,11
+2023,9,Los Chiles,Comunicación,1
+2023,9,Los Chiles,Ingresos económicos / empleo,97
+2023,9,Los Chiles,Ninguna,8
+2023,9,Los Chiles,Otra,2
+2023,9,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2023,9,Los Chiles,Protección y seguridad,3
+2023,9,Los Chiles,Saneamiento e higiene,2
+2023,9,Los Chiles,Sin respuesta,4
+2023,9,Los Chiles,Transporte,2
+2023,9,Obras del Espíritu Santo,Agua,1
+2023,9,Obras del Espíritu Santo,Albergue,9
+2023,9,Obras del Espíritu Santo,Alimentación y nutrición,12
+2023,9,Obras del Espíritu Santo,Asistencia legal / documentación,2
+2023,9,Obras del Espíritu Santo,Atención médica / salubre,3
+2023,9,Obras del Espíritu Santo,Ingresos económicos / empleo,3
+2023,9,Obras del Espíritu Santo,Otra,1
+2023,9,Obras del Espíritu Santo,Saneamiento e higiene,1
+2023,9,Paso Canoas,Agua,54
+2023,9,Paso Canoas,Albergue,66
+2023,9,Paso Canoas,Alimentación y nutrición,220
+2023,9,Paso Canoas,Artículos de higiene femenina,1
+2023,9,Paso Canoas,Artículos no alimentarios,6
+2023,9,Paso Canoas,Atención médica / salubre,15
+2023,9,Paso Canoas,Comunicación,7
+2023,9,Paso Canoas,Educación,2
+2023,9,Paso Canoas,Ingresos económicos / empleo,75
+2023,9,Paso Canoas,Ninguna,12
+2023,9,Paso Canoas,Otra,2
+2023,9,Paso Canoas,"Pañales, leche de fórmula, otros para bebés",3
+2023,9,Paso Canoas,Protección y seguridad,3
+2023,9,Paso Canoas,Saneamiento e higiene,19
+2023,9,Paso Canoas,Sin respuesta,1
+2023,9,Paso Canoas,Transporte,8
+2023,10,Albergue Puente 2,Albergue,1
+2023,10,Albergue Puente 2,Asistencia legal / documentación,1
+2023,10,Albergue Puente 2,Atención médica / salubre,4
+2023,10,Albergue Puente 2,Ingresos económicos / empleo,1
+2023,10,CATEM SUR,Agua,24
+2023,10,CATEM SUR,Albergue,9
+2023,10,CATEM SUR,Alimentación y nutrición,109
+2023,10,CATEM SUR,Apoyo psicosocial,2
+2023,10,CATEM SUR,Artículos de higiene femenina,15
+2023,10,CATEM SUR,Artículos no alimentarios,20
+2023,10,CATEM SUR,Atención médica / salubre,27
+2023,10,CATEM SUR,Comunicación,18
+2023,10,CATEM SUR,Educación,1
+2023,10,CATEM SUR,Ingresos económicos / empleo,94
+2023,10,CATEM SUR,Medios de vida,1
+2023,10,CATEM SUR,Ninguna,2
+2023,10,CATEM SUR,"Pañales, leche de fórmula, otros para bebés",14
+2023,10,CATEM SUR,Saneamiento e higiene,9
+2023,10,CATEM SUR,Sin respuesta,3
+2023,10,CATEM SUR,Transporte,1
+2023,10,Calle 20,Albergue,1
+2023,10,Calle 20,Apoyo psicosocial,1
+2023,10,Calle 20,Artículos no alimentarios,1
+2023,10,Calle 20,Atención médica / salubre,2
+2023,10,Calle 20,Dieta especial para embarazadas y enfermos,1
+2023,10,Calle 20,Ingresos económicos / empleo,1
+2023,10,Liberia,Albergue,18
+2023,10,Liberia,Alimentación y nutrición,13
+2023,10,Liberia,Atención médica / salubre,4
+2023,10,Liberia,Ingresos económicos / empleo,4
+2023,10,Liberia,Saneamiento e higiene,2
+2023,10,Los Chiles,Agua,200
+2023,10,Los Chiles,Albergue,9
+2023,10,Los Chiles,Alimentación y nutrición,297
+2023,10,Los Chiles,Artículos no alimentarios,2
+2023,10,Los Chiles,Atención médica / salubre,7
+2023,10,Los Chiles,Ingresos económicos / empleo,45
+2023,10,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2023,10,Los Chiles,Protección y seguridad,3
+2023,10,Obras del Espíritu Santo,Albergue,9
+2023,10,Obras del Espíritu Santo,Alimentación y nutrición,7
+2023,10,Obras del Espíritu Santo,Ingresos económicos / empleo,2
+2023,10,Paso Canoas,Agua,10
+2023,10,Paso Canoas,Albergue,15
+2023,10,Paso Canoas,Alimentación y nutrición,30
+2023,10,Paso Canoas,Artículos no alimentarios,1
+2023,10,Paso Canoas,Atención médica / salubre,2
+2023,10,Paso Canoas,Ingresos económicos / empleo,11
+2023,10,Paso Canoas,Medios de vida,1
+2023,10,Paso Canoas,Ninguna,2
+2023,10,Paso Canoas,Otra,1
+2023,10,Paso Canoas,Protección y seguridad,1
+2023,10,Paso Canoas,Saneamiento e higiene,1
+2023,11,Albergue Puente 2,Albergue,1
+2023,11,Albergue Puente 2,Alimentación y nutrición,2
+2023,11,Albergue Puente 2,Artículos no alimentarios,2
+2023,11,Albergue Puente 2,Asistencia legal / documentación,1
+2023,11,Albergue Puente 2,Atención médica / salubre,1
+2023,11,Albergue Puente 2,Ingresos económicos / empleo,5
+2023,11,Albergue Puente 2,Medios de vida,2
+2023,11,CATEM SUR,Agua,46
+2023,11,CATEM SUR,Albergue,63
+2023,11,CATEM SUR,Alimentación y nutrición,222
+2023,11,CATEM SUR,Apoyo psicosocial,2
+2023,11,CATEM SUR,Artículos de higiene femenina,11
+2023,11,CATEM SUR,Artículos no alimentarios,15
+2023,11,CATEM SUR,Asistencia legal / documentación,1
+2023,11,CATEM SUR,Atención médica / salubre,27
+2023,11,CATEM SUR,Comunicación,17
+2023,11,CATEM SUR,Ingresos económicos / empleo,157
+2023,11,CATEM SUR,Medios de vida,2
+2023,11,CATEM SUR,Ninguna,9
+2023,11,CATEM SUR,Otra,7
+2023,11,CATEM SUR,"Pañales, leche de fórmula, otros para bebés",18
+2023,11,CATEM SUR,Protección y seguridad,4
+2023,11,CATEM SUR,Saneamiento e higiene,19
+2023,11,CATEM SUR,Sin respuesta,1
+2023,11,CATEM SUR,Transporte,10
+2023,11,Calle 20,Medios de vida,1
+2023,11,Ciudad Neily,Alimentación y nutrición,1
+2023,11,Liberia,Albergue,16
+2023,11,Liberia,Alimentación y nutrición,11
+2023,11,Liberia,Atención médica / salubre,5
+2023,11,Liberia,Ingresos económicos / empleo,10
+2023,11,Liberia,Saneamiento e higiene,4
+2023,11,Los Chiles,Agua,151
+2023,11,Los Chiles,Albergue,6
+2023,11,Los Chiles,Alimentación y nutrición,206
+2023,11,Los Chiles,Apoyo psicosocial,2
+2023,11,Los Chiles,Atención médica / salubre,2
+2023,11,Los Chiles,Ingresos económicos / empleo,22
+2023,11,Los Chiles,Ninguna,5
+2023,11,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2023,11,Los Chiles,Sin respuesta,1
+2023,11,Los Chiles,Transporte,4
+2023,11,Obras del Espíritu Santo,Agua,2
+2023,11,Obras del Espíritu Santo,Albergue,7
+2023,11,Obras del Espíritu Santo,Alimentación y nutrición,10
+2023,11,Obras del Espíritu Santo,Saneamiento e higiene,1
+2023,11,Paso Canoas,Ingresos económicos / empleo,1
+2023,12,Albergue Puente 2,Albergue,3
+2023,12,Albergue Puente 2,Alimentación y nutrición,1
+2023,12,Albergue Puente 2,Atención médica / salubre,2
+2023,12,Albergue Puente 2,Ingresos económicos / empleo,2
+2023,12,CATEM SUR,Agua,46
+2023,12,CATEM SUR,Albergue,67
+2023,12,CATEM SUR,Alimentación y nutrición,207
+2023,12,CATEM SUR,Apoyo psicosocial,6
+2023,12,CATEM SUR,Artículos de higiene femenina,7
+2023,12,CATEM SUR,Artículos no alimentarios,7
+2023,12,CATEM SUR,Atención médica / salubre,13
+2023,12,CATEM SUR,Comunicación,16
+2023,12,CATEM SUR,Dieta especial para embarazadas y enfermos,1
+2023,12,CATEM SUR,Ingresos económicos / empleo,118
+2023,12,CATEM SUR,Ninguna,8
+2023,12,CATEM SUR,Otra,5
+2023,12,CATEM SUR,"Pañales, leche de fórmula, otros para bebés",9
+2023,12,CATEM SUR,Protección y seguridad,12
+2023,12,CATEM SUR,Saneamiento e higiene,13
+2023,12,CATEM SUR,Sin respuesta,5
+2023,12,CATEM SUR,Transporte,6
+2023,12,Calle 20,Albergue,2
+2023,12,Calle 20,Ingresos económicos / empleo,2
+2023,12,Calle 20,"Pañales, leche de fórmula, otros para bebés",1
+2023,12,Ciudad Neily,"Pañales, leche de fórmula, otros para bebés",1
+2023,12,Liberia,Albergue,7
+2023,12,Liberia,Alimentación y nutrición,1
+2023,12,Liberia,Atención médica / salubre,4
+2023,12,Liberia,Ingresos económicos / empleo,5
+2023,12,Los Chiles,Agua,52
+2023,12,Los Chiles,Albergue,4
+2023,12,Los Chiles,Alimentación y nutrición,68
+2023,12,Los Chiles,Artículos no alimentarios,2
+2023,12,Los Chiles,Atención médica / salubre,7
+2023,12,Los Chiles,Comunicación,1
+2023,12,Los Chiles,Ingresos económicos / empleo,52
+2023,12,Los Chiles,Ninguna,1
+2023,12,Los Chiles,Otra,2
+2023,12,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2023,12,Los Chiles,Protección y seguridad,4
+2023,12,Los Chiles,Saneamiento e higiene,2
+2023,12,Los Chiles,Transporte,14
+2023,12,Obras del Espíritu Santo,Agua,1
+2023,12,Obras del Espíritu Santo,Albergue,8
+2023,12,Obras del Espíritu Santo,Alimentación y nutrición,16
+2023,12,Obras del Espíritu Santo,Artículos no alimentarios,1
+2023,12,Obras del Espíritu Santo,Ingresos económicos / empleo,1
+2023,12,Obras del Espíritu Santo,"Pañales, leche de fórmula, otros para bebés",1
+2024,1,Albergue Puente 2,Albergue,4
+2024,1,Albergue Puente 2,Alimentación y nutrición,1
+2024,1,Albergue Puente 2,Artículos no alimentarios,1
+2024,1,Albergue Puente 2,Atención médica / salubre,1
+2024,1,Albergue Puente 2,Ingresos económicos / empleo,3
+2024,1,Albergue Puente 2,Transporte,1
+2024,1,CATEM SUR,Agua,91
+2024,1,CATEM SUR,Albergue,69
+2024,1,CATEM SUR,Alimentación y nutrición,269
+2024,1,CATEM SUR,Apoyo psicosocial,1
+2024,1,CATEM SUR,Artículos de higiene femenina,4
+2024,1,CATEM SUR,Artículos no alimentarios,12
+2024,1,CATEM SUR,Atención médica / salubre,20
+2024,1,CATEM SUR,Comunicación,29
+2024,1,CATEM SUR,Ingresos económicos / empleo,103
+2024,1,CATEM SUR,Medios de vida,1
+2024,1,CATEM SUR,Ninguna,10
+2024,1,CATEM SUR,Otra,5
+2024,1,CATEM SUR,"Pañales, leche de fórmula, otros para bebés",8
+2024,1,CATEM SUR,Protección y seguridad,12
+2024,1,CATEM SUR,Saneamiento e higiene,13
+2024,1,CATEM SUR,Sin respuesta,2
+2024,1,CATEM SUR,Transporte,2
+2024,1,Calle 20,Albergue,3
+2024,1,Calle 20,Asistencia legal / documentación,2
+2024,1,Calle 20,Dieta especial para embarazadas y enfermos,1
+2024,1,Calle 20,Ingresos económicos / empleo,4
+2024,1,Calle 20,"Pañales, leche de fórmula, otros para bebés",1
+2024,1,Calle 20,Transporte,1
+2024,1,Liberia,Albergue,7
+2024,1,Liberia,Alimentación y nutrición,1
+2024,1,Liberia,Ingresos económicos / empleo,3
+2024,1,Liberia,Saneamiento e higiene,1
+2024,1,Los Chiles,Agua,68
+2024,1,Los Chiles,Albergue,11
+2024,1,Los Chiles,Alimentación y nutrición,89
+2024,1,Los Chiles,Artículos de higiene femenina,2
+2024,1,Los Chiles,Artículos no alimentarios,6
+2024,1,Los Chiles,Atención médica / salubre,5
+2024,1,Los Chiles,Ingresos económicos / empleo,41
+2024,1,Los Chiles,Ninguna,4
+2024,1,Los Chiles,Protección y seguridad,2
+2024,1,Los Chiles,Transporte,3
+2024,1,Obras del Espíritu Santo,Albergue,17
+2024,1,Obras del Espíritu Santo,Alimentación y nutrición,12
+2024,1,Obras del Espíritu Santo,Asistencia legal / documentación,1
+2024,1,Obras del Espíritu Santo,Ingresos económicos / empleo,2
+2024,1,Obras del Espíritu Santo,"Pañales, leche de fórmula, otros para bebés",1
+2024,1,Obras del Espíritu Santo,Sin respuesta,1
+2024,2,Albergue Puente 2,Albergue,2
+2024,2,Albergue Puente 2,Alimentación y nutrición,2
+2024,2,Albergue Puente 2,Atención médica / salubre,1
+2024,2,Albergue Puente 2,Ingresos económicos / empleo,1
+2024,2,Albergue Puente 2,Medios de vida,1
+2024,2,EMI Sur - CATEM Espacio Seguro,Agua,4
+2024,2,EMI Sur - CATEM Espacio Seguro,Albergue,2
+2024,2,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,10
+2024,2,EMI Sur - CATEM Espacio Seguro,Artículos no alimentarios,1
+2024,2,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,3
+2024,2,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,6
+2024,2,EMI Sur - CATEM Espacio Seguro,"Pañales, leche de fórmula, otros para bebés",1
+2024,2,EMI Sur - CATEM Sotano,Agua,6
+2024,2,EMI Sur - CATEM Sotano,Albergue,5
+2024,2,EMI Sur - CATEM Sotano,Alimentación y nutrición,20
+2024,2,EMI Sur - CATEM Sotano,Artículos no alimentarios,3
+2024,2,EMI Sur - CATEM Sotano,Atención médica / salubre,1
+2024,2,EMI Sur - CATEM Sotano,Ingresos económicos / empleo,27
+2024,2,EMI Sur - CATEM Sotano,Protección y seguridad,1
+2024,2,EMI Sur - Terminal,Agua,113
+2024,2,EMI Sur - Terminal,Albergue,28
+2024,2,EMI Sur - Terminal,Alimentación y nutrición,299
+2024,2,EMI Sur - Terminal,Artículos de higiene femenina,3
+2024,2,EMI Sur - Terminal,Artículos no alimentarios,10
+2024,2,EMI Sur - Terminal,Atención médica / salubre,26
+2024,2,EMI Sur - Terminal,Comunicación,42
+2024,2,EMI Sur - Terminal,Educación,2
+2024,2,EMI Sur - Terminal,Ingresos económicos / empleo,121
+2024,2,EMI Sur - Terminal,Ninguna,1
+2024,2,EMI Sur - Terminal,Otra,1
+2024,2,EMI Sur - Terminal,"Pañales, leche de fórmula, otros para bebés",5
+2024,2,EMI Sur - Terminal,Protección y seguridad,7
+2024,2,EMI Sur - Terminal,Saneamiento e higiene,10
+2024,2,EMI Sur - Terminal,Sin respuesta,2
+2024,2,EMI Sur - Terminal,Transporte,7
+2024,2,Los Chiles,Agua,150
+2024,2,Los Chiles,Albergue,14
+2024,2,Los Chiles,Alimentación y nutrición,112
+2024,2,Los Chiles,Artículos de higiene femenina,1
+2024,2,Los Chiles,Artículos no alimentarios,17
+2024,2,Los Chiles,Atención médica / salubre,3
+2024,2,Los Chiles,Comunicación,4
+2024,2,Los Chiles,Ingresos económicos / empleo,87
+2024,2,Los Chiles,Ninguna,4
+2024,2,Los Chiles,Saneamiento e higiene,9
+2024,2,Los Chiles,Transporte,9
+2024,2,Obras del Espíritu Santo,Albergue,5
+2024,2,Obras del Espíritu Santo,Alimentación y nutrición,6
+2024,2,Obras del Espíritu Santo,Atención médica / salubre,2
+2024,2,Obras del Espíritu Santo,Saneamiento e higiene,1
+2024,3,Albergue Puente 2,Agua,1
+2024,3,Albergue Puente 2,Albergue,4
+2024,3,Albergue Puente 2,Alimentación y nutrición,1
+2024,3,Albergue Puente 2,Ingresos económicos / empleo,1
+2024,3,Calle 20,Albergue,7
+2024,3,Calle 20,Alimentación y nutrición,1
+2024,3,Calle 20,Apoyo en retorno,2
+2024,3,Calle 20,Asistencia legal / documentación,2
+2024,3,Calle 20,Atención médica / salubre,1
+2024,3,Calle 20,Dieta especial para embarazadas y enfermos,1
+2024,3,Calle 20,Otra,2
+2024,3,EMI Sur - CATEM Espacio Seguro,Albergue,5
+2024,3,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,10
+2024,3,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,7
+2024,3,EMI Sur - CATEM Espacio Seguro,Transporte,3
+2024,3,EMI Sur - CATEM Sotano,Alimentación y nutrición,2
+2024,3,EMI Sur - CATEM Sotano,Atención médica / salubre,1
+2024,3,EMI Sur - CATEM Sotano,Ingresos económicos / empleo,3
+2024,3,EMI Sur - Terminal,Agua,51
+2024,3,EMI Sur - Terminal,Albergue,11
+2024,3,EMI Sur - Terminal,Alimentación y nutrición,256
+2024,3,EMI Sur - Terminal,Apoyo psicosocial,3
+2024,3,EMI Sur - Terminal,Artículos de higiene femenina,2
+2024,3,EMI Sur - Terminal,Artículos no alimentarios,5
+2024,3,EMI Sur - Terminal,Atención médica / salubre,12
+2024,3,EMI Sur - Terminal,Comunicación,22
+2024,3,EMI Sur - Terminal,Educación,1
+2024,3,EMI Sur - Terminal,Ingresos económicos / empleo,69
+2024,3,EMI Sur - Terminal,Medios de vida,1
+2024,3,EMI Sur - Terminal,Ninguna,3
+2024,3,EMI Sur - Terminal,"Pañales, leche de fórmula, otros para bebés",2
+2024,3,EMI Sur - Terminal,Protección y seguridad,3
+2024,3,EMI Sur - Terminal,Saneamiento e higiene,5
+2024,3,EMI Sur - Terminal,Sin respuesta,2
+2024,3,EMI Sur - Terminal,Transporte,6
+2024,3,Los Chiles,Agua,124
+2024,3,Los Chiles,Albergue,8
+2024,3,Los Chiles,Alimentación y nutrición,112
+2024,3,Los Chiles,Artículos no alimentarios,3
+2024,3,Los Chiles,Ingresos económicos / empleo,49
+2024,3,Los Chiles,Medios de vida,1
+2024,3,Los Chiles,Protección y seguridad,6
+2024,3,Los Chiles,Transporte,3
+2024,3,Obras del Espíritu Santo,Agua,5
+2024,3,Obras del Espíritu Santo,Albergue,14
+2024,3,Obras del Espíritu Santo,Alimentación y nutrición,8
+2024,3,Obras del Espíritu Santo,Asistencia legal / documentación,1
+2024,3,Obras del Espíritu Santo,Atención médica / salubre,3
+2024,3,Obras del Espíritu Santo,Ingresos económicos / empleo,1
+2024,3,Obras del Espíritu Santo,Saneamiento e higiene,1
+2024,4,Albergue Puente 2,Albergue,2
+2024,4,Albergue Puente 2,Ingresos económicos / empleo,2
+2024,4,Albergue Puente 2,Otra,1
+2024,4,Albergue Puente 2,"Pañales, leche de fórmula, otros para bebés",1
+2024,4,Calle 20,Albergue,13
+2024,4,Calle 20,Alimentación y nutrición,2
+2024,4,Calle 20,Apoyo en retorno,1
+2024,4,Calle 20,Apoyo psicosocial,1
+2024,4,Calle 20,Atención médica / salubre,1
+2024,4,Calle 20,Ingresos económicos / empleo,1
+2024,4,EMI Sur - CATEM Espacio Seguro,Agua,4
+2024,4,EMI Sur - CATEM Espacio Seguro,Albergue,6
+2024,4,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,9
+2024,4,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,1
+2024,4,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,8
+2024,4,EMI Sur - CATEM Espacio Seguro,Protección y seguridad,1
+2024,4,EMI Sur - CATEM Espacio Seguro,Sin respuesta,1
+2024,4,EMI Sur - CATEM Espacio Seguro,Transporte,2
+2024,4,EMI Sur - CATEM Sotano,Albergue,1
+2024,4,EMI Sur - CATEM Sotano,Alimentación y nutrición,3
+2024,4,EMI Sur - CATEM Sotano,Atención médica / salubre,1
+2024,4,EMI Sur - CATEM Sotano,Ingresos económicos / empleo,3
+2024,4,EMI Sur - Terminal,Agua,55
+2024,4,EMI Sur - Terminal,Albergue,36
+2024,4,EMI Sur - Terminal,Alimentación y nutrición,306
+2024,4,EMI Sur - Terminal,Apoyo psicosocial,2
+2024,4,EMI Sur - Terminal,Artículos de higiene femenina,1
+2024,4,EMI Sur - Terminal,Artículos no alimentarios,7
+2024,4,EMI Sur - Terminal,Atención médica / salubre,21
+2024,4,EMI Sur - Terminal,Comunicación,23
+2024,4,EMI Sur - Terminal,Ingresos económicos / empleo,82
+2024,4,EMI Sur - Terminal,Ninguna,3
+2024,4,EMI Sur - Terminal,"Pañales, leche de fórmula, otros para bebés",5
+2024,4,EMI Sur - Terminal,Protección y seguridad,4
+2024,4,EMI Sur - Terminal,Saneamiento e higiene,6
+2024,4,EMI Sur - Terminal,Sin respuesta,4
+2024,4,EMI Sur - Terminal,Transporte,2
+2024,4,Los Chiles,Agua,61
+2024,4,Los Chiles,Albergue,23
+2024,4,Los Chiles,Alimentación y nutrición,152
+2024,4,Los Chiles,Artículos no alimentarios,9
+2024,4,Los Chiles,Atención médica / salubre,3
+2024,4,Los Chiles,Ingresos económicos / empleo,37
+2024,4,Los Chiles,Ninguna,1
+2024,4,Los Chiles,Transporte,6
+2024,4,Obras del Espíritu Santo,Agua,2
+2024,4,Obras del Espíritu Santo,Albergue,18
+2024,4,Obras del Espíritu Santo,Alimentación y nutrición,10
+2024,4,Obras del Espíritu Santo,Ingresos económicos / empleo,2
+2024,4,Obras del Espíritu Santo,Transporte,1
+2024,5,Albergue Puente 2,Albergue,6
+2024,5,Albergue Puente 2,Alimentación y nutrición,5
+2024,5,Albergue Puente 2,Educación,1
+2024,5,Albergue Puente 2,Ingresos económicos / empleo,1
+2024,5,Calle 20,Albergue,3
+2024,5,Calle 20,Ingresos económicos / empleo,1
+2024,5,Dormitorio Solidario la Merced,Albergue,7
+2024,5,Dormitorio Solidario la Merced,Alimentación y nutrición,3
+2024,5,Dormitorio Solidario la Merced,Apoyo en retorno,1
+2024,5,EMI Sur - CATEM Espacio Seguro,Agua,4
+2024,5,EMI Sur - CATEM Espacio Seguro,Albergue,4
+2024,5,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,16
+2024,5,EMI Sur - CATEM Espacio Seguro,Artículos de higiene femenina,1
+2024,5,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,5
+2024,5,EMI Sur - CATEM Espacio Seguro,Comunicación,1
+2024,5,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,6
+2024,5,EMI Sur - CATEM Espacio Seguro,Sin respuesta,1
+2024,5,EMI Sur - CATEM Espacio Seguro,Transporte,1
+2024,5,EMI Sur - Terminal,Agua,16
+2024,5,EMI Sur - Terminal,Albergue,20
+2024,5,EMI Sur - Terminal,Alimentación y nutrición,154
+2024,5,EMI Sur - Terminal,Apoyo psicosocial,1
+2024,5,EMI Sur - Terminal,Atención médica / salubre,11
+2024,5,EMI Sur - Terminal,Comunicación,17
+2024,5,EMI Sur - Terminal,Ingresos económicos / empleo,44
+2024,5,EMI Sur - Terminal,Medios de vida,2
+2024,5,EMI Sur - Terminal,Otra,3
+2024,5,EMI Sur - Terminal,"Pañales, leche de fórmula, otros para bebés",3
+2024,5,EMI Sur - Terminal,Saneamiento e higiene,1
+2024,5,EMI Sur - Terminal,Sin respuesta,1
+2024,5,Los Chiles,Agua,56
+2024,5,Los Chiles,Albergue,18
+2024,5,Los Chiles,Alimentación y nutrición,121
+2024,5,Los Chiles,Artículos no alimentarios,3
+2024,5,Los Chiles,Atención médica / salubre,13
+2024,5,Los Chiles,Comunicación,2
+2024,5,Los Chiles,Ingresos económicos / empleo,55
+2024,5,Los Chiles,Ninguna,3
+2024,5,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2024,5,Los Chiles,Protección y seguridad,1
+2024,5,Los Chiles,Saneamiento e higiene,2
+2024,5,Los Chiles,Sin respuesta,2
+2024,5,Los Chiles,Transporte,2
+2024,5,Obras del Espíritu Santo,Albergue,11
+2024,5,Obras del Espíritu Santo,Alimentación y nutrición,6
+2024,5,Obras del Espíritu Santo,Otra,1
+2024,6,Albergue Puente 2,Albergue,12
+2024,6,Albergue Puente 2,Alimentación y nutrición,3
+2024,6,Calle 20,Albergue,7
+2024,6,Calle 20,Alimentación y nutrición,2
+2024,6,Calle 20,Atención médica / salubre,1
+2024,6,Calle 20,Ingresos económicos / empleo,4
+2024,6,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,2
+2024,6,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,2
+2024,6,EMI Sur - CATEM Sotano,Alimentación y nutrición,2
+2024,6,EMI Sur - Terminal,Agua,23
+2024,6,EMI Sur - Terminal,Albergue,38
+2024,6,EMI Sur - Terminal,Alimentación y nutrición,212
+2024,6,EMI Sur - Terminal,Apoyo psicosocial,1
+2024,6,EMI Sur - Terminal,Artículos de higiene femenina,2
+2024,6,EMI Sur - Terminal,Artículos no alimentarios,1
+2024,6,EMI Sur - Terminal,Atención médica / salubre,12
+2024,6,EMI Sur - Terminal,Comunicación,2
+2024,6,EMI Sur - Terminal,Ingresos económicos / empleo,62
+2024,6,EMI Sur - Terminal,Ninguna,1
+2024,6,EMI Sur - Terminal,Protección y seguridad,6
+2024,6,EMI Sur - Terminal,Sin respuesta,5
+2024,6,EMI Sur - Terminal,Transporte,3
+2024,6,Los Chiles,Agua,59
+2024,6,Los Chiles,Albergue,61
+2024,6,Los Chiles,Alimentación y nutrición,205
+2024,6,Los Chiles,Artículos no alimentarios,8
+2024,6,Los Chiles,Atención médica / salubre,1
+2024,6,Los Chiles,Comunicación,2
+2024,6,Los Chiles,Ingresos económicos / empleo,48
+2024,6,Los Chiles,Ninguna,4
+2024,6,Los Chiles,Protección y seguridad,3
+2024,6,Los Chiles,Saneamiento e higiene,3
+2024,6,Los Chiles,Transporte,2
+2024,6,Obras del Espíritu Santo,Albergue,4
+2024,6,Obras del Espíritu Santo,Alimentación y nutrición,3
+2024,6,Obras del Espíritu Santo,Ingresos económicos / empleo,2
+2024,7,Albergue Puente 2,Albergue,10
+2024,7,Albergue Puente 2,Alimentación y nutrición,3
+2024,7,Albergue Puente 2,Ingresos económicos / empleo,2
+2024,7,Calle 20,Albergue,8
+2024,7,Calle 20,Alimentación y nutrición,2
+2024,7,Calle 20,Atención médica / salubre,1
+2024,7,Calle 20,Ingresos económicos / empleo,1
+2024,7,EMI Sur - CATEM Espacio Seguro,Agua,2
+2024,7,EMI Sur - CATEM Espacio Seguro,Albergue,17
+2024,7,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,53
+2024,7,EMI Sur - CATEM Espacio Seguro,Apoyo psicosocial,1
+2024,7,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,1
+2024,7,EMI Sur - CATEM Espacio Seguro,Comunicación,1
+2024,7,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,23
+2024,7,EMI Sur - CATEM Espacio Seguro,"Pañales, leche de fórmula, otros para bebés",1
+2024,7,EMI Sur - CATEM Espacio Seguro,Protección y seguridad,1
+2024,7,EMI Sur - CATEM Espacio Seguro,Saneamiento e higiene,1
+2024,7,EMI Sur - CATEM Espacio Seguro,Sin respuesta,2
+2024,7,EMI Sur - CATEM Sotano,Alimentación y nutrición,1
+2024,7,EMI Sur - Terminal,Agua,21
+2024,7,EMI Sur - Terminal,Albergue,25
+2024,7,EMI Sur - Terminal,Alimentación y nutrición,202
+2024,7,EMI Sur - Terminal,Artículos de higiene femenina,3
+2024,7,EMI Sur - Terminal,Artículos no alimentarios,2
+2024,7,EMI Sur - Terminal,Atención médica / salubre,12
+2024,7,EMI Sur - Terminal,Comunicación,4
+2024,7,EMI Sur - Terminal,Ingresos económicos / empleo,38
+2024,7,EMI Sur - Terminal,Protección y seguridad,1
+2024,7,EMI Sur - Terminal,Saneamiento e higiene,4
+2024,7,EMI Sur - Terminal,Sin respuesta,4
+2024,7,EMI Sur - Terminal,Transporte,3
+2024,7,Los Chiles,Agua,19
+2024,7,Los Chiles,Albergue,28
+2024,7,Los Chiles,Alimentación y nutrición,192
+2024,7,Los Chiles,Apoyo psicosocial,2
+2024,7,Los Chiles,Artículos no alimentarios,1
+2024,7,Los Chiles,Atención médica / salubre,5
+2024,7,Los Chiles,Comunicación,3
+2024,7,Los Chiles,Dieta especial para embarazadas y enfermos,1
+2024,7,Los Chiles,Ingresos económicos / empleo,64
+2024,7,Los Chiles,Ninguna,4
+2024,7,Los Chiles,Otra,1
+2024,7,Los Chiles,"Pañales, leche de fórmula, otros para bebés",2
+2024,7,Los Chiles,Protección y seguridad,9
+2024,7,Los Chiles,Saneamiento e higiene,3
+2024,7,Los Chiles,Transporte,2
+2024,7,Obras del Espíritu Santo,Albergue,7
+2024,7,Obras del Espíritu Santo,Alimentación y nutrición,5
+2024,7,Obras del Espíritu Santo,Atención médica / salubre,1
+2024,8,Albergue Puente 2,Albergue,7
+2024,8,Albergue Puente 2,Alimentación y nutrición,4
+2024,8,Albergue Puente 2,Ingresos económicos / empleo,1
+2024,8,Calle 20,Albergue,5
+2024,8,Calle 20,Alimentación y nutrición,2
+2024,8,Calle 20,Artículos no alimentarios,1
+2024,8,Calle 20,Ingresos económicos / empleo,1
+2024,8,EMI Sur - CATEM Espacio Seguro,Agua,4
+2024,8,EMI Sur - CATEM Espacio Seguro,Albergue,10
+2024,8,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,28
+2024,8,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,1
+2024,8,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,17
+2024,8,EMI Sur - CATEM Espacio Seguro,Saneamiento e higiene,2
+2024,8,EMI Sur - Terminal,Agua,9
+2024,8,EMI Sur - Terminal,Albergue,13
+2024,8,EMI Sur - Terminal,Alimentación y nutrición,148
+2024,8,EMI Sur - Terminal,Apoyo psicosocial,1
+2024,8,EMI Sur - Terminal,Artículos de higiene femenina,1
+2024,8,EMI Sur - Terminal,Artículos no alimentarios,2
+2024,8,EMI Sur - Terminal,Atención médica / salubre,5
+2024,8,EMI Sur - Terminal,Comunicación,6
+2024,8,EMI Sur - Terminal,Educación,1
+2024,8,EMI Sur - Terminal,Ingresos económicos / empleo,64
+2024,8,EMI Sur - Terminal,Ninguna,3
+2024,8,EMI Sur - Terminal,"Pañales, leche de fórmula, otros para bebés",2
+2024,8,EMI Sur - Terminal,Protección y seguridad,4
+2024,8,EMI Sur - Terminal,Saneamiento e higiene,2
+2024,8,EMI Sur - Terminal,Transporte,1
+2024,8,Los Chiles,Agua,16
+2024,8,Los Chiles,Albergue,18
+2024,8,Los Chiles,Alimentación y nutrición,107
+2024,8,Los Chiles,Artículos no alimentarios,8
+2024,8,Los Chiles,Atención médica / salubre,2
+2024,8,Los Chiles,Ingresos económicos / empleo,62
+2024,8,Los Chiles,Protección y seguridad,2
+2024,8,Los Chiles,Saneamiento e higiene,1
+2024,8,Los Chiles,Transporte,3
+2024,8,Obras del Espíritu Santo,Albergue,9
+2024,8,Obras del Espíritu Santo,Alimentación y nutrición,9
+2024,9,Albergue Puente 2,Albergue,14
+2024,9,Albergue Puente 2,Alimentación y nutrición,4
+2024,9,Albergue Puente 2,Asistencia legal / documentación,1
+2024,9,Calle 20,Albergue,1
+2024,9,Calle 20,Apoyo psicosocial,1
+2024,9,EMI Sur - CATEM Espacio Seguro,Agua,5
+2024,9,EMI Sur - CATEM Espacio Seguro,Albergue,12
+2024,9,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,66
+2024,9,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,2
+2024,9,EMI Sur - CATEM Espacio Seguro,Comunicación,1
+2024,9,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,16
+2024,9,EMI Sur - CATEM Espacio Seguro,Protección y seguridad,1
+2024,9,EMI Sur - CATEM Espacio Seguro,Sin respuesta,1
+2024,9,EMI Sur - Terminal,Agua,16
+2024,9,EMI Sur - Terminal,Albergue,35
+2024,9,EMI Sur - Terminal,Alimentación y nutrición,259
+2024,9,EMI Sur - Terminal,Artículos de higiene femenina,1
+2024,9,EMI Sur - Terminal,Artículos no alimentarios,6
+2024,9,EMI Sur - Terminal,Asistencia legal / documentación,1
+2024,9,EMI Sur - Terminal,Atención médica / salubre,17
+2024,9,EMI Sur - Terminal,Comunicación,19
+2024,9,EMI Sur - Terminal,Ingresos económicos / empleo,62
+2024,9,EMI Sur - Terminal,Ninguna,4
+2024,9,EMI Sur - Terminal,Otra,1
+2024,9,EMI Sur - Terminal,"Pañales, leche de fórmula, otros para bebés",1
+2024,9,EMI Sur - Terminal,Protección y seguridad,2
+2024,9,EMI Sur - Terminal,Saneamiento e higiene,8
+2024,9,EMI Sur - Terminal,Sin respuesta,2
+2024,9,EMI Sur - Terminal,Transporte,6
+2024,9,Los Chiles,Agua,17
+2024,9,Los Chiles,Albergue,11
+2024,9,Los Chiles,Alimentación y nutrición,175
+2024,9,Los Chiles,Artículos no alimentarios,4
+2024,9,Los Chiles,Atención médica / salubre,5
+2024,9,Los Chiles,Ingresos económicos / empleo,51
+2024,9,Los Chiles,Ninguna,10
+2024,9,Los Chiles,Protección y seguridad,5
+2024,9,Los Chiles,Transporte,8
+2024,9,Obras del Espíritu Santo,Albergue,6
+2024,9,Obras del Espíritu Santo,Alimentación y nutrición,8
+2024,9,Obras del Espíritu Santo,Apoyo psicosocial,1
+2024,9,Obras del Espíritu Santo,Artículos no alimentarios,1
+2024,10,Albergue Buen Pastor,Albergue,1
+2024,10,Albergue Puente 2,Albergue,13
+2024,10,Albergue Puente 2,Alimentación y nutrición,5
+2024,10,Albergue Puente 2,Otra,1
+2024,10,Albergue Puente 2,"Pañales, leche de fórmula, otros para bebés",2
+2024,10,Calle 20,Albergue,4
+2024,10,Calle 20,Alimentación y nutrición,2
+2024,10,Calle 20,Artículos no alimentarios,1
+2024,10,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Albergue,4
+2024,10,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Alimentación y nutrición,1
+2024,10,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Artículos no alimentarios,1
+2024,10,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Ingresos económicos / empleo,3
+2024,10,EMI Sur - CATEM Espacio Seguro,Agua,3
+2024,10,EMI Sur - CATEM Espacio Seguro,Albergue,30
+2024,10,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,60
+2024,10,EMI Sur - CATEM Espacio Seguro,Artículos no alimentarios,1
+2024,10,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,1
+2024,10,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,24
+2024,10,EMI Sur - CATEM Espacio Seguro,Medios de vida,1
+2024,10,EMI Sur - CATEM Espacio Seguro,Otra,2
+2024,10,EMI Sur - CATEM Espacio Seguro,Protección y seguridad,2
+2024,10,EMI Sur - CATEM Espacio Seguro,Saneamiento e higiene,2
+2024,10,EMI Sur - CATEM Espacio Seguro,Sin respuesta,1
+2024,10,EMI Sur - CATEM Espacio Seguro,Transporte,1
+2024,10,EMI Sur - Terminal,Agua,19
+2024,10,EMI Sur - Terminal,Albergue,35
+2024,10,EMI Sur - Terminal,Alimentación y nutrición,320
+2024,10,EMI Sur - Terminal,Apoyo psicosocial,4
+2024,10,EMI Sur - Terminal,Artículos no alimentarios,4
+2024,10,EMI Sur - Terminal,Atención médica / salubre,11
+2024,10,EMI Sur - Terminal,Comunicación,33
+2024,10,EMI Sur - Terminal,Ingresos económicos / empleo,92
+2024,10,EMI Sur - Terminal,Ninguna,1
+2024,10,EMI Sur - Terminal,Otra,2
+2024,10,EMI Sur - Terminal,"Pañales, leche de fórmula, otros para bebés",1
+2024,10,EMI Sur - Terminal,Protección y seguridad,3
+2024,10,EMI Sur - Terminal,Saneamiento e higiene,5
+2024,10,EMI Sur - Terminal,Sin respuesta,4
+2024,10,EMI Sur - Terminal,Transporte,14
+2024,10,Los Chiles,Agua,12
+2024,10,Los Chiles,Albergue,31
+2024,10,Los Chiles,Alimentación y nutrición,194
+2024,10,Los Chiles,Artículos no alimentarios,16
+2024,10,Los Chiles,Atención médica / salubre,2
+2024,10,Los Chiles,Comunicación,1
+2024,10,Los Chiles,Dieta especial para embarazadas y enfermos,1
+2024,10,Los Chiles,Ingresos económicos / empleo,58
+2024,10,Los Chiles,Ninguna,7
+2024,10,Los Chiles,Otra,1
+2024,10,Los Chiles,"Pañales, leche de fórmula, otros para bebés",3
+2024,10,Los Chiles,Protección y seguridad,11
+2024,10,Los Chiles,Saneamiento e higiene,4
+2024,10,Los Chiles,Transporte,2
+2024,10,Obras del Espíritu Santo,Albergue,13
+2024,10,Obras del Espíritu Santo,Alimentación y nutrición,8
+2024,10,Obras del Espíritu Santo,Ingresos económicos / empleo,1
+2024,10,Obras del Espíritu Santo,"Pañales, leche de fórmula, otros para bebés",1
+2024,11,Albergue Buen Pastor,Albergue,6
+2024,11,Albergue Buen Pastor,Alimentación y nutrición,3
+2024,11,Albergue Iglesia Luterana,Albergue,2
+2024,11,Albergue Puente 2,Albergue,9
+2024,11,Albergue Puente 2,Alimentación y nutrición,5
+2024,11,Calle 20,Albergue,4
+2024,11,Calle 20,Alimentación y nutrición,1
+2024,11,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Agua,1
+2024,11,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Alimentación y nutrición,6
+2024,11,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Ingresos económicos / empleo,4
+2024,11,EMI Sur - CATEM Espacio Seguro,Albergue,28
+2024,11,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,35
+2024,11,EMI Sur - CATEM Espacio Seguro,Apoyo psicosocial,1
+2024,11,EMI Sur - CATEM Espacio Seguro,Comunicación,3
+2024,11,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,18
+2024,11,EMI Sur - CATEM Espacio Seguro,Saneamiento e higiene,1
+2024,11,EMI Sur - CATEM Espacio Seguro,Transporte,1
+2024,11,EMI Sur - Terminal,Agua,9
+2024,11,EMI Sur - Terminal,Albergue,25
+2024,11,EMI Sur - Terminal,Alimentación y nutrición,164
+2024,11,EMI Sur - Terminal,Apoyo psicosocial,2
+2024,11,EMI Sur - Terminal,Artículos de higiene femenina,1
+2024,11,EMI Sur - Terminal,Artículos no alimentarios,1
+2024,11,EMI Sur - Terminal,Atención médica / salubre,4
+2024,11,EMI Sur - Terminal,Comunicación,18
+2024,11,EMI Sur - Terminal,Ingresos económicos / empleo,38
+2024,11,EMI Sur - Terminal,Medios de vida,1
+2024,11,EMI Sur - Terminal,Otra,1
+2024,11,EMI Sur - Terminal,"Pañales, leche de fórmula, otros para bebés",1
+2024,11,EMI Sur - Terminal,Protección y seguridad,7
+2024,11,EMI Sur - Terminal,Saneamiento e higiene,7
+2024,11,EMI Sur - Terminal,Sin respuesta,2
+2024,11,EMI Sur - Terminal,Transporte,1
+2024,11,Los Chiles,Agua,7
+2024,11,Los Chiles,Albergue,10
+2024,11,Los Chiles,Alimentación y nutrición,124
+2024,11,Los Chiles,Artículos de higiene femenina,1
+2024,11,Los Chiles,Artículos no alimentarios,4
+2024,11,Los Chiles,Atención médica / salubre,3
+2024,11,Los Chiles,Ingresos económicos / empleo,43
+2024,11,Los Chiles,Ninguna,4
+2024,11,Los Chiles,Protección y seguridad,5
+2024,11,Los Chiles,Saneamiento e higiene,1
+2024,11,Los Chiles,Transporte,10
+2024,11,Obras del Espíritu Santo,Albergue,5
+2024,11,Obras del Espíritu Santo,Alimentación y nutrición,6
+2024,11,Obras del Espíritu Santo,Ingresos económicos / empleo,1
+2024,12,Albergue Buen Pastor,Atención médica / salubre,1
+2024,12,Albergue Iglesia Luterana,Albergue,7
+2024,12,Albergue Iglesia Luterana,Ingresos económicos / empleo,1
+2024,12,Albergue Puente 2,Albergue,3
+2024,12,Albergue Puente 2,Apoyo psicosocial,1
+2024,12,Calle 20,Albergue,7
+2024,12,Calle 20,Alimentación y nutrición,2
+2024,12,EMI Sur - CATEM Espacio Seguro,Agua,2
+2024,12,EMI Sur - CATEM Espacio Seguro,Albergue,19
+2024,12,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,28
+2024,12,EMI Sur - CATEM Espacio Seguro,Artículos no alimentarios,2
+2024,12,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,1
+2024,12,EMI Sur - CATEM Espacio Seguro,Comunicación,3
+2024,12,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,17
+2024,12,EMI Sur - CATEM Espacio Seguro,Saneamiento e higiene,1
+2024,12,EMI Sur - CATEM Espacio Seguro,Transporte,1
+2024,12,EMI Sur - Terminal,Agua,17
+2024,12,EMI Sur - Terminal,Albergue,44
+2024,12,EMI Sur - Terminal,Alimentación y nutrición,193
+2024,12,EMI Sur - Terminal,Apoyo psicosocial,1
+2024,12,EMI Sur - Terminal,Artículos no alimentarios,3
+2024,12,EMI Sur - Terminal,Atención médica / salubre,10
+2024,12,EMI Sur - Terminal,Comunicación,27
+2024,12,EMI Sur - Terminal,Ingresos económicos / empleo,57
+2024,12,EMI Sur - Terminal,Ninguna,6
+2024,12,EMI Sur - Terminal,"Pañales, leche de fórmula, otros para bebés",2
+2024,12,EMI Sur - Terminal,Protección y seguridad,13
+2024,12,EMI Sur - Terminal,Saneamiento e higiene,6
+2024,12,EMI Sur - Terminal,Sin respuesta,1
+2024,12,EMI Sur - Terminal,Transporte,5
+2024,12,Los Chiles,Agua,1
+2024,12,Los Chiles,Albergue,5
+2024,12,Los Chiles,Alimentación y nutrición,41
+2024,12,Los Chiles,Artículos no alimentarios,3
+2024,12,Los Chiles,Atención médica / salubre,4
+2024,12,Los Chiles,Ingresos económicos / empleo,25
+2024,12,Los Chiles,Ninguna,5
+2024,12,Los Chiles,Protección y seguridad,1
+2024,12,Los Chiles,Transporte,7
+2024,12,Obras del Espíritu Santo,Albergue,10
+2024,12,Obras del Espíritu Santo,Alimentación y nutrición,3
+2025,1,Albergue Puente 2,Albergue,7
+2025,1,Albergue Puente 2,Alimentación y nutrición,1
+2025,1,Albergue Puente 2,Apoyo psicosocial,1
+2025,1,Albergue Puente 2,Protección y seguridad,1
+2025,1,Calle 20,Albergue,17
+2025,1,Calle 20,Alimentación y nutrición,3
+2025,1,Calle 20,Atención médica / salubre,1
+2025,1,Calle 20,Ingresos económicos / empleo,1
+2025,1,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Ingresos económicos / empleo,1
+2025,1,EMI Sur - CATEM Espacio Seguro,Albergue,3
+2025,1,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,2
+2025,1,EMI Sur - CATEM Espacio Seguro,Comunicación,1
+2025,1,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,2
+2025,1,EMI Sur - Terminal,Agua,9
+2025,1,EMI Sur - Terminal,Albergue,9
+2025,1,EMI Sur - Terminal,Alimentación y nutrición,49
+2025,1,EMI Sur - Terminal,Artículos de higiene femenina,1
+2025,1,EMI Sur - Terminal,Artículos no alimentarios,2
+2025,1,EMI Sur - Terminal,Atención médica / salubre,6
+2025,1,EMI Sur - Terminal,Comunicación,9
+2025,1,EMI Sur - Terminal,Educación,1
+2025,1,EMI Sur - Terminal,Ingresos económicos / empleo,12
+2025,1,EMI Sur - Terminal,Ninguna,3
+2025,1,EMI Sur - Terminal,Protección y seguridad,5
+2025,1,EMI Sur - Terminal,Saneamiento e higiene,3
+2025,1,EMI Sur - Terminal,Sin respuesta,1
+2025,1,EMI Sur - Terminal,Transporte,3
+2025,1,Los Chiles,Agua,4
+2025,1,Los Chiles,Albergue,8
+2025,1,Los Chiles,Alimentación y nutrición,49
+2025,1,Los Chiles,Artículos de higiene femenina,1
+2025,1,Los Chiles,Artículos no alimentarios,2
+2025,1,Los Chiles,Comunicación,2
+2025,1,Los Chiles,Educación,1
+2025,1,Los Chiles,Ingresos económicos / empleo,11
+2025,1,Los Chiles,Ninguna,7
+2025,1,Los Chiles,Transporte,7
+2025,1,Obras del Espíritu Santo,Albergue,8
+2025,1,Obras del Espíritu Santo,Alimentación y nutrición,5
+2025,1,Obras del Espíritu Santo,Apoyo psicosocial,1
+2025,1,Obras del Espíritu Santo,Ingresos económicos / empleo,1
+2025,2,,Albergue,21
+2025,2,,Alimentación y nutrición,11
+2025,2,,Artículos no alimentarios,1
+2025,2,,Atención médica / salubre,2
+2025,2,,Educación,1
+2025,2,,Ingresos económicos / empleo,27
+2025,2,,Ninguna,3
+2025,2,,Saneamiento e higiene,1
+2025,2,,Transporte,2
+2025,2,Albergue Buen Pastor,Albergue,4
+2025,2,Albergue Buen Pastor,Alimentación y nutrición,1
+2025,2,Albergue Buen Pastor,Atención médica / salubre,1
+2025,2,Albergue Buen Pastor,Ingresos económicos / empleo,1
+2025,2,Albergue Calle 20,Albergue,5
+2025,2,Albergue Calle 20,Ingresos económicos / empleo,2
+2025,2,Albergue Calle 20,"Pañales, leche de fórmula, otros para bebés",1
+2025,2,Albergue Puente 2,Albergue,3
+2025,2,Albergue Puente 2,Alimentación y nutrición,1
+2025,2,Albergue Puente 2,Atención médica / salubre,1
+2025,2,Albergue Puente 2,Ingresos económicos / empleo,1
+2025,2,Calle 20,Albergue,1
+2025,2,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,2
+2025,2,EMI Sur - CATEM Espacio Seguro,Artículos no alimentarios,1
+2025,2,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,1
+2025,2,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,2
+2025,2,Los Chiles,Albergue,3
+2025,2,Los Chiles,Alimentación y nutrición,8
+2025,2,Los Chiles,Ingresos económicos / empleo,26
+2025,2,Los Chiles,Ninguna,2
+2025,2,Los Chiles,Otra,1
+2025,2,Los Chiles,Transporte,3
+2025,3,Albergue Buen Pastor,Albergue,11
+2025,3,Albergue Buen Pastor,Alimentación y nutrición,3
+2025,3,Albergue Buen Pastor,Asistencia legal / documentación,1
+2025,3,Albergue Buen Pastor,Ingresos económicos / empleo,1
+2025,3,Albergue Calle 20,Albergue,11
+2025,3,Albergue Calle 20,Alimentación y nutrición,1
+2025,3,Albergue Calle 20,Atención médica / salubre,3
+2025,3,Albergue Calle 20,Otra,1
+2025,3,Albergue Puente 2,Albergue,14
+2025,3,Albergue Puente 2,Alimentación y nutrición,2
+2025,3,Albergue Puente 2,Ingresos económicos / empleo,1
+2025,3,Los Chiles,Agua,5
+2025,3,Los Chiles,Albergue,8
+2025,3,Los Chiles,Alimentación y nutrición,68
+2025,3,Los Chiles,Artículos no alimentarios,1
+2025,3,Los Chiles,Asistencia legal / documentación,1
+2025,3,Los Chiles,Atención médica / salubre,3
+2025,3,Los Chiles,Ingresos económicos / empleo,52
+2025,3,Los Chiles,Ninguna,6
+2025,3,Los Chiles,Otra,3
+2025,3,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2025,3,Los Chiles,Protección y seguridad,3
+2025,3,Los Chiles,Saneamiento e higiene,2
+2025,3,Los Chiles,Transporte,7
+2025,3,Obras del Espíritu Santo,Albergue,4
+2025,3,Obras del Espíritu Santo,Alimentación y nutrición,2
+2025,3,Obras del Espíritu Santo,Ingresos económicos / empleo,1
+2025,4,Albergue Calle 20,Albergue,10
+2025,4,Albergue Puente 2,Albergue,20
+2025,4,Albergue Puente 2,Alimentación y nutrición,4
+2025,4,Albergue Puente 2,Atención médica / salubre,1
+2025,4,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Albergue,1
+2025,4,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Alimentación y nutrición,1
+2025,4,Dormitorio/ comedor en Casa Esperanza de Los Chiles,Ingresos económicos / empleo,1
+2025,4,Los Chiles,Agua,5
+2025,4,Los Chiles,Albergue,5
+2025,4,Los Chiles,Alimentación y nutrición,19
+2025,4,Los Chiles,Artículos no alimentarios,2
+2025,4,Los Chiles,Educación,1
+2025,4,Los Chiles,Ingresos económicos / empleo,19
+2025,4,Los Chiles,Ninguna,5
+2025,4,Los Chiles,Protección y seguridad,1
+2025,4,Los Chiles,Transporte,5
+2025,4,Obras del Espíritu Santo,Albergue,13
+2025,4,Obras del Espíritu Santo,Alimentación y nutrición,3
+2025,4,Obras del Espíritu Santo,Otra,1
+2025,5,Albergue / comedor en Casa Esperanza de Los Chiles,Agua,1
+2025,5,Albergue / comedor en Casa Esperanza de Los Chiles,Alimentación y nutrición,2
+2025,5,Albergue / comedor en Casa Esperanza de Los Chiles,Asistencia legal / documentación,1
+2025,5,Albergue / comedor en Casa Esperanza de Los Chiles,Atención médica / salubre,1
+2025,5,Albergue Buen Pastor,Alimentación y nutrición,3
+2025,5,Albergue Buen Pastor,Asistencia legal / documentación,3
+2025,5,Albergue Buen Pastor,Atención médica / salubre,2
+2025,5,Albergue Buen Pastor,Ingresos económicos / empleo,3
+2025,5,Albergue Buen Pastor,Transporte,2
+2025,5,Albergue Calle 20,Alimentación y nutrición,5
+2025,5,Albergue Calle 20,Asistencia legal / documentación,5
+2025,5,Albergue Calle 20,Atención médica / salubre,3
+2025,5,Albergue Calle 20,Ingresos económicos / empleo,1
+2025,5,Albergue Calle 20,Transporte,3
+2025,5,Albergue Puente 2,Alimentación y nutrición,5
+2025,5,Albergue Puente 2,Asistencia legal / documentación,4
+2025,5,Albergue Puente 2,Atención médica / salubre,1
+2025,5,Albergue Puente 2,Ingresos económicos / empleo,2
+2025,5,Albergue Puente 2,Transporte,1
+2025,5,Los Chiles,Agua,3
+2025,5,Los Chiles,Alimentación y nutrición,36
+2025,5,Los Chiles,Asistencia legal / documentación,8
+2025,5,Los Chiles,Atención médica / salubre,3
+2025,5,Los Chiles,Ingresos económicos / empleo,16
+2025,5,Los Chiles,Ninguna,4
+2025,5,Los Chiles,Saneamiento e higiene,4
+2025,5,Los Chiles,Transporte,3
+2025,5,Obras del Espíritu Santo,Alimentación y nutrición,5
+2025,5,Obras del Espíritu Santo,Asistencia legal / documentación,7
+2025,5,Obras del Espíritu Santo,Ingresos económicos / empleo,2
+2025,5,Obras del Espíritu Santo,Transporte,3
+2025,5,Otro,Asistencia legal / documentación,1
+2025,5,Otro,Ingresos económicos / empleo,1
+2025,5,Paso Canoas,Alimentación y nutrición,13
+2025,5,Paso Canoas,Artículos de higiene femenina,1
+2025,5,Paso Canoas,Artículos no alimentarios,1
+2025,5,Paso Canoas,Asistencia legal / documentación,7
+2025,5,Paso Canoas,Comunicación,1
+2025,5,Paso Canoas,Ingresos económicos / empleo,7
+2025,5,Paso Canoas,Protección y seguridad,4
+2025,5,Paso Canoas,Saneamiento e higiene,1
+2025,5,Paso Canoas,Transporte,5
+2025,5,Punto de cruce fronterizo irregular de Las Tablillas,Alimentación y nutrición,4
+2025,5,Punto de cruce fronterizo irregular de Las Tablillas,Asistencia legal / documentación,1
+2025,5,Punto de cruce fronterizo irregular de Las Tablillas,Atención médica / salubre,6
+2025,5,Punto de cruce fronterizo irregular de Las Tablillas,Ninguna,1
+2025,6,Albergue / comedor en Casa Esperanza de Los Chiles,Alimentación y nutrición,1
+2025,6,Albergue / comedor en Casa Esperanza de Los Chiles,Ingresos económicos / empleo,2
+2025,6,Albergue / comedor en Casa Esperanza de Los Chiles,Protección y seguridad,1
+2025,6,Albergue / comedor en Casa Esperanza de Los Chiles,Transporte,2
+2025,6,Albergue Buen Pastor,Alimentación y nutrición,5
+2025,6,Albergue Buen Pastor,Apoyo psicosocial,1
+2025,6,Albergue Buen Pastor,Asistencia legal / documentación,4
+2025,6,Albergue Buen Pastor,Atención médica / salubre,1
+2025,6,Albergue Buen Pastor,Ingresos económicos / empleo,5
+2025,6,Albergue Buen Pastor,Transporte,2
+2025,6,Albergue Calle 20,Alimentación y nutrición,4
+2025,6,Albergue Calle 20,Asistencia legal / documentación,11
+2025,6,Albergue Calle 20,Atención médica / salubre,1
+2025,6,Albergue Calle 20,Ingresos económicos / empleo,8
+2025,6,Albergue Calle 20,Transporte,3
+2025,6,Albergue Iglesia Luterana,Asistencia legal / documentación,4
+2025,6,Albergue Puente 2,Alimentación y nutrición,3
+2025,6,Albergue Puente 2,Artículos no alimentarios,2
+2025,6,Albergue Puente 2,Asistencia legal / documentación,14
+2025,6,Albergue Puente 2,Atención médica / salubre,2
+2025,6,Albergue Puente 2,Ingresos económicos / empleo,4
+2025,6,Albergue Puente 2,Transporte,3
+2025,6,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,2
+2025,6,EMI Sur - CATEM Espacio Seguro,Asistencia legal / documentación,2
+2025,6,EMI Sur - CATEM Espacio Seguro,Protección y seguridad,1
+2025,6,Los Chiles,Agua,4
+2025,6,Los Chiles,Alimentación y nutrición,42
+2025,6,Los Chiles,Asistencia legal / documentación,14
+2025,6,Los Chiles,Ingresos económicos / empleo,21
+2025,6,Los Chiles,Ninguna,4
+2025,6,Los Chiles,Protección y seguridad,2
+2025,6,Los Chiles,Transporte,25
+2025,6,Obras del Espíritu Santo,Alimentación y nutrición,2
+2025,6,Obras del Espíritu Santo,Artículos no alimentarios,1
+2025,6,Obras del Espíritu Santo,Asistencia legal / documentación,6
+2025,6,Obras del Espíritu Santo,Atención médica / salubre,1
+2025,6,Obras del Espíritu Santo,Transporte,1
+2025,6,Otro,Asistencia legal / documentación,1
+2025,6,Otro,Transporte,2
+2025,6,Paso Canoas,Alimentación y nutrición,31
+2025,6,Paso Canoas,Apoyo psicosocial,1
+2025,6,Paso Canoas,Artículos de higiene femenina,1
+2025,6,Paso Canoas,Asistencia legal / documentación,5
+2025,6,Paso Canoas,Comunicación,2
+2025,6,Paso Canoas,Ingresos económicos / empleo,3
+2025,6,Paso Canoas,"Pañales, leche de fórmula, otros para bebés",1
+2025,6,Paso Canoas,Protección y seguridad,2
+2025,6,Paso Canoas,Saneamiento e higiene,4
+2025,6,Paso Canoas,Transporte,10
+2025,6,"Paso Rojo, Los Chiles",Alimentación y nutrición,10
+2025,6,"Paso Rojo, Los Chiles",Ingresos económicos / empleo,1
+2025,6,"Paso Rojo, Los Chiles",Ninguna,1
+2025,6,"Paso Rojo, Los Chiles",Transporte,1
+2025,6,Puesto Fronterizo Oficial Peñas Blancas,Alimentación y nutrición,1
+2025,6,Puesto Fronterizo Oficial Peñas Blancas,Asistencia legal / documentación,3
+2025,6,Puesto Fronterizo Oficial Peñas Blancas,Comunicación,1
+2025,6,Puesto Fronterizo Oficial Peñas Blancas,Saneamiento e higiene,1
+2025,6,Punto de cruce fronterizo irregular de Las Tablillas,Agua,1
+2025,6,Punto de cruce fronterizo irregular de Las Tablillas,Alimentación y nutrición,3
+2025,6,Punto de cruce fronterizo irregular de Las Tablillas,Asistencia legal / documentación,2
+2025,6,Punto de cruce fronterizo irregular de Las Tablillas,Atención médica / salubre,3
+2025,6,Punto de cruce fronterizo irregular de Las Tablillas,Ingresos económicos / empleo,2
+2025,6,Punto de cruce fronterizo irregular de Las Tablillas,Ninguna,1
+2025,6,Terminal Caribeños,Atención médica / salubre,1
+2025,6,Terminal Caribeños,Ingresos económicos / empleo,2
+2025,6,Terminal Caribeños,Transporte,2
+2025,7,Albergue / comedor en Casa Esperanza de Los Chiles,Alimentación y nutrición,1
+2025,7,Albergue / comedor en Casa Esperanza de Los Chiles,Asistencia legal / documentación,2
+2025,7,Albergue / comedor en Casa Esperanza de Los Chiles,Atención médica / salubre,1
+2025,7,Albergue / comedor en Casa Esperanza de Los Chiles,Ingresos económicos / empleo,2
+2025,7,Albergue / comedor en Casa Esperanza de Los Chiles,Transporte,3
+2025,7,Albergue Buen Pastor,"Pañales, leche de fórmula, otros para bebés",1
+2025,7,Albergue Buen Pastor,Transporte,2
+2025,7,Albergue Calle 20,Alimentación y nutrición,1
+2025,7,Albergue Calle 20,Artículos no alimentarios,1
+2025,7,Albergue Calle 20,Asistencia legal / documentación,13
+2025,7,Albergue Calle 20,Atención médica / salubre,2
+2025,7,Albergue Calle 20,Ingresos económicos / empleo,12
+2025,7,Albergue Calle 20,Transporte,7
+2025,7,Albergue Iglesia Luterana,Asistencia legal / documentación,5
+2025,7,Albergue Iglesia Luterana,Ingresos económicos / empleo,7
+2025,7,Albergue Iglesia Luterana,Transporte,1
+2025,7,Albergue Puente 2,Alimentación y nutrición,3
+2025,7,Albergue Puente 2,Asistencia legal / documentación,6
+2025,7,Albergue Puente 2,Ingresos económicos / empleo,9
+2025,7,Albergue Puente 2,Transporte,3
+2025,7,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,2
+2025,7,EMI Sur - CATEM Espacio Seguro,Asistencia legal / documentación,1
+2025,7,EMI Sur - CATEM Espacio Seguro,Comunicación,1
+2025,7,EMI Sur - CATEM Espacio Seguro,Transporte,1
+2025,7,Los Chiles,Agua,3
+2025,7,Los Chiles,Alimentación y nutrición,19
+2025,7,Los Chiles,Artículos de higiene femenina,1
+2025,7,Los Chiles,Artículos no alimentarios,2
+2025,7,Los Chiles,Asistencia legal / documentación,10
+2025,7,Los Chiles,Atención médica / salubre,2
+2025,7,Los Chiles,Ingresos económicos / empleo,4
+2025,7,Los Chiles,Ninguna,6
+2025,7,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2025,7,Los Chiles,Protección y seguridad,2
+2025,7,Los Chiles,Saneamiento e higiene,1
+2025,7,Los Chiles,Transporte,18
+2025,7,Obras del Espíritu Santo,Alimentación y nutrición,6
+2025,7,Obras del Espíritu Santo,Asistencia legal / documentación,7
+2025,7,Obras del Espíritu Santo,Atención médica / salubre,2
+2025,7,Obras del Espíritu Santo,Ingresos económicos / empleo,2
+2025,7,Obras del Espíritu Santo,Saneamiento e higiene,1
+2025,7,Obras del Espíritu Santo,Transporte,2
+2025,7,Otro,Agua,1
+2025,7,Otro,Alimentación y nutrición,1
+2025,7,Otro,Asistencia legal / documentación,3
+2025,7,Otro,Atención médica / salubre,1
+2025,7,Otro,Ingresos económicos / empleo,2
+2025,7,Otro,Transporte,10
+2025,7,Paso Canoas,Alimentación y nutrición,25
+2025,7,Paso Canoas,Asistencia legal / documentación,9
+2025,7,Paso Canoas,Ingresos económicos / empleo,9
+2025,7,Paso Canoas,Transporte,5
+2025,7,"Paso Rojo, Los Chiles",Alimentación y nutrición,19
+2025,7,"Paso Rojo, Los Chiles",Ninguna,1
+2025,7,"Paso Rojo, Los Chiles",Transporte,4
+2025,7,Puesto Fronterizo Oficial Peñas Blancas,Asistencia legal / documentación,1
+2025,7,Terminal Caribeños,Alimentación y nutrición,1
+2025,7,Terminal Caribeños,Asistencia legal / documentación,1
+2025,7,Terminal Caribeños,Ingresos económicos / empleo,1
+2025,7,Terminal Caribeños,Transporte,3
+2025,8,Albergue / comedor en Casa Esperanza de Los Chiles,Alimentación y nutrición,3
+2025,8,Albergue / comedor en Casa Esperanza de Los Chiles,Asistencia legal / documentación,5
+2025,8,Albergue / comedor en Casa Esperanza de Los Chiles,Ingresos económicos / empleo,7
+2025,8,Albergue / comedor en Casa Esperanza de Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2025,8,Albergue / comedor en Casa Esperanza de Los Chiles,Transporte,3
+2025,8,Albergue Calle 20,Alimentación y nutrición,2
+2025,8,Albergue Calle 20,Apoyo psicosocial,1
+2025,8,Albergue Calle 20,Artículos no alimentarios,1
+2025,8,Albergue Calle 20,Asistencia legal / documentación,5
+2025,8,Albergue Calle 20,Atención médica / salubre,3
+2025,8,Albergue Calle 20,Comunicación,1
+2025,8,Albergue Calle 20,Ingresos económicos / empleo,8
+2025,8,Albergue Calle 20,"Pañales, leche de fórmula, otros para bebés",1
+2025,8,Albergue Calle 20,Transporte,5
+2025,8,Albergue Puente 2,Alimentación y nutrición,6
+2025,8,Albergue Puente 2,Apoyo psicosocial,1
+2025,8,Albergue Puente 2,Artículos no alimentarios,2
+2025,8,Albergue Puente 2,Asistencia legal / documentación,7
+2025,8,Albergue Puente 2,Atención médica / salubre,1
+2025,8,Albergue Puente 2,Ingresos económicos / empleo,8
+2025,8,Albergue Puente 2,Ninguna,2
+2025,8,Albergue Puente 2,Protección y seguridad,1
+2025,8,Albergue Puente 2,Transporte,3
+2025,8,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,5
+2025,8,EMI Sur - CATEM Espacio Seguro,Apoyo psicosocial,1
+2025,8,EMI Sur - CATEM Espacio Seguro,Artículos no alimentarios,1
+2025,8,EMI Sur - CATEM Espacio Seguro,Asistencia legal / documentación,2
+2025,8,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,4
+2025,8,EMI Sur - CATEM Espacio Seguro,Ninguna,2
+2025,8,EMI Sur - CATEM Espacio Seguro,Protección y seguridad,2
+2025,8,EMI Sur - CATEM Espacio Seguro,Transporte,3
+2025,8,Los Chiles,Alimentación y nutrición,19
+2025,8,Los Chiles,Apoyo psicosocial,1
+2025,8,Los Chiles,Artículos no alimentarios,1
+2025,8,Los Chiles,Asistencia legal / documentación,12
+2025,8,Los Chiles,Comunicación,3
+2025,8,Los Chiles,Ingresos económicos / empleo,12
+2025,8,Los Chiles,Ninguna,1
+2025,8,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2025,8,Los Chiles,Protección y seguridad,1
+2025,8,Los Chiles,Saneamiento e higiene,1
+2025,8,Los Chiles,Sin respuesta,2
+2025,8,Los Chiles,Transporte,19
+2025,8,Obras del Espíritu Santo,Alimentación y nutrición,8
+2025,8,Obras del Espíritu Santo,Apoyo psicosocial,1
+2025,8,Obras del Espíritu Santo,Asistencia legal / documentación,11
+2025,8,Obras del Espíritu Santo,Ingresos económicos / empleo,7
+2025,8,Obras del Espíritu Santo,Transporte,6
+2025,8,Otro,Alimentación y nutrición,3
+2025,8,Otro,Apoyo psicosocial,1
+2025,8,Otro,Asistencia legal / documentación,3
+2025,8,Otro,Ingresos económicos / empleo,3
+2025,8,Otro,Ninguna,1
+2025,8,Otro,Saneamiento e higiene,1
+2025,8,Otro,Transporte,4
+2025,8,Paso Canoas,Agua,1
+2025,8,Paso Canoas,Alimentación y nutrición,13
+2025,8,Paso Canoas,Apoyo psicosocial,1
+2025,8,Paso Canoas,Asistencia legal / documentación,3
+2025,8,Paso Canoas,Ingresos económicos / empleo,4
+2025,8,Paso Canoas,Saneamiento e higiene,1
+2025,8,Paso Canoas,Transporte,7
+2025,8,"Paso Rojo, Los Chiles",Agua,1
+2025,8,"Paso Rojo, Los Chiles",Alimentación y nutrición,3
+2025,8,"Paso Rojo, Los Chiles",Asistencia legal / documentación,6
+2025,8,"Paso Rojo, Los Chiles",Atención médica / salubre,1
+2025,8,"Paso Rojo, Los Chiles",Ingresos económicos / empleo,3
+2025,8,"Paso Rojo, Los Chiles",Ninguna,1
+2025,8,"Paso Rojo, Los Chiles",Saneamiento e higiene,1
+2025,8,"Paso Rojo, Los Chiles",Transporte,1
+2025,8,Puesto Fronterizo Oficial Peñas Blancas,Alimentación y nutrición,2
+2025,8,Puesto Fronterizo Oficial Peñas Blancas,Asistencia legal / documentación,2
+2025,8,Puesto Fronterizo Oficial Peñas Blancas,Sin respuesta,1
+2025,8,Terminal Caribeños,Alimentación y nutrición,2
+2025,8,Terminal Caribeños,Atención médica / salubre,1
+2025,8,Terminal Caribeños,Transporte,1
+2025,9,Albergue / comedor en Casa Esperanza de Los Chiles,Agua,1
+2025,9,Albergue / comedor en Casa Esperanza de Los Chiles,Alimentación y nutrición,1
+2025,9,Albergue / comedor en Casa Esperanza de Los Chiles,Asistencia legal / documentación,1
+2025,9,Albergue / comedor en Casa Esperanza de Los Chiles,Atención médica / salubre,2
+2025,9,Albergue / comedor en Casa Esperanza de Los Chiles,Ninguna,2
+2025,9,Albergue / comedor en Casa Esperanza de Los Chiles,Transporte,2
+2025,9,Albergue Buen Pastor,Ingresos económicos / empleo,2
+2025,9,Albergue Buen Pastor,Transporte,2
+2025,9,Albergue Calle 20,Agua,2
+2025,9,Albergue Calle 20,Alimentación y nutrición,1
+2025,9,Albergue Calle 20,Asistencia legal / documentación,5
+2025,9,Albergue Calle 20,Ingresos económicos / empleo,5
+2025,9,Albergue Calle 20,Ninguna,3
+2025,9,Albergue Calle 20,Sin respuesta,2
+2025,9,Albergue Calle 20,Transporte,8
+2025,9,Albergue Iglesia Luterana,Alimentación y nutrición,1
+2025,9,Albergue Iglesia Luterana,Asistencia legal / documentación,1
+2025,9,Albergue Iglesia Luterana,Transporte,1
+2025,9,Albergue Puente 2,Agua,2
+2025,9,Albergue Puente 2,Alimentación y nutrición,2
+2025,9,Albergue Puente 2,Asistencia legal / documentación,4
+2025,9,Albergue Puente 2,Atención médica / salubre,1
+2025,9,Albergue Puente 2,Comunicación,1
+2025,9,Albergue Puente 2,Ingresos económicos / empleo,8
+2025,9,Albergue Puente 2,Transporte,7
+2025,9,EMI Sur - CATEM Espacio Seguro,Alimentación y nutrición,8
+2025,9,EMI Sur - CATEM Espacio Seguro,Asistencia legal / documentación,2
+2025,9,EMI Sur - CATEM Espacio Seguro,Atención médica / salubre,1
+2025,9,EMI Sur - CATEM Espacio Seguro,Ingresos económicos / empleo,3
+2025,9,EMI Sur - CATEM Espacio Seguro,Protección y seguridad,2
+2025,9,EMI Sur - CATEM Espacio Seguro,Saneamiento e higiene,1
+2025,9,EMI Sur - CATEM Espacio Seguro,Transporte,5
+2025,9,Los Chiles,Agua,1
+2025,9,Los Chiles,Alimentación y nutrición,7
+2025,9,Los Chiles,Asistencia legal / documentación,8
+2025,9,Los Chiles,Atención médica / salubre,1
+2025,9,Los Chiles,Ingresos económicos / empleo,9
+2025,9,Los Chiles,Ninguna,1
+2025,9,Los Chiles,"Pañales, leche de fórmula, otros para bebés",1
+2025,9,Los Chiles,Sin respuesta,2
+2025,9,Los Chiles,Transporte,11
+2025,9,Obras del Espíritu Santo,Alimentación y nutrición,2
+2025,9,Obras del Espíritu Santo,Asistencia legal / documentación,5
+2025,9,Obras del Espíritu Santo,Ingresos económicos / empleo,3
+2025,9,Obras del Espíritu Santo,Ninguna,1
+2025,9,Obras del Espíritu Santo,Protección y seguridad,1
+2025,9,Obras del Espíritu Santo,Transporte,1
+2025,9,Otro,Alimentación y nutrición,3
+2025,9,Otro,Artículos de higiene femenina,1
+2025,9,Otro,Asistencia legal / documentación,1
+2025,9,Otro,Ingresos económicos / empleo,1
+2025,9,Otro,Transporte,2
+2025,9,Paso Canoas,Alimentación y nutrición,9
+2025,9,Paso Canoas,Artículos no alimentarios,1
+2025,9,Paso Canoas,Asistencia legal / documentación,1
+2025,9,Paso Canoas,Ingresos económicos / empleo,2
+2025,9,Paso Canoas,Protección y seguridad,1
+2025,9,Paso Canoas,Sin respuesta,1
+2025,9,Paso Canoas,Transporte,2
+2025,9,"Paso Rojo, Los Chiles",Alimentación y nutrición,5
+2025,9,"Paso Rojo, Los Chiles",Asistencia legal / documentación,3
+2025,9,"Paso Rojo, Los Chiles",Ingresos económicos / empleo,3
+2025,9,"Paso Rojo, Los Chiles",Transporte,1
+2025,9,Terminal Caribeños,Alimentación y nutrición,1
+2025,9,Terminal Caribeños,Asistencia legal / documentación,1
+2025,9,Terminal Caribeños,Transporte,2
+2025,10,Albergue / comedor en Casa Esperanza de Los Chiles,Asistencia legal / documentación,1
+2025,10,Albergue Buen Pastor,Alimentación y nutrición,1
+2025,10,Albergue Buen Pastor,Asistencia legal / documentación,1
+2025,10,Albergue Buen Pastor,Ingresos económicos / empleo,3
+2025,10,Albergue Buen Pastor,Transporte,2
+2025,10,Albergue Calle 20,Alimentación y nutrición,1
+2025,10,Albergue Calle 20,Asistencia legal / documentación,4
+2025,10,Albergue Calle 20,Atención médica / salubre,1
+2025,10,Albergue Calle 20,Ingresos económicos / empleo,6
+2025,10,Albergue Calle 20,"Pañales, leche de fórmula, otros para bebés",1
+2025,10,Albergue Calle 20,Sin respuesta,1
+2025,10,Albergue Calle 20,Transporte,7
+2025,10,Albergue Puente 2,Alimentación y nutrición,3
+2025,10,Albergue Puente 2,Asistencia legal / documentación,4
+2025,10,Albergue Puente 2,Atención médica / salubre,4
+2025,10,Albergue Puente 2,Ingresos económicos / empleo,3
+2025,10,Albergue Puente 2,Transporte,7
+2025,10,Los Chiles,Alimentación y nutrición,4
+2025,10,Los Chiles,Apoyo psicosocial,1
+2025,10,Los Chiles,Asistencia legal / documentación,3
+2025,10,Los Chiles,Ingresos económicos / empleo,6
+2025,10,Los Chiles,Ninguna,3
+2025,10,Los Chiles,Sin respuesta,1
+2025,10,Los Chiles,Transporte,6
+2025,10,Obras del Espíritu Santo,Alimentación y nutrición,1
+2025,10,Obras del Espíritu Santo,Asistencia legal / documentación,8
+2025,10,Obras del Espíritu Santo,Atención médica / salubre,1
+2025,10,Obras del Espíritu Santo,Comunicación,1
+2025,10,Obras del Espíritu Santo,Ingresos económicos / empleo,7
+2025,10,Obras del Espíritu Santo,Ninguna,1
+2025,10,Obras del Espíritu Santo,"Pañales, leche de fórmula, otros para bebés",3
+2025,10,Obras del Espíritu Santo,Transporte,5
+2025,10,Otro,Agua,3
+2025,10,Otro,Alimentación y nutrición,5
+2025,10,Otro,Asistencia legal / documentación,2
+2025,10,Otro,Ingresos económicos / empleo,1
+2025,10,Otro,Ninguna,1
+2025,10,Otro,Sin respuesta,3
+2025,10,Otro,Transporte,5
+2025,10,"Paso Rojo, Los Chiles",Agua,2
+2025,10,"Paso Rojo, Los Chiles",Alimentación y nutrición,11
+2025,10,"Paso Rojo, Los Chiles",Asistencia legal / documentación,17
+2025,10,"Paso Rojo, Los Chiles",Atención médica / salubre,1
+2025,10,"Paso Rojo, Los Chiles",Ingresos económicos / empleo,5
+2025,10,"Paso Rojo, Los Chiles",Ninguna,2
+2025,10,"Paso Rojo, Los Chiles","Pañales, leche de fórmula, otros para bebés",2
+2025,10,"Paso Rojo, Los Chiles",Protección y seguridad,1
+2025,10,"Paso Rojo, Los Chiles",Sin respuesta,5
+2025,10,"Paso Rojo, Los Chiles",Transporte,9
+2025,10,Puesto Fronterizo Oficial Peñas Blancas,Asistencia legal / documentación,1
+2025,10,Terminal Caribeños,Ingresos económicos / empleo,1
+2025,11,Albergue Calle 20,Albergue,4
+2025,11,Albergue Calle 20,Atención médica / salubre,1
+2025,11,Albergue Calle 20,Otra,2
+2025,11,Albergue Calle 20,Transporte,4
+2025,11,Albergue Iglesia Luterana,Albergue,2
+2025,11,Albergue Iglesia Luterana,Ingresos económicos / empleo,2
+2025,11,Albergue Puente 2,Albergue,1
+2025,11,Albergue Puente 2,Asistencia legal / documentación,1
+2025,11,Albergue Puente 2,Ingresos económicos / empleo,9
+2025,11,Albergue Puente 2,Otra,2
+2025,11,Albergue Puente 2,"Pañales, leche de fórmula, otros para bebés",1
+2025,11,Albergue Puente 2,Transporte,1
+2025,11,Los Chiles,Agua,4
+2025,11,Los Chiles,Alimentación y nutrición,4
+2025,11,Los Chiles,Asistencia legal / documentación,1
+2025,11,Los Chiles,Comunicación,1
+2025,11,Los Chiles,Ingresos económicos / empleo,4
+2025,11,Los Chiles,Transporte,1
+2025,11,Obras del Espíritu Santo,Albergue,2
+2025,11,Obras del Espíritu Santo,Alimentación y nutrición,1
+2025,11,Obras del Espíritu Santo,Asistencia legal / documentación,2
+2025,11,Obras del Espíritu Santo,Otra,1
+2025,11,Obras del Espíritu Santo,Transporte,1
+2025,11,Otro,Alimentación y nutrición,1
+2025,11,Otro,Sin respuesta,1
+2025,11,"Paso Rojo, Los Chiles",Agua,5
+2025,11,"Paso Rojo, Los Chiles",Albergue,3
+2025,11,"Paso Rojo, Los Chiles",Alimentación y nutrición,10
+2025,11,"Paso Rojo, Los Chiles",Asistencia legal / documentación,1
+2025,11,"Paso Rojo, Los Chiles",Otra,3
+2025,11,"Paso Rojo, Los Chiles",Sin respuesta,1
+2025,11,Terminal Atlántico Norte,Agua,2
+2025,11,Terminal Atlántico Norte,Alimentación y nutrición,1
+2025,11,Terminal Atlántico Norte,Otra,2
+2025,11,Terminal Tracopa,Alimentación y nutrición,2
+2025,11,Terminal Tracopa,Otra,2
+2025,12,Albergue Calle 20,Albergue,2
+2025,12,Albergue Calle 20,Ingresos económicos / empleo,6
+2025,12,Albergue Calle 20,Otra,2
+2025,12,Albergue Calle 20,Transporte,1
+2025,12,Albergue Puente 2,Albergue,6
+2025,12,Albergue Puente 2,Dieta especial para embarazadas y enfermos,1
+2025,12,Albergue Puente 2,Ingresos económicos / empleo,7
+2025,12,Albergue Puente 2,"Pañales, leche de fórmula, otros para bebés",1
+2025,12,Albergue Puente 2,Transporte,6
+2025,12,Los Chiles,Agua,3
+2025,12,Los Chiles,Albergue,1
+2025,12,Los Chiles,Alimentación y nutrición,4
+2025,12,Los Chiles,Asistencia legal / documentación,1
+2025,12,Los Chiles,Ingresos económicos / empleo,1
+2025,12,Los Chiles,Ninguna,1
+2025,12,Obras del Espíritu Santo,Albergue,3
+2025,12,Obras del Espíritu Santo,Alimentación y nutrición,2
+2025,12,Obras del Espíritu Santo,Ingresos económicos / empleo,5
+2025,12,Obras del Espíritu Santo,"Pañales, leche de fórmula, otros para bebés",1
+2025,12,Obras del Espíritu Santo,Transporte,2
+2025,12,"Paso Rojo, Los Chiles",Agua,11
+2025,12,"Paso Rojo, Los Chiles",Albergue,5
+2025,12,"Paso Rojo, Los Chiles",Alimentación y nutrición,21
+2025,12,"Paso Rojo, Los Chiles",Asistencia legal / documentación,3
+2025,12,"Paso Rojo, Los Chiles",Ingresos económicos / empleo,3
+2025,12,"Paso Rojo, Los Chiles",Ninguna,4
+2025,12,"Paso Rojo, Los Chiles",Protección y seguridad,1
+2025,12,"Paso Rojo, Los Chiles",Saneamiento e higiene,2
+2025,12,Terminal Atlántico Norte,Transporte,4
+2025,12,Terminal Caribeños,Agua,1
+2025,12,Terminal Caribeños,Educación,1
+2025,12,Terminal Tracopa,Agua,1
+2025,12,Terminal Tracopa,Alimentación y nutrición,2
+2025,12,Terminal Tracopa,Ninguna,2
+2025,12,Terminal Tracopa,Otra,1
+2025,12,Terminal Tracopa,Transporte,8
+2026,1,Albergue Buen Pastor,Albergue,2
+2026,1,Albergue Buen Pastor,Ingresos económicos / empleo,2
+2026,1,Albergue Iglesia Luterana,Albergue,1
+2026,1,Albergue Iglesia Luterana,Atención médica / salubre,1
+2026,1,Albergue Iglesia Luterana,Ingresos económicos / empleo,1
+2026,1,Albergue Iglesia Luterana,Transporte,1
+2026,1,Albergue Puente 2,Albergue,9
+2026,1,Albergue Puente 2,Alimentación y nutrición,1
+2026,1,Albergue Puente 2,Asistencia legal / documentación,1
+2026,1,Albergue Puente 2,Educación,1
+2026,1,Albergue Puente 2,Ingresos económicos / empleo,7
+2026,1,Albergue Puente 2,Transporte,3
+2026,1,Los Chiles,Agua,1
+2026,1,Los Chiles,Albergue,1
+2026,1,Los Chiles,Alimentación y nutrición,3
+2026,1,Los Chiles,Ingresos económicos / empleo,4
+2026,1,Los Chiles,Medios de vida,1
+2026,1,Los Chiles,Protección y seguridad,1
+2026,1,Obras del Espíritu Santo,Albergue,3
+2026,1,Obras del Espíritu Santo,Alimentación y nutrición,4
+2026,1,Obras del Espíritu Santo,Comunicación,1
+2026,1,Obras del Espíritu Santo,Ingresos económicos / empleo,7
+2026,1,Obras del Espíritu Santo,Medios de vida,2
+2026,1,Obras del Espíritu Santo,Transporte,1
+2026,1,"Paso Rojo, Los Chiles",Agua,5
+2026,1,"Paso Rojo, Los Chiles",Albergue,1
+2026,1,"Paso Rojo, Los Chiles",Alimentación y nutrición,19
+2026,1,"Paso Rojo, Los Chiles",Asistencia legal / documentación,1
+2026,1,"Paso Rojo, Los Chiles",Comunicación,2
+2026,1,"Paso Rojo, Los Chiles",Ingresos económicos / empleo,3
+2026,1,"Paso Rojo, Los Chiles",Medios de vida,1
+2026,1,"Paso Rojo, Los Chiles",Ninguna,1
+2026,1,"Paso Rojo, Los Chiles",Protección y seguridad,2
+2026,1,"Paso Rojo, Los Chiles",Saneamiento e higiene,4
+2026,1,Puesto Fronterizo Oficial Peñas Blancas,Ingresos económicos / empleo,1
+2026,1,Terminal Atlántico Norte,Agua,1
+2026,1,Terminal Atlántico Norte,Alimentación y nutrición,1
+2026,1,Terminal Atlántico Norte,Ingresos económicos / empleo,1
+2026,1,Terminal Atlántico Norte,Ninguna,1
+2026,1,Terminal Atlántico Norte,Protección y seguridad,1
+2026,1,Terminal Atlántico Norte,Transporte,2
+2026,1,Terminal Caribeños,Medios de vida,1
+2026,1,Terminal Tracopa,Albergue,1
+2026,1,Terminal Tracopa,Asistencia legal / documentación,1
+2026,1,Terminal Tracopa,Atención médica / salubre,1
+2026,1,Terminal Tracopa,Medios de vida,2
+2026,1,Terminal Tracopa,Transporte,3
+2026,2,Albergue Iglesia Luterana,Albergue,2
+2026,2,Albergue Iglesia Luterana,Alimentación y nutrición,1
+2026,2,Albergue Iglesia Luterana,Ingresos económicos / empleo,3
+2026,2,Albergue Puente 2,Albergue,7
+2026,2,Albergue Puente 2,Atención médica / salubre,1
+2026,2,Albergue Puente 2,Comunicación,1
+2026,2,Albergue Puente 2,Ingresos económicos / empleo,10
+2026,2,Albergue Puente 2,Medios de vida,2
+2026,2,Albergue Puente 2,Transporte,7
+2026,2,Casa Esperanza de Los Chiles,Alimentación y nutrición,1
+2026,2,Casa Esperanza de Los Chiles,Educación,1
+2026,2,Los Chiles,Agua,1
+2026,2,Los Chiles,Albergue,1
+2026,2,Los Chiles,Alimentación y nutrición,7
+2026,2,Los Chiles,Ingresos económicos / empleo,2
+2026,2,Los Chiles,Ninguna,1
+2026,2,Los Chiles,Saneamiento e higiene,1
+2026,2,Los Chiles,Transporte,2
+2026,2,Obras del Espíritu Santo,Albergue,2
+2026,2,Obras del Espíritu Santo,Alimentación y nutrición,7
+2026,2,Obras del Espíritu Santo,Comunicación,2
+2026,2,Obras del Espíritu Santo,Educación,2
+2026,2,Obras del Espíritu Santo,Ingresos económicos / empleo,4
+2026,2,Obras del Espíritu Santo,Transporte,3
+2026,2,"Paso Rojo, Los Chiles",Albergue,7
+2026,2,"Paso Rojo, Los Chiles",Alimentación y nutrición,16
+2026,2,"Paso Rojo, Los Chiles",Apoyo psicosocial,2
+2026,2,"Paso Rojo, Los Chiles",Artículos no alimentarios,1
+2026,2,"Paso Rojo, Los Chiles",Asistencia legal / documentación,2
+2026,2,"Paso Rojo, Los Chiles",Atención médica / salubre,1
+2026,2,"Paso Rojo, Los Chiles",Comunicación,1
+2026,2,"Paso Rojo, Los Chiles",Dieta especial para embarazadas y enfermos,1
+2026,2,"Paso Rojo, Los Chiles",Ingresos económicos / empleo,11
+2026,2,"Paso Rojo, Los Chiles",Medios de vida,5
+2026,2,"Paso Rojo, Los Chiles",Ninguna,1
+2026,2,"Paso Rojo, Los Chiles",Saneamiento e higiene,2
+2026,2,Terminal Atlántico Norte,Agua,1
+2026,2,Terminal Atlántico Norte,Alimentación y nutrición,2
+2026,2,Terminal Atlántico Norte,Comunicación,1
+2026,2,Terminal Atlántico Norte,Ingresos económicos / empleo,2
+2026,2,Terminal Atlántico Norte,Ninguna,1
+2026,2,Terminal Atlántico Norte,Transporte,5
+2026,2,Terminal Caribeños,Medios de vida,1
+2026,2,Terminal Tracopa,Agua,1
+2026,2,Terminal Tracopa,Alimentación y nutrición,2
+2026,2,Terminal Tracopa,"Pañales, leche de fórmula, otros para bebés",1
+2026,2,Terminal Tracopa,Protección y seguridad,1
+2026,2,Terminal Tracopa,Transporte,6
+2026,3,Albergue Buen Pastor,Albergue,1
+2026,3,Albergue Buen Pastor,Educación,1
+2026,3,Albergue Buen Pastor,Ingresos económicos / empleo,4
+2026,3,Albergue Buen Pastor,Transporte,1
+2026,3,Albergue Iglesia Luterana,Ingresos económicos / empleo,1
+2026,3,Albergue Iglesia Luterana,Medios de vida,2
+2026,3,Albergue Puente 2,Albergue,3
+2026,3,Albergue Puente 2,Atención médica / salubre,1
+2026,3,Albergue Puente 2,Ingresos económicos / empleo,10
+2026,3,Albergue Puente 2,Transporte,3
+2026,3,Los Chiles,Agua,1
+2026,3,Los Chiles,Alimentación y nutrición,4
+2026,3,Los Chiles,Artículos de higiene femenina,1
+2026,3,Los Chiles,Atención médica / salubre,1
+2026,3,Obras del Espíritu Santo,Albergue,2
+2026,3,Obras del Espíritu Santo,Alimentación y nutrición,3
+2026,3,Obras del Espíritu Santo,Atención médica / salubre,2
+2026,3,Obras del Espíritu Santo,Comunicación,1
+2026,3,Obras del Espíritu Santo,Educación,1
+2026,3,Obras del Espíritu Santo,Ingresos económicos / empleo,3
+2026,3,Obras del Espíritu Santo,Medios de vida,1
+2026,3,"Paso Rojo, Los Chiles",Albergue,3
+2026,3,"Paso Rojo, Los Chiles",Alimentación y nutrición,22
+2026,3,"Paso Rojo, Los Chiles",Apoyo psicosocial,2
+2026,3,"Paso Rojo, Los Chiles",Atención médica / salubre,1
+2026,3,"Paso Rojo, Los Chiles",Comunicación,2
+2026,3,"Paso Rojo, Los Chiles",Ingresos económicos / empleo,2
+2026,3,"Paso Rojo, Los Chiles",Medios de vida,1
+2026,3,"Paso Rojo, Los Chiles",Ninguna,1
+2026,3,"Paso Rojo, Los Chiles",Otra,1
+2026,3,"Paso Rojo, Los Chiles",Saneamiento e higiene,1
+2026,3,"Paso Rojo, Los Chiles",Transporte,1
+2026,3,Terminal Atlántico Norte,Alimentación y nutrición,5
+2026,3,Terminal Atlántico Norte,Atención médica / salubre,1
+2026,3,Terminal Atlántico Norte,Comunicación,1
+2026,3,Terminal Atlántico Norte,Ninguna,2
+2026,3,Terminal Atlántico Norte,"Pañales, leche de fórmula, otros para bebés",1
+2026,3,Terminal Atlántico Norte,Protección y seguridad,1
+2026,3,Terminal Atlántico Norte,Transporte,4
+2026,3,Terminal Caribeños,Educación,1
+2026,3,Terminal Caribeños,Ingresos económicos / empleo,1
+2026,3,Terminal Tracopa,Agua,2
+2026,3,Terminal Tracopa,Alimentación y nutrición,2
+2026,3,Terminal Tracopa,Apoyo en retorno,1
+2026,3,Terminal Tracopa,Comunicación,3
+2026,3,Terminal Tracopa,Ninguna,3
+2026,3,Terminal Tracopa,Transporte,7

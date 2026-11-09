@@ -2,7 +2,7 @@
 del GeoHack CR 2026 (OIM) y del shapefile cantonal del INEC.
 
 Uso:
-    python scripts/preparar_datos.py <dir Datos_GeoHACK_OIM> <dir shapefile INEC> <dir sica> [datos] [healthsites.geojson]
+    python scripts/preparar_datos.py <dir Datos_GeoHACK_OIM> <dir shapefile INEC> <dir sica> [datos] [healthsites.geojson] [FMS.xlsx]
 
     <dir Datos_GeoHACK_OIM>  carpeta con NIC_2025_2026.xlsx y
                              Población_migrantes_por_canton__con_indicadores.xlsx
@@ -11,6 +11,9 @@ Uso:
     [datos]                  carpeta de salida (por defecto datos/ junto al repositorio)
     [healthsites.geojson]    GeoJSON "Costa Rica healthsites" de HDX (healthsites.io, derivado de OpenStreetMap);
                              si se da, produce datos/ccss_healthsites.csv con la red pública de salud
+    [FMS.xlsx]               20260928_FMS_AllMonths.xlsx (OIM Americas Data Browser); si se da, produce
+                             datos/fms_encuestados.csv
+    Missing_Migrants_Global_Figures_allData.xlsx se busca en la carpeta padre de <dir sica> (databases_geohack).
 
 Salidas:
     datos/nic_limpio.csv      encuesta NIC (flujo mixto nicaragüense) por cantón y mes,
@@ -18,6 +21,10 @@ Salidas:
     datos/cantones.geojson    84 cantones INEC 2024 (WGS84, simplificados) con población 2022
     datos/sica.csv            series mensuales SICA 2019-2026 en formato largo
     datos/ccss_healthsites.csv  establecimientos públicos de salud (CCSS y cooperativas contratadas) según OSM
+    datos/missing_migrants_cr.csv  incidentes del Missing Migrants Project ocurridos en Costa Rica, con cantón
+    datos/missing_migrants_nicaragua.csv  personas de origen nicaragüense muertas o desaparecidas, por año y país
+    datos/transito_necesidades.csv  primera necesidad declarada en las encuestas de tránsito (DTM), por mes y sitio
+    datos/fms_encuestados.csv  personas encuestadas por país y mes en las encuestas de tránsito (FMS), 2025
     datos/registro_preparacion.md  qué se hizo y qué quedó pendiente
 """
 import re
@@ -177,6 +184,104 @@ def preparar_healthsites(ruta, cantones, notas):
                  f'dependen de lo que la comunidad OSM ha mapeado.')
     return out
 
+MESES_EN = {'january': 1, 'february': 2, 'march': 3, 'april': 4, 'may': 5, 'june': 6, 'july': 7,
+            'august': 8, 'september': 9, 'october': 10, 'november': 11, 'december': 12}
+CAUSAS = {
+    'Sickness / lack of access to adequate healthcare': 'Enfermedad o falta de acceso a atención médica',
+    'Drowning': 'Ahogamiento', 'Violence': 'Violencia',
+    'Vehicle accident / death linked to hazardous transport': 'Accidente de tránsito o transporte peligroso',
+    'Mixed or unknown': 'Causa mixta o desconocida', 'Harsh environmental conditions / lack of adequate shelter, food, water':
+    'Condiciones ambientales, falta de albergue, comida o agua', 'Accidental death': 'Muerte accidental',
+}
+
+
+def preparar_missing_migrants(ruta, cantones, notas):
+    """Incidentes del Missing Migrants Project en Costa Rica (con cantón) y resumen de origen nicaragüense."""
+    d = pd.read_excel(ruta)
+    cr = d[d['Country of Incident'] == 'Costa Rica'].copy()
+    ll = cr['Coordinates'].astype(str).str.split(',', expand=True)
+    cr['lat'] = pd.to_numeric(ll[0].str.strip(), errors='coerce')
+    cr['lon'] = pd.to_numeric(ll[1].str.strip(), errors='coerce')
+    g = gpd.GeoDataFrame(cr, geometry=gpd.points_from_xy(cr['lon'], cr['lat']), crs=4326)
+    j = gpd.sjoin(g, cantones[['clave', 'canton', 'geometry']], how='left', predicate='within')
+    j = j[~j.index.duplicated()]
+    # Incidentes en la línea fronteriza o en el mar quedan fuera de los polígonos: se asigna el cantón más cercano.
+    fuera = j['clave'].isna()
+    if fuera.any():
+        cerca = gpd.sjoin_nearest(g[fuera].to_crs(5367), cantones[['clave', 'canton', 'geometry']].to_crs(5367),
+                                  how='left', distance_col='dist_m')
+        cerca = cerca[~cerca.index.duplicated()]
+        j.loc[fuera, ['clave', 'canton']] = cerca[['clave', 'canton']].values
+        j['canton_asignado'] = ''
+        j.loc[fuera, 'canton_asignado'] = 'más cercano, a ' + (cerca['dist_m'] / 1000).round(1).astype(str) + ' km'
+    else:
+        j['canton_asignado'] = ''
+    fecha = pd.to_datetime(j['Incident Date'], errors='coerce')
+    out = pd.DataFrame({
+        'id': j['Main ID'], 'fecha': fecha.dt.strftime('%Y-%m-%d'), 'anio': fecha.dt.year, 'mes': fecha.dt.month,
+        'muertos': j['Number of Dead'].fillna(0).astype(int),
+        'desaparecidos': j['Minimum Estimated Number of Missing'].fillna(0).astype(int),
+        'total': j['Total Number of Dead and Missing'].astype(int),
+        'sobrevivientes': j['Number of Survivors'], 'mujeres': j['Number of Females'], 'hombres': j['Number of Males'], 'ninos': j['Number of Children'],
+        'origen': j['Country of Origin'].fillna('Desconocido').str.replace('Venezuela (Bolivarian Republic of)', 'Venezuela', regex=False),
+        'causa_en': j['Cause of Death'], 'causa': j['Cause of Death'].map(CAUSAS).fillna(j['Cause of Death']),
+        'lugar': j['Location of Incident'], 'ruta': j['Migration Route'], 'lat': j['lat'].round(6), 'lon': j['lon'].round(6),
+        'clave_canton': j['clave'], 'canton': j['canton'], 'canton_asignado': j['canton_asignado'], 'fuente': j['Information Source'], 'url': j['URL'], 'calidad_fuente': j['Source Quality'],
+    }).sort_values('fecha')
+    nic = d[d['Country of Origin'].astype(str).str.contains('Nicaragua')]
+    resumen = (nic.groupby(['Incident Year', 'Country of Incident'])
+               .agg(incidentes=('Main ID', 'size'), total=('Total Number of Dead and Missing', 'sum'),
+                    muertos=('Number of Dead', 'sum'), desaparecidos=('Minimum Estimated Number of Missing', 'sum'))
+               .reset_index().rename(columns={'Incident Year': 'anio', 'Country of Incident': 'pais_incidente'}))
+    resumen['pais_incidente'] = resumen['pais_incidente'].replace({'United States of America': 'Estados Unidos', 'Mexico': 'México', 'Canada': 'Canadá'})
+    salud = (out['causa_en'] == 'Sickness / lack of access to adequate healthcare').sum()
+    notas.append(f'- Missing Migrants (OIM, archivo global del paquete, {len(d)} incidentes 2014-2026): {len(out)} incidentes en Costa Rica '
+                 f'({out["total"].sum()} personas muertas o desaparecidas, {out["fecha"].min()[:4]} a {out["fecha"].max()[:4]}), '
+                 f'{salud} por enfermedad o falta de acceso a atención médica; {(out["canton_asignado"] != "").sum()} fuera de los polígonos cantonales (frontera o mar), asignados al cantón más cercano. '
+                 f'Personas de origen nicaragüense: {int(nic["Total Number of Dead and Missing"].sum())} muertas o desaparecidas en {len(nic)} incidentes, '
+                 f'{int(out.loc[out["origen"] == "Nicaragua", "total"].sum())} de ellas en Costa Rica. La fuente declara estimaciones mínimas con subregistro. '
+                 f'20260928_MMP_All.xlsx (Americas Data Browser) es la misma fuente agregada por país y origen, sin coordenadas; no se usa para evitar duplicar.')
+    return out, resumen
+
+
+def preparar_transito(d_oim, notas):
+    """Primera necesidad declarada en las encuestas de tránsito (DTM), por mes y sitio. El CSV original tiene 131
+    filas entrecomilladas enteras (las de sitios o necesidades con coma), que se vuelven a parsear."""
+    import csv, io
+    ruta = next(d_oim.glob('Principales necesidades*Transito*.csv'))
+    filas = []
+    with open(ruta, encoding='utf-8-sig', newline='') as f:
+        for fila in csv.reader(f):
+            if len(fila) == 1:
+                fila = next(csv.reader(io.StringIO(fila[0])))
+            filas.append(fila)
+    d = pd.DataFrame(filas[1:], columns=['anio', 'mes', 'sitio', 'necesidad', 'n'])
+    d = d[d['anio'].str.strip() != ''].copy()
+    d['anio'] = d['anio'].astype(int)
+    d['mes'] = d['mes'].str.strip().str.lower().map(MESES_EN)
+    d['sitio'] = d['sitio'].str.strip()
+    d['necesidad'] = d['necesidad'].str.strip().replace('', 'Sin respuesta')
+    d['n'] = pd.to_numeric(d['n'], errors='coerce').fillna(0).astype(int)
+    d = d.sort_values(['anio', 'mes', 'sitio', 'necesidad']).reset_index(drop=True)
+    notas.append(f'- Necesidades en tránsito (DTM, pregunta CRC005, respuesta única): {len(d)} filas mes-sitio-necesidad, '
+                 f'{d["n"].sum()} respuestas de {d["anio"].min()} a {d["anio"].max()}, {d["sitio"].nunique()} sitios. '
+                 f'{(d["necesidad"] == "Sin respuesta").sum()} filas sin necesidad registrada. Se usa solo como comparación con el '
+                 f'denominador FMS: es otra población (flujo en tránsito) y otra unidad (sitio), no se mezcla con la encuesta NIC.')
+    return d
+
+
+def preparar_fms(ruta, notas):
+    """Personas encuestadas por país y mes en las encuestas de tránsito (FMS), Americas Data Browser."""
+    d = pd.read_excel(ruta, sheet_name='FMS')
+    out = pd.DataFrame({'pais': d['Survey country'], 'anio': d['Year'].astype(int),
+                        'mes': d['Reference month'].str.strip().str.lower().map(MESES_EN), 'encuestados': d['Respondents'].astype(int)})
+    cr = out[out['pais'] == 'Costa Rica']
+    notas.append(f'- FMS (DTM, Americas Data Browser, actualizado 30 dic 2025): solo número de personas encuestadas por país y mes, '
+                 f'{len(out)} filas de {out["pais"].nunique()} países. Costa Rica: {len(cr)} meses de {cr["anio"].min()}, '
+                 f'{cr["encuestados"].sum()} encuestados (entre {cr["encuestados"].min()} y {cr["encuestados"].max()} por mes). '
+                 f'Sirve de denominador de la tabla de necesidades en tránsito; no aplica a la encuesta NIC.')
+    return out
+
 
 def main():
     if len(sys.argv) < 4:
@@ -192,12 +297,22 @@ def main():
     notas.append(f'- Claves de cantón de NIC sin polígono INEC: {sin_poligono or "ninguna"}.')
     sica = preparar_sica(d_sica, notas)
     salud = preparar_healthsites(pathlib.Path(sys.argv[5]), cantones, notas) if len(sys.argv) > 5 else None
+    ruta_mm = d_sica.parent / 'Missing_Migrants_Global_Figures_allData.xlsx'
+    mm, mm_nic = preparar_missing_migrants(ruta_mm, cantones, notas) if ruta_mm.exists() else (None, None)
+    transito = preparar_transito(d_oim, notas)
+    fms = preparar_fms(pathlib.Path(sys.argv[6]), notas) if len(sys.argv) > 6 else None
 
     nic.to_csv(salida / 'nic_limpio.csv', index=False)
     cantones.to_file(salida / 'cantones.geojson', driver='GeoJSON', coordinate_precision=5)
     sica.to_csv(salida / 'sica.csv', index=False)
     if salud is not None:
         salud.to_csv(salida / 'ccss_healthsites.csv', index=False)
+    if mm is not None:
+        mm.to_csv(salida / 'missing_migrants_cr.csv', index=False)
+        mm_nic.to_csv(salida / 'missing_migrants_nicaragua.csv', index=False)
+    transito.to_csv(salida / 'transito_necesidades.csv', index=False)
+    if fms is not None:
+        fms.to_csv(salida / 'fms_encuestados.csv', index=False)
     (salida / 'registro_preparacion.md').write_text(
         '# Registro de preparación de datos\n\nGenerado por `scripts/preparar_datos.py`.\n\n' + '\n'.join(notas) + '\n',
         encoding='utf-8')
